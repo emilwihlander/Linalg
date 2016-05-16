@@ -1,14 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.13)  14 MAY 2016 00:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.21)  16 MAY 2016 23:55
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**Linjar_algebra.tex
-(./Linjar_algebra.tex
-LaTeX2e <2015/01/01>
-Babel <3.9l> and hyphenation patterns for 79 languages loaded.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+**./Linjar_algebra.tex
+(Linjar_algebra.tex
+LaTeX2e <2015/10/01> patch level 2
+Babel <3.9n> and hyphenation patterns for 69 languages loaded.
+("C:\Users\emilw\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size10.clo
+("C:\Users\emilw\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size10.clo"
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -22,31 +20,31 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/fontenc.sty
+) ("C:\Users\emilw\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty
+"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1enc.def
+("C:\Users\emilw\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.def"
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/inputenc.sty
+("C:\Users\emilw\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
+("C:\Users\emilw\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2015/09/07 v1.1p UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1enc.dfu
-File: t1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
+("C:\Users\emilw\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+File: t1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
    defining Unicode char U+00BB (decimal 187)
    defining Unicode char U+00BF (decimal 191)
    defining Unicode char U+00C0 (decimal 192)
@@ -167,6 +165,10 @@ File: t1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+016F (decimal 367)
    defining Unicode char U+0170 (decimal 368)
    defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
    defining Unicode char U+0178 (decimal 376)
    defining Unicode char U+0179 (decimal 377)
    defining Unicode char U+017A (decimal 378)
@@ -174,6 +176,10 @@ File: t1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+017C (decimal 380)
    defining Unicode char U+017D (decimal 381)
    defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
    defining Unicode char U+200C (decimal 8204)
    defining Unicode char U+2013 (decimal 8211)
    defining Unicode char U+2014 (decimal 8212)
@@ -192,10 +198,12 @@ File: t1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ot1enc.dfu
-File: ot1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
+("C:\Users\emilw\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+File: ot1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
    defining Unicode char U+00B8 (decimal 184)
    defining Unicode char U+00BF (decimal 191)
    defining Unicode char U+00C5 (decimal 197)
@@ -213,6 +221,14 @@ File: ot1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+0142 (decimal 322)
    defining Unicode char U+0152 (decimal 338)
    defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
    defining Unicode char U+2013 (decimal 8211)
    defining Unicode char U+2014 (decimal 8212)
    defining Unicode char U+2018 (decimal 8216)
@@ -223,8 +239,8 @@ File: ot1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omsenc.dfu
-File: omsenc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
+("C:\Users\emilw\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+File: omsenc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
    defining Unicode char U+00B7 (decimal 183)
@@ -246,38 +262,53 @@ Now handling font encoding U ...
    defining Unicode char U+2026 (decimal 8230)
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
-))
-(/usr/local/texlive/2015/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2014/09/25 3.9l The Babel package
+)) ("C:\Users\emilw\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.s
+ty"
+Package: babel 2016/01/08 3.9n The Babel package
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/babel-swedish/swedish.ldf
+*************************************
+* Local config file bblopts.cfg used
+*
+
+("C:\Users\emilw\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\bblopts.c
+fg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("C:\Users\emilw\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-swedish\swed
+ish.ldf"
 Language: swedish 2005/03/31 v2.3d Swedish support from the babel system
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2014/09/25 3.9l Babel common definitions
+("C:\Users\emilw\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2016/01/08 3.9n Babel common definitions
 \babel@savecnt=\count87
 \U@D=\dimen103
 )
 Package babel Info: Making " an active character on input line 90.
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
+("C:\Users\emilw\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.st
+y"
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
+
+("C:\Users\emilw\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.st
+y"
 Package: amstext 2000/06/29 v2.01
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
+("C:\Users\emilw\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks16
 \ex@=\dimen104
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
+("C:\Users\emilw\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+"
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen105
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
+("C:\Users\emilw\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count88
@@ -318,44 +349,53 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amssymb.sty
+("C:\Users\emilw\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.s
+ty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+("C:\Users\emilw\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.
+sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/cancel/cancel.sty
+("C:\Users\emilw\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cancel\cancel.sty"
 Package: cancel 2013/04/12 v2.2 Cancel math terms
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+("C:\Users\emilw\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.
+sty"
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+("C:\Users\emilw\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.st
+y"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks21
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+("C:\Users\emilw\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.
+sty"
 Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+("C:\Users\emilw\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+("C:\Users\emilw\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\graphics.
+cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 94.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+("C:\Users\emilw\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.
+def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+("C:\Users\emilw\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infware
+rr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+("C:\Users\emilw\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds
+.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count100
@@ -363,31 +403,36 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen113
 \Gin@req@width=\dimen114
 )
-(/usr/local/texlive/2015/texmf-dist/tex/generic/systeme/systeme.sty
-(/usr/local/texlive/2015/texmf-dist/tex/generic/xstring/xstring.sty
-(/usr/local/texlive/2015/texmf-dist/tex/generic/xstring/xstring.tex
+("C:\Users\emilw\AppData\Local\Programs\MiKTeX 2.9\tex\latex\systeme\systeme.st
+y"
+("C:\Users\emilw\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xstring\xstring.st
+y"
+("C:\Users\emilw\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xstring\xstring.
+tex"
 \@xs@message=\write3
 \integerpart=\count101
 \decimalpart=\count102
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/generic/systeme/systeme.tex
+("C:\Users\emilw\AppData\Local\Programs\MiKTeX 2.9\tex\generic\systeme\systeme.
+tex"
 \SYS@systemecode=\toks22
 \SYS@systempreamble=\toks23
 \SYSeqnum=\count103
 )
 Package: systeme 2013/12/21 v0.3 Mise en forme de systemes d'equations
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
+("C:\Users\emilw\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\color.sty
+"
 Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
+("C:\Users\emilw\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\color.cfg
+"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 142.
-)
-(./Linjar_algebra.aux)
+) (Linjar_algebra.aux)
 \openout1 = `Linjar_algebra.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
@@ -403,7 +448,8 @@ LaTeX Font Info:    ... okay on input line 32.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
 
-(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+("C:\Users\emilw\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
+ii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count104
 \scratchdimen=\dimen115
@@ -416,71 +462,23 @@ LaTeX Font Info:    ... okay on input line 32.
 \MPnumerator=\count108
 \makeMPintoPDFobject=\count109
 \everyMPtoPDFconversion=\toks25
-) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
 LaTeX Font Info:    Try loading font information for U+msa on input line 33.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
+ ("C:\Users\emilw\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 33.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
+ ("C:\Users\emilw\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+{C:/Users/emilw/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 36.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1cmtt.fd
+("C:\Users\emilw\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [2]
+)
+[2]
 Underfull \hbox (badness 10000) in paragraph at lines 172--176
 
  []
@@ -490,118 +488,88 @@ Underfull \hbox (badness 10000) in paragraph at lines 202--206
 
  []
 
-[4] [5] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 433--436
+[4] [5] [6] [7] [8] [9]
+Underfull \hbox (badness 10000) in paragraph at lines 643--646
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 440--443
+Underfull \hbox (badness 10000) in paragraph at lines 650--653
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 447--450
+Underfull \hbox (badness 10000) in paragraph at lines 657--660
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 454--457
+Underfull \hbox (badness 10000) in paragraph at lines 664--667
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 461--464
+Underfull \hbox (badness 10000) in paragraph at lines 671--674
 
  []
 
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 468--471
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 475--478
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 678--681
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 482--485
+Underfull \hbox (badness 10000) in paragraph at lines 685--688
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 489--492
+Underfull \hbox (badness 10000) in paragraph at lines 692--695
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 496--499
+Underfull \hbox (badness 10000) in paragraph at lines 699--702
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 503--506
+Underfull \hbox (badness 10000) in paragraph at lines 706--709
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 510--513
+Underfull \hbox (badness 10000) in paragraph at lines 713--716
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 517--520
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 524--527
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 531--534
-
- []
-
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 538--541
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 545--548
-
- []
-
-[9] (./Linjar_algebra.aux) ) 
+[11] (Linjar_algebra.aux) ) 
 Here is how much of TeX's memory you used:
- 3783 strings out of 493089
- 49541 string characters out of 6134842
- 130152 words of memory out of 5000000
- 7181 multiletter control sequences out of 15000+600000
- 16445 words of font info for 49 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 43i,14n,29p,274b,1174s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips
-/cm-super/cm-super-t1.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmex10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmsy7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super
-/sfbx1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/s
-fbx1440.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfr
-m1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1
-200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm172
-8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sftt1000.
-pfb>
-Output written on Linjar_algebra.pdf (9 pages, 153256 bytes).
+ 3481 strings out of 493634
+ 45072 string characters out of 3135239
+ 122744 words of memory out of 3000000
+ 6807 multiletter control sequences out of 15000+200000
+ 16445 words of font info for 49 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 43i,14n,29p,277b,1440s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\emilw\AppData\Local\MiKTeX\2.9\fonts\pk\l
+jfour\jknappen\ec\dpi600\ecbx1000.pk> <C:\Users\emilw\AppData\Local\MiKTeX\2.9\
+fonts\pk\ljfour\jknappen\ec\dpi600\ectt1000.pk> <C:\Users\emilw\AppData\Local\M
+iKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\emilw\AppDa
+ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\e
+milw\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <
+C:\Users\emilw\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm
+1728.pk><C:/Users/emilw/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmex10.pfb><C:/Users/emilw/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmmi10.pfb><C:/Users/emilw/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/emilw/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/emilw/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users
+/emilw/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.p
+fb>
+Output written on Linjar_algebra.pdf (11 pages, 120957 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
+ 213 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
