@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.21)  16 MAY 2016 23:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.21)  18 MAY 2016 02:01
 entering extended mode
 **./Linjar_algebra.tex
 (Linjar_algebra.tex
@@ -435,18 +435,18 @@ Package color Info: Driver file: pdftex.def on input line 142.
 ) (Linjar_algebra.aux)
 \openout1 = `Linjar_algebra.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
 
 ("C:\Users\emilw\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
 ii"
@@ -463,87 +463,108 @@ ii"
 \makeMPintoPDFobject=\count109
 \everyMPtoPDFconversion=\toks25
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 33.
+LaTeX Font Info:    Try loading font information for U+msa on input line 35.
  ("C:\Users\emilw\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 33.
+LaTeX Font Info:    Try loading font information for U+msb on input line 35.
  ("C:\Users\emilw\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {C:/Users/emilw/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 36.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 38.
 
 ("C:\Users\emilw\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 172--176
+Underfull \hbox (badness 10000) in paragraph at lines 174--178
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 202--206
+Underfull \hbox (badness 10000) in paragraph at lines 204--208
 
  []
 
 [4] [5] [6] [7] [8] [9]
-Underfull \hbox (badness 10000) in paragraph at lines 643--646
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 650--653
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 657--660
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 664--667
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 671--674
-
+Overfull \hbox (4.09369pt too wide) in paragraph at lines 648--649
+[]\T1/cmr/m/n/10 Ekvationssystemet är re-dan trapp-for-mat vil-ket in-ne-bär at
+t gausse-
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 678--681
+Underfull \hbox (badness 10000) in paragraph at lines 714--717
+
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 767--771
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 685--688
+Underfull \hbox (badness 10000) in paragraph at lines 808--812
+
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 833--837
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 692--695
+Underfull \hbox (badness 10000) in paragraph at lines 873--877
+
+ []
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 923--927
+
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 993--996
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 699--702
+Underfull \hbox (badness 10000) in paragraph at lines 1000--1003
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 706--709
+Underfull \hbox (badness 10000) in paragraph at lines 1007--1010
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 713--716
+Underfull \hbox (badness 10000) in paragraph at lines 1014--1017
 
  []
 
-[11] (Linjar_algebra.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 1021--1024
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1028--1031
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1035--1038
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1042--1045
+
+ []
+
+[15] (Linjar_algebra.aux) ) 
 Here is how much of TeX's memory you used:
  3481 strings out of 493634
  45072 string characters out of 3135239
@@ -562,14 +583,15 @@ C:\Users\emilw\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm
 1728.pk><C:/Users/emilw/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
 sfonts/cm/cmex10.pfb><C:/Users/emilw/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmmi10.pfb><C:/Users/emilw/AppData/Local/Programs/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/emilw/AppData/Local/Pro
-grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/emilw/AppDat
-a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users
-/emilw/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.p
-fb>
-Output written on Linjar_algebra.pdf (11 pages, 120957 bytes).
+ 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/emilw/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/emilw/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/
+emilw/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb><C:/Users/emilw/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmsy7.pfb>
+Output written on Linjar_algebra.pdf (15 pages, 147208 bytes).
 PDF statistics:
- 213 PDF objects out of 1000 (max. 8388607)
+ 240 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
