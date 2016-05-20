@@ -1,4 +1,4 @@
-% !TeX spellcheck = sv_SE
+% !TeX vek = sv_SE
 %http://www.cs.put.poznan.pl/ksiek/latexmath.html
 %https://en.wikibooks.org/wiki/LaTeX/Advanced_Mathematics
 %http://www.maths.lth.se/matematiklth/personal/magnusa/kurser/endim-ht2015/B1/kurspmB1ht15.pdf
@@ -18,6 +18,8 @@
 \usepackage{color}
 \definecolor{tskcol}{RGB}{193,70,70}
 \newcommand{\tskcol}[1]{\textcolor{tskcol}{#1}}
+
+\newcommand{\vek}[1]{\overrightarrow{#1}}
 
 \newcommand\varpm{\mathbin{\vcenter{\hbox{%
 				\oalign{\hfil$\scriptstyle+$\hfil\cr
@@ -998,15 +1000,104 @@
 \texttt{\tskcol{1.21~~a) (s.)}}
 \begin{quotation}
 	\noindent
+	Se det som att det måste finnas lika många av varje atomtyp och laddning på var sida och skapa ett ekvationssystem utifrån det.
+	\begin{align*}
+	&\left\{\begin{array}{rl}
+	2x_1=&y_1 \\
+	3x_1+3x_2+3x_3=&4y_1+2y_2+2y_3 \\
+	x_2=&y_2 \\
+	x_3=&y_3 \\
+	-x_2-2x_3=&-2y_1-y_2
+	\end{array}\right.
+	&\begin{array}{l}
+	(Cr) \\
+	(O) \\
+	(N) \\
+	(C) \\
+	(e)
+	\end{array} \\ \Leftrightarrow
+	&\left\{\begin{array}{rl}
+	2x_1=&y_1 \\
+	-5x_1+x_2+x_3=&0 \\
+	x_2=&y_2 \\
+	x_3=&y_3 \\
+	4x_1-2x_3=&0
+	\end{array}\right.
+	&\begin{array}{l}
+	(Cr')=(Cr) \\
+	(O')=(O)-4(Cr)-2(N)-2(C) \\
+	(N')=(N) \\
+	(C')=(C) \\
+	(e')=(e)+(N)+2(Cr)
+	\end{array} \\ \Leftrightarrow
+	\end{align*}
+	Eftersom systemet är underbestämt kommer en variabel behövas användas för att lösa systemet. Låt därför $t$ vara ett godtyckligt tal och $x_1=t$. \\ \\
+	$(Cr')$ ger:
+	\[y_1=2t\]
+	$(e')$ ger:
+	\[x_3=\frac{4t}{2}=2t\]
+	$(C')$ ger:
+	\[y_3=2t\]
+	$(O')$ ger:
+	\[x_2=5t-2t=3t\]
+	$(N')$ ger:
+	\[y_2=3t\]
+	Lösningen är inte entydig.
 	\\ \\
-	\textbf{Svar:}
+	\textbf{Svar:} $(x_1,x_2,x_3,y_1,y_2,y_3)=(t,3t,2t,2t,3t,2t)$
 \end{quotation}
 
 \texttt{\tskcol{~~~~~~b) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	Se det som att det måste finnas lika många av varje atomtyp och laddning på var sida och skapa ett ekvationssystem utifrån det.
+	\begin{align*}
+	&\left\{\begin{array}{rl}
+	6x_1=&12y_1 \\
+	5x_1+x_3+2x_4=&10y_1+3y_2 \\
+	x_1=&2y_1 \\
+	2x_1+x_3+x_4=&3y_2 \\
+	x_2=&y_2 \\
+	-x_3=&-3y_2
+	\end{array}\right.
+	&\begin{array}{l}
+	(C) \\
+	(H) \\
+	(N) \\
+	(O) \\
+	(Zn) \\
+	(e)
+	\end{array} \\ \Leftrightarrow
+	&\left\{\begin{array}{rl}
+	x_1=&2y_1 \\
+	-2x_1+x_4=&0 \\
+	x_1=&2y_1 \\
+	2x_1+x_4=&2y_2 \\
+	x_2=&y_2 \\
+	-x_3=&-y_2
+	\end{array}\right.
+	&\begin{array}{l}
+	(C')=\frac{1}{6}(C) \\
+	(H')=(H)-5(N)-(O) \\
+	(N')=(N) \\
+	(O')=(O)+(e) \\
+	(Zn')=(Zn) \\
+	(e')=(e)
+	\end{array} \\ \Leftrightarrow
+	\end{align*}
+	Eftersom är $(C')$ och $(N')$ är identiska är systemet underbestämt och en variabel kommer behövas användas för att lösa systemet. Låt därför $t$ vara ett godtyckligt tal och $x_1=2t$. \\ \\
+	$(C')$ och $(N')$ ger:
+	\[y_1=t\]
+	$(H')$ ger:
+	\[x_4=2*2t=4t\]
+	$(O')$ ger:
+	\[y_2=\frac{2*2t+4t}{2}=4t\]
+	$(Zn')$ ger:
+	\[x_2=4t\]
+	$(e')$ ger:
+	\[x_3=4t\]
+	\\
+	\textbf{Svar:} Allmän lösning $(x_1,x_2,x_3,x_4,y_1,y_2)=(2t,4t,4t,4t,t,4t)$
 \end{quotation}
 
 \texttt{\tskcol{1.22~~~~ (s.)}}
@@ -1038,6 +1129,542 @@
 \end{quotation}
 
 \texttt{\tskcol{1.26~~~~ (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\pagebreak
+\section*{Kapitel 2: Vektorer i planet och rummet}
+\texttt{\tskcol{2.1~~~a) (s.)}}
+\begin{quotation}
+	\noindent
+	\includegraphics[scale=0.2]{images/21a.PNG}
+\end{quotation}
+
+\texttt{\tskcol{~~~~~~b) (s.)}}
+\begin{quotation}
+	\noindent
+	\includegraphics[scale=0.1]{images/21b.PNG}
+\end{quotation}
+
+\texttt{\tskcol{~~~~~~c) (s.)}}
+\begin{quotation}
+	\noindent
+	\includegraphics[scale=0.3]{images/21c.PNG}
+\end{quotation}
+
+\texttt{\tskcol{~~~~~~d) (s.)}}
+\begin{quotation}
+	\noindent
+	\includegraphics[scale=0.3]{images/21d.PNG}
+\end{quotation}
+
+\pagebreak
+\texttt{\tskcol{2.2~~~~~ (s.)}}
+\begin{quotation}
+	\textbf{Svar:} Nollvektor
+\end{quotation}
+
+\texttt{\tskcol{2.3~~~~~ (s.)}}
+\begin{quotation}
+	\noindent
+	Gausselimination:
+	\begin{align*}
+	&\left\{\begin{array}{rrr}
+	 \hat{u}+& \hat{v}=&u \\
+	2\hat{u}+&3\hat{v}=&u
+	\end{array}\right.
+	&\begin{array}{l}
+	(a) \\
+	(b)
+	\end{array} \\ \Leftrightarrow
+	&\left\{\begin{array}{rrr}
+	\hat{u}+&\hat{v}=&u \\
+	        &\hat{v}=&v-u
+	\end{array}\right.
+	&\begin{array}{l}
+	(a')=(a) \\
+	(b')=(b)-2(a)
+	\end{array} \\ \Leftrightarrow
+	&\begin{cases}
+	\hat{v}=v-u \\
+	\hat{u}=u-(v-u)=2u-v
+	\end{cases}
+	\end{align*}
+	\includegraphics[scale=0.3]{images/23.PNG}
+	\\ \\
+	\textbf{Svar:} $\hat{v}=v-u$, $\hat{u}=2u-v$
+\end{quotation}
+
+\texttt{\tskcol{2.4~~~~~ (s.)}}
+\begin{quotation}
+	\noindent
+	\[\vek{OC}=\vek{OA}+\vek{AC}=\vek{OA}+\frac{1}{4}\vek{AB}\]
+	\[\vek{OA}=\vek{OB}-\vek{AB} \Leftrightarrow
+	\vek{AB}=\vek{OB}-\vek{OA}\]
+	\[\vek{OC}=
+	\vek{OA}+\frac{1}{4}\vek{AB}=
+	\vek{OA}+\frac{1}{4}(\vek{OB}-\vek{OA})=
+	\frac{3}{4}\vek{OA}-\frac{1}{4}\vek{OB} \text{~~~~V.S.V}\]
+\end{quotation}
+
+\texttt{\tskcol{2.5~~~~~ (s.)}}
+\begin{quotation}
+	\noindent
+	\[\vek{OM}=\vek{OB}-\vek{MB}=\vek{OB}-\frac{1}{2}\vek{AB}\]
+	\[\vek{OB}-\vek{AB}=\vek{OA}\Leftrightarrow
+	\vek{AB}=\vek{OB}-\vek{OA}\]
+	\[\vek{OM}=
+	\vek{OB}-\frac{1}{2}\vek{AB}=
+	\vek{OB}-\frac{1}{2}(\vek{OB}-\vek{OA})=
+	\frac{1}{2}(\vek{OB}+\vek{OA}) \text{~~~~V.S.V}\]
+\end{quotation}
+
+\pagebreak
+\texttt{\tskcol{2.6~~~~~ (s. 26-27)}}
+\begin{quotation}
+	\noindent
+	Enligt uppgiften:
+	\[\vek{AM}=\frac{2}{3}\vek{AA_1}\]
+	Vilket ger:
+	\[\vek{OM}=
+	\vek{OA}+\vek{AM}=
+	\vek{OA}+\frac{2}{3}\vek{AA_1}\]
+	Mittpunktsformeln:
+	\[\vek{AA_1}=\frac{1}{2}(\vek{AB}+\vek{AC})\]
+	Vilket ger:
+	\[\vek{OM}=
+	\vek{OA}+\frac{2}{3}*\frac{1}{2}(\vek{AB}+\vek{AC})=
+	\vek{OA}+\frac{1}{3}(\vek{AB}+\vek{AC})\]
+	Enligt figuren:
+	\[\vek{AB}=\vek{OB}-\vek{OA},~~
+	\vek{AC}=\vek{OC}-\vek{OA}\]
+	Vilket ger:
+	\[\vek{OM}=
+	\vek{OA}+\frac{1}{3}(\vek{OB}-\vek{OA}+\vek{OC}-\vek{OA})=
+	\frac{1}{3}(\vek{OA}+\vek{OB}+\vek{OC}) \text{~~~~V.S.V}\]
+\end{quotation}
+
+\texttt{\tskcol{2.7~~~~~ (s.)}}
+\begin{quotation}
+	\noindent
+	Enligt uppgiften:
+	\[\vek{AM}=\frac{3}{4}\vek{AA_1}\]
+	Vilket ger:
+	\[\vek{OM}=
+	\vek{OA}+\vek{AM}=
+	\vek{OA}+\frac{3}{4}\vek{AA_1}\]
+	Tyngdpunktsformeln:
+	\[\vek{AA_1}=\frac{1}{3}(\vek{AB}+\vek{AC}+\vek{AD})\]
+	Vilket ger:
+	\[\vek{OM}=
+	\vek{OA}+\frac{3}{4}*\frac{1}{3}(\vek{AB}+\vek{AC}+\vek{AD})=
+	\vek{OA}+\frac{1}{4}(\vek{AB}+\vek{AC}+\vek{AD})\]
+	Enligt figuren:
+	\[\vek{AB}=\vek{OB}-\vek{OA},~~
+	\vek{AC}=\vek{OC}-\vek{OA},~~
+	\vek{AD}=\vek{OD}-\vek{OA}\]
+	Vilket ger:
+	\[\vek{OM}=
+	\vek{OA}+\frac{1}{4}(\vek{OB}-\vek{OA}+\vek{OC}-\vek{OA}+\vek{OD}-\vek{OA})=
+	\frac{1}{4}(\vek{OA}+\vek{OB}+\vek{OC}+\vek{OD}) \text{~~~~V.S.V}\]
+\end{quotation}
+
+\pagebreak
+\texttt{\tskcol{2.8~~~~~ (s.)}}
+\begin{quotation}
+	\noindent
+	Låt $O$ ligga i punkten $M$. tyngdpunktsformeln ger:
+	\[\vek{OM}=\frac{1}{3}(\vek{OA}+\vek{OB}+\vek{OC})\]
+	Eftersom $O=M$:
+	\[\begin{cases}
+	\vek{OM}=0 \\
+	\vek{OA}=\vek{MA} \\
+	\vek{OB}=\vek{MB} \\
+	\vek{OC}=\vek{MC}
+	\end{cases}\]
+	Vilket ger:
+	\[\frac{1}{3}(\vek{MA}+\vek{MB}+\vek{MC})=0 \Leftrightarrow
+	\vek{MA}+\vek{MB}+\vek{MC}=3*0=0 \text{~~~~V.S.V}\]
+\end{quotation}
+
+\texttt{\tskcol{2.9~~~~~ (s.)}}
+\begin{quotation}
+	\noindent
+	Låt $O$ vara en godtycklig punkt i rummet. Vilket ger:
+	\[\begin{cases}
+	\vek{A_1A_2}=\vek{OA_2}-\vek{OA_1} \\
+	\vek{B_1B_2}=\vek{OB_2}-\vek{OB_1} \\
+	\vek{C_1C_2}=\vek{OC_2}-\vek{OC_1}
+	\end{cases}\]
+	Tyngdpunktsformeln baklänges samt hur differens för vektorer funkar ger:
+	\begin{align*}
+	&\vek{A_1A_2}+\vek{B_1B_2}+\vek{C_1C_2}=
+	\vek{OA_2}-\vek{OA_1}+\vek{OB_2}-\vek{OB_1}+\vek{OC_2}-\vek{OC_1}= \\ =
+	&3*\frac{1}{3}(\vek{OA_2}+\vek{OB_2}+\vek{OC_2})-3*\frac{1}{3}(\vek{OA_1}+\vek{OB_1}+\vek{OC_1})= \\ =
+	&3(\vek{OM_2}-\vek{OM_1})=
+	3\vek{M_1M_2} \text{~~~~V.S.V}
+	\end{align*}
+\end{quotation}
+
+\texttt{\tskcol{2.10~~~~ (s.)}}
+\begin{quotation}
+	\noindent
+	Mittpunktsformeln ger:
+	\[\begin{cases}
+	\vek{OA_m}=\frac{1}{2}(\vek{OA}+\vek{OB}) \\
+	\vek{OB_m}=\frac{1}{2}(\vek{OB}+\vek{OC}) \\
+	\vek{OC_m}=\frac{1}{2}(\vek{OC}+\vek{OA})
+	\end{cases}\]
+	Vilket ger:
+	\begin{align*}
+	&VL=\vek{OA_m}+\vek{OB_m}+\vek{OC_m}=
+	\frac{1}{2}(\vek{OA}+\vek{OB})+\frac{1}{2}(\vek{OB}+\vek{OC})+\frac{1}{2}(\vek{OC}+\vek{OA})= \\ =
+	&\frac{1}{2}(2\vek{OA}+2\vek{OB}+2\vek{OC})=
+	\vek{OA}+\vek{OB}+\vek{OC}=HL \text{~~~~V.S.V}
+	\end{align*}
+\end{quotation}
+
+\pagebreak
+\texttt{\tskcol{2.11~~~~ (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{2.12~~~~ (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{2.13~~a) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{~~~~~~b) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{~~~~~~c) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{~~~~~~d) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{~~~~~~e) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{~~~~~~f) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{~~~~~~g) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{2.14~~a) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{~~~~~~b) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{2.15~~~~ (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{2.16~~~~ (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{2.17~~a) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{~~~~~~b) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{~~~~~~c) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{2.18~~a) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{~~~~~~b) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{~~~~~~c) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{~~~~~~d) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{2.19~~a) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{~~~~~~b) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{~~~~~~c) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{~~~~~~d) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{~~~~~~e) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{2.20~~a) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{~~~~~~b) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{~~~~~~c) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{~~~~~~d) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{~~~~~~e) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{~~~~~~f) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{~~~~~~g) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{2.21~~~~ (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{2.22~~a) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{~~~~~~b) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{~~~~~~c) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{~~~~~~d) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{~~~~~~e) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{2.23~~~~ (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{2.24~~a) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{~~~~~~b) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{~~~~~~c) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{2.25~~~~ (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{2.26~~~~ (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{2.27~~~~ (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{2.28~~a) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{~~~~~~b) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{2.29~~~~ (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{2.30~~~~ (s.)}}
 \begin{quotation}
 	\noindent
 	\\ \\
