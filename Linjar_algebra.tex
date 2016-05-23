@@ -1182,20 +1182,20 @@
 	\end{array} \\ \Leftrightarrow
 	&\left\{\begin{array}{rrr}
 	\hat{u}+&\hat{v}=&u \\
-	        &\hat{v}=&v-u
+	        &\hat{v}=&v-2u
 	\end{array}\right.
 	&\begin{array}{l}
 	(a')=(a) \\
 	(b')=(b)-2(a)
 	\end{array} \\ \Leftrightarrow
 	&\begin{cases}
-	\hat{v}=v-u \\
-	\hat{u}=u-(v-u)=2u-v
+	\hat{v}=v-2u \\
+	\hat{u}=u-(v-2u)=3u-v
 	\end{cases}
 	\end{align*}
 	\includegraphics[scale=0.3]{images/23.PNG}
 	\\ \\
-	\textbf{Svar:} $\hat{v}=v-u$, $\hat{u}=2u-v$
+	\textbf{Svar:} $\hat{v}=v-2u$, $\hat{u}=3u-v$
 \end{quotation}
 
 \texttt{\tskcol{2.4~~~~~ (s.)}}
@@ -1331,267 +1331,581 @@
 \texttt{\tskcol{2.11~~~~ (s.)}}
 \begin{quotation}
 	\noindent
+	Låt $ABCD$ vara en godtycklig tetraeder i rummet och $O$ vara en godtycklig punkt i rummet. 
+	Om alla sammanbindningar skär tyngdpunkt vet vi även att alla skär varandra i tyngdpunkten.
+	Antag att tyngdpunkten ligger i punkten $M$ och $\vek{OM}=\frac{1}{4}(\vek{OA}+\vek{OB}+\vek{OC}+\vek{OD})$.
 	\\ \\
-	\textbf{Svar:}
+	Mittpunktsformeln ger:
+	\[\begin{array}{lcr}
+	p_1=\frac{1}{2}(\vek{OA}+\vek{OB}) & \text{~~~~motsatta punkt:~~~~} & q_1=\frac{1}{2}(\vek{OC}+\vek{OD}) \\
+	p_2=\frac{1}{2}(\vek{OB}+\vek{OC}) & \text{~~~~motsatta punkt:~~~~} & q_2=\frac{1}{2}(\vek{OA}+\vek{OD}) \\
+	p_3=\frac{1}{2}(\vek{OC}+\vek{OA}) & \text{~~~~motsatta punkt:~~~~} & q_3=\frac{1}{2}(\vek{OB}+\vek{OD})
+	\end{array}\]
+	En slumpmässig punkt på varje sammanbindning kan beskrivas som där $x,y,z$ ligger mellan 0 och 1:
+	\[\begin{array}{l}
+	s_1=p_1+x(q_1-p_1)=\frac{1}{2}(\vek{OA}+\vek{OB})+x\frac{1}{2}((\vek{OA}+\vek{OB})-(\vek{OC}+\vek{OD})) \\
+	s_2=p_2+y(q_2-p_2)=\frac{1}{2}(\vek{OB}+\vek{OC})+y\frac{1}{2}((\vek{OB}+\vek{OC})-(\vek{OA}+\vek{OD})) \\
+	s_2=p_3+z(q_3-p_3)=\frac{1}{2}(\vek{OC}+\vek{OA})+z\frac{1}{2}((\vek{OC}+\vek{OA})-(\vek{OB}+\vek{OD}))
+	\end{array}\]
+	Om vi sätter $x=y=z=\frac{1}{2}$ så kommer $s_1=s_2=s_3=\frac{1}{4}(\vek{OA}+\vek{OB}+\vek{OC}+\vek{OD})$ vilket är samma punkt som vi antog att tyngdpunkten $M$ skulle ligga i. Eftersom alla tre skär $M$ skär även alla tre varandra i $M$. ~~V.S.V
 \end{quotation}
 
 \texttt{\tskcol{2.12~~~~ (s.)}}
 \begin{quotation}
 	\noindent
+	Låt $O$ vara en godtycklig punkt i rummet. 
+	Om två stycken sträckor beskriver samma vektor måste de vara parallella enligt definitionen från vektorer. 
+	Så om $\vek{A_1B_1}=\vek{D_1C_1}$ och $\vek{B_1C_1}=\vek{A_1D_1}$ är $A_1B_1C_1D_1$ en parallellogram.
 	\\ \\
-	\textbf{Svar:}
+	mittpunktsformeln:
+	\[\begin{array}{l}
+	\vek{OA_1}=\frac{1}{2}(\vek{OA}+\vek{OB}) \\
+	\vek{OB_1}=\frac{1}{2}(\vek{OB}+\vek{OC}) \\
+	\vek{OC_1}=\frac{1}{2}(\vek{OC}+\vek{OD}) \\
+	\vek{OD_1}=\frac{1}{2}(\vek{OD}+\vek{OA})
+	\end{array}\]
+	\[\begin{array}{l}
+	\vek{A_1B_1}=\vek{OB_1}-\vek{OA_1}=\frac{1}{2}(\vek{OB}+\vek{OC}-(\vek{OA}+\vek{OB}))=\frac{1}{2}(\vek{OC}-\vek{OA}) \\
+	\vek{D_1C_1}=\vek{OC_1}-\vek{OD_1}=\frac{1}{2}(\vek{OC}+\vek{OD}-(\vek{OD}+\vek{OA}))=\frac{1}{2}(\vek{OC}-\vek{OA}) \\
+	\vek{B_1C_1}=\vek{OC_1}-\vek{OB_1}=\frac{1}{2}(\vek{OC}+\vek{OD}-(\vek{OB}+\vek{OC}))=\frac{1}{2}(\vek{OD}-\vek{OB}) \\
+	\vek{A_1D_1}=\vek{OD_1}-\vek{OA_1}=\frac{1}{2}(\vek{OD}+\vek{OA}-(\vek{OA}+\vek{OB}))=\frac{1}{2}(\vek{OD}-\vek{OB})
+	\end{array}\]
+	$\vek{A_1B_1}=\vek{D_1C_1}$ och $\vek{B_1C_1}=\vek{A_1D_1}$ är alltså sant vilket innebär att $A_1B_1C_1D_1$ är en parallellogram. ~~V.S.V
 \end{quotation}
 
 \texttt{\tskcol{2.13~~a) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	\[u_1=3e_1+2e_2\]
+	\\
+	\textbf{Svar:} $(3,2)$
 \end{quotation}
 
 \texttt{\tskcol{~~~~~~b) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	\[u_2=2e_1+3e_2\]
+	\\
+	\textbf{Svar:} $(2,3)$
 \end{quotation}
 
 \texttt{\tskcol{~~~~~~c) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	\[u_3=-2e_1+2e_2\]
+	\\
+	\textbf{Svar:} $(-2,2)$
 \end{quotation}
 
 \texttt{\tskcol{~~~~~~d) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	\[u_4=-3e_1-2e_2\]
+	\\
+	\textbf{Svar:} $(-3,-2)$
 \end{quotation}
 
 \texttt{\tskcol{~~~~~~e) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	\[u_5=2e_1-3e_2\]
+	\\
+	\textbf{Svar:} $(2,-3)$
 \end{quotation}
 
 \texttt{\tskcol{~~~~~~f) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	\[e_1=1e_1+0e_2\]
+	\\
+	\textbf{Svar:} $(1,0)$
 \end{quotation}
 
 \texttt{\tskcol{~~~~~~g) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	\[e_2=0e_1+1e_2\]
+	\\
+	\textbf{Svar:} $(0,1)$
 \end{quotation}
 
+\pagebreak
 \texttt{\tskcol{2.14~~a) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	$\hat{v}=v-2u$, $\hat{u}=3u-v$
+	\begin{align*}
+	&u=a\hat{u}+b\hat{v}=
+	a(3u-v)+b(v-2u)=
+	(3a-2b)u+(b-a)v \Leftrightarrow \\ \Leftrightarrow
+	&\begin{cases}
+	3a-2b=1 \\
+	b-a=0
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	a=1 \\ 
+	b=1
+	\end{cases} \Leftrightarrow
+	u=1\hat{u}+1\hat{v}
+	\end{align*}
+	
+	\begin{align*}
+	&u=a\hat{u}+b\hat{v}=
+	a(3u-v)+b(v-2u)=
+	(3a-2b)u+(b-a)v \Leftrightarrow \\ \Leftrightarrow
+	&\begin{cases}
+	3a-2b=0 \\
+	b-a=1
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	a=2 \\ 
+	b=3
+	\end{cases} \Leftrightarrow
+	u=2\hat{u}+3\hat{v}
+	\end{align*}
+	\\
+	\textbf{Svar:} $u:~(1,1)$ och $v:~(2,3)$
 \end{quotation}
 
 \texttt{\tskcol{~~~~~~b) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	\[\hat{u}=3u-v=3u-1v\]
+	\[\hat{v}=v-2u=-2u+1v\]
+	\\
+	\textbf{Svar:} $\hat{u}:~(3,-1)$ och $\hat{v}:~(-2,1)$
 \end{quotation}
 
 \texttt{\tskcol{2.15~~~~ (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	\[\vek{OC}=\frac{3}{4}\vek{OA}+\frac{1}{4}\vek{OB}\]
+	\\ 
+	\textbf{Svar:} $\vek{OC}:~(3/4,1/4)$
 \end{quotation}
 
 \texttt{\tskcol{2.16~~~~ (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	För $\vek{TC}$ använd tyndpunktsformeln och låt $T$ vara den godtyckliga punkten i rummet.
+	\[\vek{TT}=\frac{1}{3}(\vek{TA}+\vek{TB}+\vek{TC}) \Leftrightarrow
+	0=\frac{1}{3}\vek{TA}+\frac{1}{3}\vek{TB}+\frac{1}{3}\vek{TC} \Leftrightarrow
+	\vek{TC}=-\vek{TA}-\vek{TB}\]
+	För $\vek{TM}$ använd mittpunktsformeln där $T$ är den godtyckliga punkten i rummet.
+	\[\vek{TM}=\frac{1}{2}(\vek{TA}+\vek{TB})=\frac{1}{2}\vek{TA}+\frac{1}{2}\vek{TB}\]
+	\\
+	\textbf{Svar:} $\vek{TC}:~(-1,-1)$ och $\vek{TM}:~(1/2,1/2)$
 \end{quotation}
 
 \texttt{\tskcol{2.17~~a) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	Vi ansätter lösningen:
+	\[(4,1,-5)=x(2,1,-1)+y(1,1,1)\]
+	Identifierar variablerna (gausselimination):
+	\[\begin{cases}
+	2x+y=4 \\
+	x+y=1 \\
+	-x+y=-5
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	2x+y=4 \\
+	y=-2 \\
+	3y=-6
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	x=3 \\
+	y=-2
+	\end{cases}\]
+	\\ 
+	\textbf{Svar:} $(4,1,-5)$ är en linjärkombination av $u_1$ och$u_2$
 \end{quotation}
 
 \texttt{\tskcol{~~~~~~b) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	Vi ansätter lösningen:
+	\[(4,3,2)=x(2,1,-1)+y(1,1,1)\]
+	Identifierar variablerna (gausselimination):
+	\[\begin{cases}
+	2x+y=4 \\
+	x+y=3 \\
+	-x+y=2
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	2x+y=4 \\
+	y=2 \\
+	3y=0
+	\end{cases} \Leftrightarrow
+	y=2\neq0 \Rightarrow \text{ Saknar lösning.}\]
+	\\ 
+	\textbf{Svar:} $(4,3,2)$ är inte en linjärkombination av $u_1$ och$u_2$
 \end{quotation}
 
 \texttt{\tskcol{~~~~~~c) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	Vi ansätter lösningen:
+	\[(-9,-7,-3)=x(2,1,-1)+y(1,1,1)\]
+	Identifierar variablerna (gausselimination):
+	\[\begin{cases}
+	2x+y=-9 \\
+	x+y=-7 \\
+	-x+y=-3
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	2x+y=-9 \\
+	y=-5 \\
+	3y=-15
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	x=-7 \\
+	y=-5
+	\end{cases}\]
+	\\ 
+	\textbf{Svar:} $(-9,-7,-3)$ är en linjärkombination av $u_1$ och$u_2$
 \end{quotation}
 
 \texttt{\tskcol{2.18~~a) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	För att två vektorer ska vara parallella ska det finnas ett $k$ så att:
+	\[u=kv\]
+	Ansätt därför en lösning och identifiera $k$ och $a$:
+	\[(a,1+a)=k(2,-3) \Leftrightarrow
+	\begin{cases}
+	a=2k \\
+	1+a=-3k
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	a=-\frac{2}{5} \\
+	k=-\frac{1}{5}
+	\end{cases}\]
+	\\
+	\textbf{Svar:} $a=-\frac{2}{5}$
 \end{quotation}
 
 \texttt{\tskcol{~~~~~~b) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	För att två vektorer ska vara parallella ska det finnas ett $k$ så att:
+	\[u=kv\]
+	Ansätt därför en lösning och identifiera $k$ och $a$:
+	\[(a,-3)=k(2,1-a) \Leftrightarrow
+	\begin{cases}
+	a=2k \\
+	-3=k(1-a)
+	\end{cases}\]
+	Substitutionsmetoden:
+	\[-3=k(1-2k) \Leftrightarrow
+	2k^2-k-3=0 \Leftrightarrow
+	k^2-\frac{k}{2}-\frac{3}{2}=0\]
+	\[k=\frac{1}{4}\pm\sqrt{\frac{1}{16}+\frac{24}{16}}=\frac{1}{4}\pm\frac{5}{4}\]
+	\[\begin{cases}
+	k_1=\frac{3}{2} \Leftrightarrow a_1=3 \\
+	k_2=-1 \Leftrightarrow a_2=-2
+	\end{cases}\]
+	\\
+	\textbf{Svar:} $a=3$ eller $a=-2$
 \end{quotation}
 
 \texttt{\tskcol{~~~~~~c) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	För att två vektorer ska vara parallella ska det finnas ett $k$ så att:
+	\[u=kv\]
+	Ansätt därför en lösning och identifiera $k$ och $a$:
+	\[(a,3)=k(2,1-a) \Leftrightarrow
+	\begin{cases}
+	a=2k \\
+	3=k(1-a)
+	\end{cases}\]
+	Substitutionsmetoden:
+	\[3=k(1-2k) \Leftrightarrow
+	2k^2-k+3=0 \Leftrightarrow
+	k^2-\frac{k}{2}+\frac{3}{2}=0\]
+	\[k=\frac{1}{4}\pm\sqrt{\frac{1}{16}-\frac{24}{16}}=\frac{1}{4}\pm\sqrt{-\frac{23}{16}} \Rightarrow \text{ Saknar reell lösning}\]
+	\\
+	\textbf{Svar:} Saknar lösning
 \end{quotation}
 
 \texttt{\tskcol{~~~~~~d) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	För att två vektorer ska vara parallella ska det finnas ett $k$ så att:
+	\[u=kv\]
+	Ansätt därför en lösning och identifiera $k$ och $a$:
+	\[(a,1+a,3)=k(4,2,-6) \Leftrightarrow
+	\begin{cases}
+	a=4k \\
+	1+a=2k \\
+	3=-6k
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	a=4k \\
+	1=-2k \\
+	3=-6k
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	a=-2 \\
+	k=-\frac{1}{2}
+	\end{cases}\]
+	\\
+	\textbf{Svar:} $a=-2$
 \end{quotation}
 
 \texttt{\tskcol{2.19~~a) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	För att vektorerna ska vara linjärt beroende ska de gå att beskriva med hjälp av varandra vilket innebär att det ska finnas ett $k$ så att:
+	\[(2,4)=k(-4,-2)\]
+	Identifiera variabeln:
+	\[\begin{cases}
+	2=-4k \\
+	4=-2k
+	\end{cases} \Leftrightarrow
+	k=-\frac{1}{2}\neq-2 \Rightarrow \text{ saknar lösning}\]
+	\\
+	\textbf{Svar:} Vektorerna är inte linjärt beroende
 \end{quotation}
 
 \texttt{\tskcol{~~~~~~b) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	För att vektorerna ska vara linjärt beroende ska de gå att beskriva med hjälp av varandra vilket innebär att det ska finnas ett $k$ så att:
+	\[(6,-3)=k(-4,2)\]
+	Identifiera variabeln:
+	\[\begin{cases}
+	6=-4k \\
+	-3=2k
+	\end{cases} \Leftrightarrow
+	k=-\frac{3}{2}\]
+	\\
+	\textbf{Svar:} Vektorerna är linjärt beroende
 \end{quotation}
 
 \texttt{\tskcol{~~~~~~c) (s.)}}
 \begin{quotation}
 	\noindent
+	För att vektorerna ska vara linjärt beroende ska de vara parallella och enligt definition är nollvektorn $(0,0)$ parallell med alla vektorer och därför är vektorerna linjärt beroende.
 	\\ \\
-	\textbf{Svar:}
+	\textbf{Svar:} Vektorerna är linjärt beroende
 \end{quotation}
 
 \texttt{\tskcol{~~~~~~d) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	För att vektorerna ska vara linjärt beroende ska de gå att beskriva med hjälp av varandra vilket innebär att det ska finnas ett $k_1$ och ett $k_2$ så att:
+	\[(1,0)=k_1(0,1)+k_2(7,5)\]
+	Identifiera variablerna:
+	\[\begin{cases}
+	1=7k_2 \\
+	0=k_1+5k_2
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	k_1=-\frac{5}{7} \\
+	k_2=\frac{1}{7}
+	\end{cases} \Rightarrow \text{ linjärt beroende}\]
+	\\
+	\textbf{Svar:} Vektorerna är linjärt beroende
 \end{quotation}
 
+\pagebreak
 \texttt{\tskcol{~~~~~~e) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	För att vektorerna ska vara linjärt beroende ska de gå att beskriva med hjälp av varandra vilket innebär att det ska finnas ett $k_1$ och ett $k_2$ så att:
+	\[(5,9)=k_1(3,-2)+k_2(2,1)\]
+	Identifiera variablerna:
+	\[\begin{cases}
+	5=3k_1+2k_2 \\
+	9=-2k_1+k_2
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	k_1=-\frac{13}{7} \\
+	k_2=\frac{37}{7}
+	\end{cases} \Rightarrow \text{ linjärt beroende}\]
+	\\
+	\textbf{Svar:} Vektorerna är linjärt beroende
 \end{quotation}
 
 \texttt{\tskcol{2.20~~a) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	För att vektorerna ska vara linjärt beroende ska de gå att beskriva med hjälp av varandra vilket innebär att det ska finnas ett $k_1$ och ett $k_2$ så att:
+	\[(1,1,1)=k_1(3,1,2)+k_2(0,2,1)\]
+	Identifiera variablerna:
+	\[\begin{cases}
+	1=3k_1+0k_2 \\
+	1=k_1+2k_2 \\
+	1=2k_1+k_2
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	k_1=\frac{1}{3} \\
+	k_2=\frac{1}{3}
+	\end{cases} \Rightarrow \text{ linjärt beroende}\]
+	\\
+	\textbf{Svar:} Vektorerna är linjärt beroende
 \end{quotation}
 
 \texttt{\tskcol{~~~~~~b) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	För att vektorerna ska vara linjärt beroende ska de gå att beskriva med hjälp av varandra vilket innebär att det ska finnas ett $k_1$ och ett $k_2$ så att:
+	\[(0,1,1)=k_1(1,0,1)+k_2(1,1,0)\]
+	Identifiera variablerna:
+	\[\begin{cases}
+	0=k_1+k_2 \\
+	1=0k_1+k_2 \\
+	1=k_1+0k_2
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	k_1=1 \\
+	k_2=1\neq-1
+	\end{cases} \Rightarrow \text{ linjärt oberoende}\]
+	\\
+	\textbf{Svar:} Vektorerna är inte linjärt beroende
 \end{quotation}
 
 \texttt{\tskcol{~~~~~~c) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	För att vektorerna ska vara linjärt beroende ska de gå att beskriva med hjälp av varandra vilket innebär att det ska finnas ett $k$ så att:
+	\[(1,1,1)=k(3,1,2)\]
+	Identifiera variabeln:
+	\[\begin{cases}
+	1=3k \\
+	1=k \\
+	1=2k
+	\end{cases} \Leftrightarrow
+	k=\frac{1}{3}\neq1\neq\frac{1}{2} \Rightarrow \text{ linjärt oberoende}\]
+	\\
+	\textbf{Svar:} Vektorerna är inte linjärt beroende
 \end{quotation}
 
 \texttt{\tskcol{~~~~~~d) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	För att vektorerna ska vara linjärt beroende ska de gå att beskriva med hjälp av varandra vilket innebär att det ska finnas ett $k$ så att:
+	\[(1,0,2)=k(-2,0,-4)\]
+	Identifiera variabeln:
+	\[\begin{cases}
+	1=-2k \\
+	0=0k \\
+	2=-4k
+	\end{cases} \Leftrightarrow
+	k=-\frac{1}{2} \Rightarrow \text{ linjärt beroende}\]
+	\\
+	\textbf{Svar:} Vektorerna är linjärt beroende
 \end{quotation}
 
 \texttt{\tskcol{~~~~~~e) (s.)}}
 \begin{quotation}
 	\noindent
+	Eftersom $(1,0,2)$ och $(-2,0,-4)$ är linjärt beroende (se \texttt{\tskcol{d)}}) är även $(2,0,3)$, $(1,0,2)$ och $(-2,0,-4)$ det.
 	\\ \\
-	\textbf{Svar:}
+	\textbf{Svar:} Vektorerna är linjärt beroende
 \end{quotation}
 
 \texttt{\tskcol{~~~~~~f) (s.)}}
 \begin{quotation}
-	\noindent
-	\\ \\
-	\textbf{Svar:}
+	För att vektorerna ska vara linjärt beroende ska de gå att beskriva med hjälp av varandra vilket innebär att det ska finnas ett $k_1$ och ett $k_2$ så att:
+	\[(1,0,2)=k_1(3,0,4)+k_2(5,0,6)\]
+	Identifiera variablerna (gausselimination):
+	\[\begin{cases}
+	1=3k_1+5k_2 \\
+	0=0k_1+0k_2 \\
+	2=4k_1+6k_2
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	k_1=2 \\
+	k_2=-1
+	\end{cases}\Rightarrow \text{ linjärt beroende}\]
+	\\
+	\textbf{Svar:} Vektorerna är linjärt beroende
 \end{quotation}
 
 \texttt{\tskcol{~~~~~~g) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	För att vektorerna ska vara linjärt beroende ska de gå att beskriva med hjälp av varandra vilket innebär att det ska finnas ett $k_1$, ett $k_2$ och ett $k_3$ så att:
+	\[(1,1,0)=k_1(1,0,1)+k_2(0,1,1)+k_3(3,3,3)\]
+	Identifiera variablerna (gausselimination):
+	\[\begin{cases}
+	1=k_1+0k_2+3k_3 \\
+	1=0k_1+k_2+3k_3 \\
+	0=k_1+k_2+3k_3
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	k_1=-1 \\
+	k_2=-1 \\
+	k_3=\frac{2}{3}
+	\end{cases}\Rightarrow \text{ linjärt beroende}\]
+	\\
+	\textbf{Svar:} Vektorerna är linjärt beroende
 \end{quotation}
 
 \texttt{\tskcol{2.21~~~~ (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	För att vektorerna ska vara linjärt beroende ska de gå att beskriva med hjälp av varandra (de ska vara parallella) vilket innebär att det ska finnas ett $k$ och $a$ så att:
+	\[(a,-2)=k(1,a-1)\]
+	Identifiera variabeln:
+	\[\begin{cases}
+	a=k \\
+	-2=k(a-1)
+	\end{cases}\]
+	Substitutionsmetoden:
+	\[-2=k(k-1) \Leftrightarrow
+	k^2-k+2=0\]
+	\[k=\frac{1}{2}\pm\sqrt{\frac{1}{4}-\frac{8}{4}}=\frac{1}{2}\pm\sqrt{-\frac{7}{4}} \Rightarrow \text{ saknar reell lösning}\]
+	\\
+	\textbf{Svar:} Nej, det finns inget $a$ så att vektorerna är linjärt beroende
 \end{quotation}
 
 \texttt{\tskcol{2.22~~a) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	\[u=5e_1+3e_2\]
+	\\
+	\textbf{Svar:} $(5,3)$
 \end{quotation}
 
 \texttt{\tskcol{~~~~~~b) (s.)}}
 \begin{quotation}
 	\noindent
+	Ja, eftersom de inte är parallella.
 	\\ \\
-	\textbf{Svar:}
+	\textbf{Svar:} Ja
 \end{quotation}
 
 \texttt{\tskcol{~~~~~~c) (s.)}}
 \begin{quotation}
 	\noindent
+	\[2\hat{e}_1+\hat{e}_2=u\]
 	\\ \\
-	\textbf{Svar:}
+	\textbf{Svar:} $(2,1)$
 \end{quotation}
 
 \texttt{\tskcol{~~~~~~d) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	\[\hat{e}_1=e_1+2e_2 \Rightarrow (1,2)\]
+	\[\hat{e}_2=3e_1-e_2 \Rightarrow (3,-1)\]
+	\\
+	\textbf{Svar:} $\hat{e}_1:~(1,2)$ och $\hat{e}_2:~(3,-1)$
 \end{quotation}
 
+\pagebreak
 \texttt{\tskcol{~~~~~~e) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	\begin{align*}
+	&x_1e_1+x_2e_2=v=
+	\hat{x}_1\hat{e}_1+\hat{x}_2\hat{e}_2=
+	\hat{x}_1(e_1+2e_2)+\hat{x}_2(3e_1-e_2)= \\ =
+	&(\hat{x}_1+3\hat{x}_2)e_1+(2\hat{x}_1-\hat{x}_2)e_2 \Rightarrow (x_1,x_2)=(\hat{x}_1+3\hat{x}_2,2\hat{x}_1-\hat{x}_2)
+	\end{align*}
 \end{quotation}
 
 \texttt{\tskcol{2.23~~~~ (s.)}}
