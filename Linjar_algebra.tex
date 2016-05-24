@@ -1911,36 +1911,157 @@
 \texttt{\tskcol{2.23~~~~ (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	$\hat{e}_1$ och $\hat{e}_2$ kan användas som bas om de inte är parallella så genom att anta att de är parallella kan vi bestämma om de kan användas som bas eller inte. De är parallella om det finns ett $k$ så att:
+	\[\hat{e}_1=k\hat{e}_2\] 
+	\[\hat{e}_1=k\hat{e}_2 \Leftrightarrow
+	-e_1+2e_2=k(3e_1+4e_2) \Leftrightarrow
+	\begin{cases}
+	-1=3k \\
+	2=4k
+	\end{cases} \Leftrightarrow
+	k=-\frac{1}{3}\neq\frac{1}{2}\]
+	Linjerna är inte parallella och därför kan de vara en bas i planet.
+	\begin{align*}
+	&\begin{cases}
+	\hat{e}_1=-e_1+2e_2 \\
+	\hat{e}_2=3e_1+4e_2
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	e_1=-\hat{e}_1+2e_2 \\
+	e_2=\frac{1}{4}\hat{e}_2-\frac{3}{4}e_1
+	\end{cases}\Leftrightarrow \\ \Leftrightarrow
+	&\begin{cases}
+	e_1=-\hat{e}_1+2(\frac{1}{4}\hat{e}_2-\frac{3}{4}e_1) \\
+	e_2=\frac{1}{4}\hat{e}_2-\frac{3}{4}(-\hat{e}_1+2e_2)
+	\end{cases}\Leftrightarrow
+	\begin{cases}
+	e_1=-\frac{2}{5}\hat{e}_1+\frac{1}{5}\hat{e}_2 \\
+	e_2=\frac{3}{10}\hat{e}_1+\frac{1}{10}\hat{e}_2
+	\end{cases}
+	\end{align*}
+	Sätt sedan in i uttrycket för vektorn.
+	\begin{align*}
+	&u=4e_1-5e_2=
+	4(-\frac{2}{5}\hat{e}_1+\frac{1}{5}\hat{e}_2)-5(\frac{3}{10}\hat{e}_1+\frac{1}{10}\hat{e}_2)= \\ =
+	&-\frac{8}{5}\hat{e}_1-\frac{15}{10}\hat{e}_1+\frac{4}{5}\hat{e}_2-\frac{5}{10}\hat{e}_2=
+	-\frac{31}{10}\hat{e}_1+\frac{3}{10}\hat{e}_2
+	\end{align*}
+	\\
+	\textbf{Svar:} $(-3.1,0.3)$
 \end{quotation}
 
+\pagebreak
 \texttt{\tskcol{2.24~~a) (s.)}}
 \begin{quotation}
 	\noindent
+	För att visa att $e^{'}_1$, $e^{'}_2$ och $e^{'}_3$ är en bas i rummet behöver vi först visa att  $e^{'}_1$ och $e^{'}_2$ är linjärt oberoende i planet och sedan visa att $e^{'}_3$ är linjärt oberoende i rummet.
 	\\ \\
-	\textbf{Svar:}
+	Om det inte finns $k$ så att:
+	\[e^{'}_1=ke^{'}_2\]
+	är $e^{'}_1$ och $e^{'}_2$ linjärt oberoende i planet.
+	\begin{align*}
+	&e^{'}_1=ke^{'}_2 \Leftrightarrow
+	e^1+0e^2+0e^3=k(2e^1+e^2+0e^3) \Leftrightarrow \\ \Leftrightarrow
+	&\begin{cases}
+	1=2k \\
+	0=k \\
+	0=0
+	\end{cases} \Leftrightarrow
+	k=\frac{1}{2}\neq0 \Leftrightarrow
+	\text{ linjärt oberoende}
+	\end{align*}
+	Om det inte finns $k_1$ och $k_2$ så att:
+	\[e^{'}_3=k_1e^{'}_1+k_2e^{'}_2\]
+	är $e^{'}_1$, $e^{'}_2$ och $e^{'}_3$ linjärt oberoende i rummet.
+	\begin{align*}
+	&e^{'}_3=k_1e^{'}_1+k_2e^{'}_2 \Leftrightarrow \\ \Leftrightarrow
+	&3e^1+2e^2+e^3=k_1(e^1+0e^2+0e^3)+k_2(2e^1+e^2+0e^3) \Leftrightarrow \\ \Leftrightarrow
+	&\begin{cases}
+	3=k_1+2k_2 \\
+	2=k_2 \\
+	1\neq0
+	\end{cases} \Leftrightarrow
+	1\neq0 \Leftrightarrow
+	\text{ linjärt oberoende}
+	\end{align*}
+	$e^{'}_1$, $e^{'}_2$ och $e^{'}_3$ är en bas i rummet.
 \end{quotation}
 
 \texttt{\tskcol{~~~~~~b) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	\[x^{'}_1e^{'}_1+x^{'}_2e^{'}_2+x^{'}_3e^{'}_3=x_1e_1+x_2e_2+x_3e_3\]
+	\begin{align*}
+	VL=&x^{'}_1(e_1)+x^{'}_2(2e_1+e_2)+x^{'}_3(3e_1+2e_2+e_3)= \\ =
+	&(x^{'}_1+2x^{'}_2+3x^{'}_3)e_1+(x^{'}_2+2x^{'}_3)e_2+x^{'}_3e_3
+	\end{align*}
+	identifiera variablerna:
+	\[\begin{cases}
+	x_1=x^{'}_1+2x^{'}_2+3x^{'}_3 \\
+	x_2=x^{'}_2+2x^{'}_3 \\
+	x_3=x^{'}_3
+	\end{cases}\]
 \end{quotation}
 
+\pagebreak
 \texttt{\tskcol{~~~~~~c) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	\[u=
+	2e_1+7e_3 \Leftrightarrow
+	\begin{cases}
+	2=x^{'}_1+2x^{'}_2+3x^{'}_3 \\
+	0=x^{'}_2+2x^{'}_3 \\
+	7=x^{'}_3
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	x^{'}_3=7 \\
+	x^{'}_2=-14 \\
+	x^{'}_1=9
+	\end{cases}\]
+	\\
+	\textbf{Svar:} $(x^{'}_1,x^{'}_2,x^{'}_3)=(9,-14,7)$
 \end{quotation}
 
 \texttt{\tskcol{2.25~~~~ (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	Visa att $\hat{e}_1$, $\hat{e}_2$ och $\hat{e}_3$ är linjärt oberoende.
+	\begin{align*}
+	&\lambda_1\hat{e}_1+\lambda_2\hat{e}_2+\lambda_3\hat{e}_3=0 \Leftrightarrow \\ \Leftrightarrow
+	&\lambda_1(e_1+e_2)+\lambda_2(e_1+e_2-e_3)+\lambda_3(e_2-e_3)=0 \Leftrightarrow \\ \Leftrightarrow
+	&(\lambda_1+\lambda_2)e_1+(\lambda_1+\lambda_2+\lambda_3)e_2+(-\lambda_2-\lambda_3)e_3=0 \Leftrightarrow \\ \Leftrightarrow
+	&\begin{cases}
+	0=\lambda_1+\lambda_2 \\
+	0=\lambda_1+\lambda_2+\lambda_3 \\
+	0=-\lambda_2-\lambda_3 \\
+	\end{cases}
+	\end{align*}
+	Enda lösningen är $\lambda_1=\lambda_2=\lambda_3=0$ vilket innebär att de är linjärt oberoende och där med en möjlig bas i rummet.
+	\[u=2e_1+3e_2-2e_3=\hat{x}_1\hat{e}_1+\hat{x}_2\hat{e}_2+\hat{x}_3\hat{e}_3\]
+	\begin{align*}
+	HL=&\hat{x}_1(e_1+e_2)+\hat{x}_2(e_1+e_2-e_3)+\hat{x}_3(e_2-e_3)= \\ =
+	&(\hat{x}_1+\hat{x}_2)e^1+(\hat{x}_1+\hat{x}_2+\hat{x}_3)e^2+(-\hat{x}_2-\hat{x}_3)e^3
+	\end{align*}
+	Identifiera variablerna (gausselimination):
+	\[\begin{cases}
+	2=\hat{x}_1+\hat{x}_2 \\
+	3=\hat{x}_1+\hat{x}_2+\hat{x}_3 \\
+	-2=-\hat{x}_2-\hat{x}_3
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	2=\hat{x}_1+\hat{x}_2 \\
+	1=\hat{x}_3 \\
+	-2=-\hat{x}_2-\hat{x}_3
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	\hat{x}_3=1 \\
+	\hat{x}_2=1 \\
+	\hat{x}_1=1
+	\end{cases}
+	\]
+	\\
+	\textbf{Svar:} $(1,1,1)$
 \end{quotation}
 
 \texttt{\tskcol{2.26~~~~ (s.)}}

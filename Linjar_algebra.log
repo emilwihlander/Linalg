@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.21)  23 MAY 2016 04:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.21)  24 MAY 2016 16:22
 entering extended mode
 **./Linjar_algebra.tex
 (Linjar_algebra.tex
@@ -667,61 +667,50 @@ Underfull \hbox (badness 10000) in paragraph at lines 1885--1888
  []
 
 [30]
-Underfull \hbox (badness 10000) in paragraph at lines 1913--1916
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1920--1923
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1927--1930
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1934--1937
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1941--1944
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1948--1951
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1955--1958
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1962--1965
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1969--1972
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1976--1979
-
+Overfull \hbox (0.99026pt too wide) detected at line 1922
+[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 k[] \OMS/cmsy/m/n/10 ,  \OML/cmm/m/it/10 
+e[] \OT1/cmr/m/n/10 + 2\OML/cmm/m/it/10 e[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 
+k\OT1/cmr/m/n/10 (3\OML/cmm/m/it/10 e[] \OT1/cmr/m/n/10 + 4\OML/cmm/m/it/10 e[]
+\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 , [] , \OML/cmm/m/it/10 k \OT1/cmr/m/n/10 = 
+\OMS/cmsy/m/n/10  [] 6\OT1/cmr/m/n/10 = []
  []
 
 [31]
-Underfull \hbox (badness 10000) in paragraph at lines 1983--1986
+Underfull \hbox (badness 10000) in paragraph at lines 1956--1960
 
  []
 
-[32] (Linjar_algebra.aux) ) 
+[32]
+Underfull \hbox (badness 10000) in paragraph at lines 2069--2072
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2076--2079
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2083--2086
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2090--2093
+
+ []
+
+[33]
+Underfull \hbox (badness 10000) in paragraph at lines 2097--2100
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2104--2107
+
+ []
+
+[34] (Linjar_algebra.aux) ) 
 Here is how much of TeX's memory you used:
  3509 strings out of 493634
  45491 string characters out of 3135239
@@ -745,10 +734,11 @@ grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/emilw/AppDa
 ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/
 emilw/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.p
 fb><C:/Users/emilw/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmsy7.pfb>
-Output written on Linjar_algebra.pdf (32 pages, 257042 bytes).
+s/cm/cmsy5.pfb><C:/Users/emilw/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmsy7.pfb>
+Output written on Linjar_algebra.pdf (34 pages, 270981 bytes).
 PDF statistics:
- 322 PDF objects out of 1000 (max. 8388607)
+ 332 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
