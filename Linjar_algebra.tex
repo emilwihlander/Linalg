@@ -2394,6 +2394,11 @@
 \texttt{\tskcol{3.10~~a) (s.)}}
 \begin{quotation}
 	\noindent
+	\[\begin{cases}
+	x=1+\sqrt{2}t_1-t_2 \\
+	y=2+\sqrt{3}t_1 \\
+	z=3+t_1+2t_2
+	\end{cases}\]
 	\\ \\
 	\textbf{Svar:}
 \end{quotation}
@@ -2401,162 +2406,533 @@
 \texttt{\tskcol{~~~~~~b) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	Låt $P_0:(0,1,2)$. \\
+	Riktningsvektorerna:
+	\[v_1=(1,2,3)-(0,1,2)=(1,1,1)\]
+	\[v_2=(3,4,1)-(0,1,2)=(3,3,-1)\]
+	Planets ekvation på parameterform:
+	\[\begin{cases}
+	x=t_1+3t_2 \\
+	y=1+t_1+3t_2 \\
+	z=2+t_1-t_2
+	\end{cases}\]
 \end{quotation}
 
 \texttt{\tskcol{3.11~~a) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	Låt $x=t_1$ och $y=t_2$. Planets ekvation på parameterform:
+	\[\begin{cases}
+	x=t_1 \\
+	y=t_2 \\
+	z=3+2t_1+t_2
+	\end{cases}\]
 \end{quotation}
 
 \texttt{\tskcol{~~~~~~b) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	Låt $x=t_1$ och $z=t_2$. Planets ekvation på parameterform:
+	\[\begin{cases}
+	x=t_1 \\
+	y=1-2t_2 \\
+	z=t_2
+	\end{cases}\]
 \end{quotation}
 
+\pagebreak
 \texttt{\tskcol{3.12~~~~ (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	Sätt in och testa (gausselimination).
+	\[\begin{cases}
+	0=1+s-t \\
+	-3=2+s+t \\
+	2=3-s+2t
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	0=1+s-t \\
+	-3=3+2s \\
+	2=5+s
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	t=-2 \\
+	s=-3
+	\end{cases} \Leftrightarrow
+	\text{ ligger i planet}\]
+	\[\begin{cases}
+	1=1+s-t \\
+	-2=2+s+t \\
+	1=3-s+2t
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	0=1+s-t \\
+	-1=3+2s \\
+	3=5+s
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	t=-2 \\
+	s=-2
+	\end{cases} \Leftrightarrow
+	\text{ ligger i planet}\]
+	\[\begin{cases}
+	2=1+s-t \\
+	3=2+s+t \\
+	1=3-s+2t
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	2=1+s-t \\
+	4=3+2s \\
+	5=5+s
+	\end{cases} \Leftrightarrow
+	s=0 \neq \frac{1}{2} \Leftrightarrow
+	\text{ ligger inte i planet}\]
+	\\
+	\textbf{Svar:} $(0,-3,2)$ och $(1,-2,1)$ ligger i planet, $(2,3,1)$ ligger inte i planet
 \end{quotation}
 
 \texttt{\tskcol{3.13~~~~ (s.)}}
 \begin{quotation}
 	\noindent
+	Punkten $(x,y,z)$ ligger i planet då: 
+	\[\begin{cases}
+	1+s-t=x \\
+	2+s+t=y \\
+	3-s+2t=z
+	\end{cases}\]
+	Gausselimination:
+	\begin{align*}
+	\begin{cases}
+	s-t=x-1 \\
+	s+t=y-2 \\
+	-s+2t=z-3
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	s-t=x-1 \\
+	2t=-x+y-1 \\
+	t=x+z-4
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	s-t=x-1 \\
+	2t=-x+y-1 \\
+	0=3x-y+2z-7
+	\end{cases}
+	\end{align*}
+	Sista ekvationen ger vilket samband som måste råda mellan $x$, $y$ och $z$.
 	\\ \\
-	\textbf{Svar:}
+	\textbf{Svar:} $3x-y+2z-7=0$
 \end{quotation}
 
 \texttt{\tskcol{3.14~~a) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	Använd gausselimination:
+	\[\begin{cases}
+	s+t=x+1 \\
+	-s+2t=y \\
+	s-t=z
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	s+t=x+1 \\
+	3t=x+y+1 \\
+	-2t=-x+z-1
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	s+t=x+1 \\
+	3t=x+y+1 \\
+	0=-x+2y+3z-1
+	\end{cases}\]
+	\[-x+2y+3z-1=0 \Leftrightarrow
+	x-2y-3z+1=0\]
+	\\
+	\textbf{Svar:} $x-2y-3z+1=0$
 \end{quotation}
 
+\pagebreak
 \texttt{\tskcol{~~~~~~b) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	Använd gausselimination:
+	\[\begin{cases}
+	s-t=x-1 \\
+	2s-t=y \\
+	s+2t=z+1
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	s-t=x-1 \\
+	t=-2x+y+2 \\
+	3t=-x+z+2
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	s-t=x-1 \\
+	t=-2x+y+2 \\
+	0=5x-3y+z-4
+	\end{cases}\]
+	\\
+	\textbf{Svar:} $5x-3y+z-4=0$
 \end{quotation}
 
 \texttt{\tskcol{~~~~~~c) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	Använd gausselimination:
+	\[\begin{cases}
+	s-t=x-1 \\
+	-s=y-2 \\
+	2s=z+1
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	s-t=x-1 \\
+	-s=y-2 \\
+	0=2y+z-3
+	\end{cases}\]
+	\\
+	\textbf{Svar:} $2y+z-3=0$
 \end{quotation}
 
 \texttt{\tskcol{~~~~~~d) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	Använd andra ekvationen:
+	\[\begin{cases}
+	s=x-1 \\
+	0=y-1 \\
+	-t=z-3
+	\end{cases}\]
+	\\
+	\textbf{Svar:} $y-1=0$
 \end{quotation}
 
 \texttt{\tskcol{3.15~~~~ (s.)}}
 \begin{quotation}
 	\noindent
+	Ersätt $x$, $y$ och $z$ med linjens ekvation.
+	\[2(1-t)+3t-(2+t)-5=0 \Leftrightarrow
+	0t-5=0\]
+	Saknar lösning vilket medför att linjen inte skär planet.
 	\\ \\
-	\textbf{Svar:}
+	\textbf{Svar:} linjen skär inte planet
 \end{quotation}
 
 \texttt{\tskcol{3.16~~~~ (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	Skriv om planet i ekvationsform med hjälp av gausselimination.
+	\[\begin{cases}
+	s-t=x-1 \\
+	s+t=y-2 \\
+	-s+2t=z-3
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	s-t=x-1 \\
+	2t=-x+y-1 \\
+	t=x+z-4
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	s-t=x-1 \\
+	2t=-x+y-1 \\
+	0=3x-y+2z-7
+	\end{cases}\]
+	Sätt in linjens ekvation i planets ekvation.
+	\[3x-y+2z-7=0 \Leftrightarrow
+	3(1+t)-(3+2t)+2*(-4)t-7=0 \Leftrightarrow
+	t=-1\]
+	sätt in $t$ i linjen för att få ut koordinaterna.
+	\[(x,y,z)=(1-1,3-2*1,4*1)=(0,1,4)\]
+	\\
+	\textbf{Svar:} $(0,1,4)$
 \end{quotation}
 
 \texttt{\tskcol{3.17~~a) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	För att linjerna ska skära varandra ska ekvationssystemet stämma (gausselimination):
+	\[\begin{cases}
+	1+t_1=t_2 \\
+	1+2t_1=2+t_2 \\
+	1+3t_1=b-2t_2
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	1+t_1=t_2 \\
+	-1=2-t_2 \\
+	-2=b-5t_2
+	\end{cases}\]
+	För att det ska finnas en lösning måste:
+	\[3=\frac{b+2}{5} \Leftrightarrow
+	b=13\]
+	\\
+	\textbf{Svar:} $b=13$
 \end{quotation}
 
 \texttt{\tskcol{~~~~~~b) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	Låt $P_0$ vara punkten där linjerna skär varandra $t_2=3 \Rightarrow P_0:(3,5,7)$.
+	Skapa två riktningsvektorer genom att välja ett $t$ per linje så att punkten skiljer sig från $P_0$.
+	\[v_1=(1+3,1+2*3,1+3*3)-(3,5,7)=(1,2,3)\]
+	\[v_2=(4,2+4,13-2*4)-(3,5,7)=(1,1,-2)\]
+	\[\begin{cases}
+	x=3+t_1+t_2 \\
+	y=5+2t_1+t_2 \\
+	z=7+3t_1-2t_2
+	\end{cases}\]
+	Gausselimination:
+	\[\begin{cases}
+	t_1+t_2=x-3 \\
+	2t_1+t_2=y-5 \\
+	3t_1-2t_2=z-7
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	t_1+t_2=x-3 \\
+	-t_2=-2x+y+1 \\
+	-5t_2=-3x+z+2
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	t_1+t_2=x-3 \\
+	-t_2=-2x+y+1 \\
+	0=7x-5y+z-3
+	\end{cases}\]
+	\[7x-5y+z-3=0 \Leftrightarrow
+	-7x+5y-z+3=0\]
+	\\
+	\textbf{Svar:} $-7x+5y-z+3=0$
 \end{quotation}
 
 \texttt{\tskcol{3.18~~a) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	Låt $z=t$. Gausselimination:
+	\[\begin{cases}
+	x+y+z=1 \\
+	2x-y+5z=5
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	x+y+z=1 \\
+	-3y+3z=3
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	x=2-2t \\
+	y=-1+t \\
+	z=t
+	\end{cases}\]
+	\\
+	\textbf{Svar:} $(x,y,z)=(2-2t,-1+t,t)$
 \end{quotation}
 
+\pagebreak
 \texttt{\tskcol{~~~~~~b) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	Låt $x=t$.
+	\[\begin{cases}
+	3x-z=-1 \\
+	2x+y+z=0
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	x=t \\
+	y=-1-5t \\
+	z=1+3t
+	\end{cases}\]
+	\\
+	\textbf{Svar:} $(x,y,z)=(t,-1-5t,1+3t)$
 \end{quotation}
 
 \texttt{\tskcol{~~~~~~c) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	Låt $z=t$. Gausselimination:
+	\[\begin{cases}
+	x+y+z=2 \\
+	2x+2y+2z=1
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	x+y+z=2 \\
+	0\neq-3
+	\end{cases}\]
+	$0\neq-3$ medför att planen inte skär varandra.
+	\\
+	\textbf{Svar:} planen skär inte varandra
 \end{quotation}
 
 \texttt{\tskcol{~~~~~~d) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	Låt $z=t$. Gausselimination:
+	\[\begin{cases}
+	x-y+2z=4 \\
+	3x-3y+6z=12
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	x-y+2z=4 \\
+	0=0
+	\end{cases}\]
+	$0=0$ medför att planen sammanfaller.
+	\\
+	\textbf{Svar:} planen sammanfaller
 \end{quotation}
 
 \texttt{\tskcol{3.19~~a) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	Hitta linjen då planen skär varandra. Låt $z=1+5s$
+	\[\begin{cases}
+	3x-2y+z=6 \\
+	x+y-2z=8
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	3x-2y+z=6 \\
+	5y-7z=18
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	x=5+3s \\
+	y=5+7s \\
+	z=1+5s
+	\end{cases}\]
+	Hitta där linjerna skär varandra.
+	\[\begin{cases}
+	1+5t=5+3s \\
+	1+t=5+7s \\
+	-1-t=1+5s
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	1+5t=5+3s \\
+	4=20+32s \\
+	-4=10+28s
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	t=\frac{1}{2} \\
+	s=-\frac{1}{2}
+	\end{cases}
+	\]
+	Sätt in $t$ i ursprungslinjen.
+	\[(x,y,z)=(1,1,-1)+\frac{1}{2}(5,1,-1)=\frac{1}{2}(7,3,-3)\]
+	\\
+	\textbf{Svar:} $\frac{1}{2}(7,3,-3)$
 \end{quotation}
 
+\pagebreak
 \texttt{\tskcol{~~~~~~b) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	Låt $P_0:\frac{1}{2}(7,3,-3)$. Bestäm riktningsvektorerna (se linjen från \texttt{\tskcol{a)}}):
+	\[v_1=(1,1,-1)+(5,1,-1)-\frac{1}{2}(7,3,-3)=\frac{1}{2}(5,1,-1)\]
+	\[v_2=(5+3*1,5+7*1,1+5*1)-\frac{1}{2}(7,3,-3)=\frac{3}{2}(3,7,5)\]
+	Vektorerna har $(5,1,-1)$ och $(3,7,5)$ har samma riktning som $v_1$ respektive $v_2$ och kan användas istället.
+	\[\begin{cases}
+	x=\frac{7}{2}+5t+3s \\
+	y=\frac{3}{2}+t+7s \\
+	z=-\frac{3}{2}-t+5s
+	\end{cases}\]
+	Använd gausselimination för att få det i affin form.
+	\[\begin{cases}
+	5t+3s=x-\frac{7}{2} \\
+	t+7s=y-\frac{3}{2} \\
+	-t+5s=z+\frac{3}{2}
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	5t+3s=x-\frac{7}{2} \\
+	32s=-x+5y-4 \\
+	28s=x+5z+4
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	5t+3s=x-\frac{7}{2} \\
+	32s=-x+5y-4 \\
+	0=20(3x-7y+8z+12)
+	\end{cases}\]
+	\[0=20(3x-7y+8z+12)\Leftrightarrow
+	3x-7y+8z+12=0\]
+	\\
+	\textbf{Svar:} $3x-7y+8z+12=0$
 \end{quotation}
 
 \texttt{\tskcol{3.20~~~~ (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	Ta planets ekvation och sätt in värdena från linjen.
+	\[2(1+2t)-3(a+3t)+7+5t-3=0 \Leftrightarrow
+	0t-3a+6=0\]
+	Stämmer endast när $a=2$. 
+	Eftersom det inte finns några $t$ så är linjen parallell med planet och när $a=2$ samman faller dem.
 \end{quotation}
 
+\pagebreak
 \texttt{\tskcol{3.21~~~~ (s.)}}
 \begin{quotation}
 	\noindent
+	Ta linjen som blir om vektorn skulle fortsatt i båda riktningarna och se om den skär planet i en punkt, om inte är de parallella.
 	\\ \\
-	\textbf{Svar:}
+	vektorn: $(1,2,0)$ motsvarande linje: $t(1,2,0)$.
+	\[2t-2t+3=0 \Leftrightarrow
+	0t+3=0\]
+	Skär planet i noll punkter $\Rightarrow$ parallella.
+	\\ \\
+	vektorn: $(-1,1,1)$ motsvarande linje: $t(-1,1,1)$.
+	\[-2t-t+t+3=0 \Leftrightarrow
+	-2t+3=0\]
+	Skär planet i en punkt $\Rightarrow$ ej parallella.
+	\\ \\
+	vektorn: $(2,1,3)$ motsvarande linje: $t(2,1,3)$.
+	\[4t-t+3t+3=0 \Leftrightarrow
+	6t+3=0\]
+	Skär planet i en punkt $\Rightarrow$ ej parallella.
+	\\ \\
+	vektorn: $(2,1,-3)$ motsvarande linje: $t(2,1,-3)$.
+	\[4t-t-3t+3=0 \Leftrightarrow
+	0t+3=0\]
+	Skär planet i noll punkter $\Rightarrow$ parallella.
+	\\ \\
+	\textbf{Svar:} $(1,2,0)$ och $(2,1,-3)$ är parallella med planet
 \end{quotation}
 
 \texttt{\tskcol{3.22~~~~ (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	Låt:
+	\[x-1=\frac{y-1}{2}=\frac{z-2}{2}=t \Leftrightarrow
+	\begin{cases}
+	x=t+1 \\
+	y=2t+1 \\
+	z=3t+2
+	\end{cases}\]
+	Sätt in värdena från linjen i ekvationen för planet. De är parallella när $t$:na tar ut varandra.
+	\[3(t+1)+b(2t+1)+3t+2-1=0 \Leftrightarrow
+	(3+2b+3)t+b+4=0\]
+	\[3+2b+2=0 \Leftrightarrow
+	b=-3\]
+	\\
+	\textbf{Svar:} $b=-3$
 \end{quotation}
 
+\pagebreak
 \texttt{\tskcol{3.23~~~~ (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	\[\ell=(1,-2,-1)+s(a,b,c)\]
+	\[1+sa+3(-2+sb)-(-1+sc)=0 \Leftrightarrow
+	(a+3b-c)s-4=0\]
+	\[\begin{cases}
+	1+sa=1+t \\
+	-2+sb=2-t \\
+	-1+sc=3+2t \\
+	a+3b-c=0
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	a=\frac{t}{s} \\
+	b=\frac{4-t}{s} \\ 
+	c=\frac{4+2t}{s} \\
+	a+3b-c=0
+	\end{cases}\]
+	substitutionsmetoden:
+	\[\frac{t}{s}+3(\frac{4-t}{s})-\frac{4+2t}{s}=0 \Leftrightarrow t=2\]
+	\[\begin{cases}
+	sa=2 \\
+	sb=2 \\
+	sc=8
+	\end{cases}\]
+	riktningsvektor med samma riktning $(1,1,4)$.
+	\[\ell=(1,-2,-1)+s(1,1,4)\]
+	\\
+	\textbf{Svar:} $(1+s,-2+s,-1+4s)$
 \end{quotation}
 
 \texttt{\tskcol{3.24~~a) (s.)}}
