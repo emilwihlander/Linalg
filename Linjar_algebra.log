@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.21)  25 MAY 2016 00:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.21)  25 MAY 2016 04:22
 entering extended mode
 **./Linjar_algebra.tex
 (Linjar_algebra.tex
@@ -832,61 +832,353 @@ Underfull \hbox (badness 10000) in paragraph at lines 2881--2885
  []
 
 [45]
-Underfull \hbox (badness 10000) in paragraph at lines 2932--2935
+Underfull \hbox (badness 10000) in paragraph at lines 2940--2943
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2939--2942
+Underfull \hbox (badness 10000) in paragraph at lines 2947--2950
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2946--2949
+Underfull \hbox (badness 10000) in paragraph at lines 2954--2957
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2953--2956
+Underfull \hbox (badness 10000) in paragraph at lines 2961--2964
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2960--2963
+Underfull \hbox (badness 10000) in paragraph at lines 2968--2971
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2967--2970
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2974--2977
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2981--2984
+Underfull \hbox (badness 10000) in paragraph at lines 2975--2978
 
  []
 
 [46]
-Underfull \hbox (badness 10000) in paragraph at lines 2988--2991
+Underfull \hbox (badness 10000) in paragraph at lines 2982--2985
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2995--2998
+Underfull \hbox (badness 10000) in paragraph at lines 2989--2992
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3002--3005
+Underfull \hbox (badness 10000) in paragraph at lines 2996--2999
 
  []
 
-[47] (Linjar_algebra.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 3003--3006
+
+ []
+
+[47]
+Underfull \hbox (badness 10000) in paragraph at lines 3070--3073
+
+ []
+
+[48]
+Overfull \hbox (34.72247pt too wide) detected at line 3103
+\OML/cmm/m/it/10 W \OT1/cmr/m/n/10 = (1\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10  \OT
+1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 1) \OMS/cmsy
+/m/n/10  \OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 
+; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 5) = 1 
+\OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 (2) + (\OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 2) 
+\OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 2) + (\OM
+S/cmsy/m/n/10  \OT1/cmr/m/n/10 1) \OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 (5) = +2 +
+ 4 \OMS/cmsy/m/n/10   \OT1/cmr/m/n/10 5 = 1
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3142--3145
+
+ []
+
+[49]
+Underfull \hbox (badness 10000) in paragraph at lines 3181--3185
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3189--3192
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3196--3199
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3203--3206
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3210--3213
+
+ []
+
+[50]
+Underfull \hbox (badness 10000) in paragraph at lines 3217--3220
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3224--3227
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3231--3234
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3238--3241
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3245--3248
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3252--3255
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3259--3262
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3266--3269
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3273--3276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3280--3283
+
+ []
+
+[51]
+Underfull \hbox (badness 10000) in paragraph at lines 3287--3290
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3294--3297
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3301--3304
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3308--3311
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3315--3318
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3322--3325
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3329--3332
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3336--3339
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3343--3346
+
+ []
+
+[52]
+Underfull \hbox (badness 10000) in paragraph at lines 3350--3353
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3357--3360
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3364--3367
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3371--3374
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3378--3381
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3385--3388
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3392--3395
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3399--3402
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3406--3409
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3413--3416
+
+ []
+
+[53]
+Underfull \hbox (badness 10000) in paragraph at lines 3420--3423
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3427--3430
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3434--3437
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3441--3444
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3448--3451
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3455--3458
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3462--3465
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3469--3472
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3476--3479
+
+ []
+
+[54]
+Underfull \hbox (badness 10000) in paragraph at lines 3483--3486
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3490--3493
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3497--3500
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3504--3507
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3511--3514
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3518--3521
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3525--3528
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3532--3535
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3539--3542
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3546--3549
+
+ []
+
+[55]
+Underfull \hbox (badness 10000) in paragraph at lines 3553--3556
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3560--3563
+
+ []
+
+[56] (Linjar_algebra.aux) ) 
 Here is how much of TeX's memory you used:
  3509 strings out of 493634
  45491 string characters out of 3135239
@@ -913,9 +1205,9 @@ emilw/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb
 cm/cmsy10.pfb><C:/Users/emilw/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/cm/cmsy5.pfb><C:/Users/emilw/AppData/Local/Programs/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on Linjar_algebra.pdf (47 pages, 308673 bytes).
+Output written on Linjar_algebra.pdf (56 pages, 333619 bytes).
 PDF statistics:
- 384 PDF objects out of 1000 (max. 8388607)
+ 417 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
