@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.21)  25 MAY 2016 04:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.21)  26 MAY 2016 01:25
 entering extended mode
 **./Linjar_algebra.tex
 (Linjar_algebra.tex
@@ -908,124 +908,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 3181--3185
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 3189--3192
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3196--3199
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3203--3206
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3210--3213
-
- []
-
 [50]
-Underfull \hbox (badness 10000) in paragraph at lines 3217--3220
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3224--3227
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3231--3234
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3238--3241
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3245--3248
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3252--3255
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3259--3262
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3266--3269
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3273--3276
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3280--3283
-
+Overfull \hbox (45.67378pt too wide) in paragraph at lines 3242--3242
+[] 
  []
 
 [51]
-Underfull \hbox (badness 10000) in paragraph at lines 3287--3290
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3294--3297
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3301--3304
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3308--3311
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3315--3318
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3322--3325
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3329--3332
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3336--3339
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3343--3346
+Underfull \hbox (badness 10000) in paragraph at lines 3293--3296
 
  []
 
 [52]
-Underfull \hbox (badness 10000) in paragraph at lines 3350--3353
+Overfull \hbox (36.87712pt too wide) in paragraph at lines 3334--3334
+[] 
+ []
 
+
+Overfull \hbox (23.4607pt too wide) in paragraph at lines 3342--3342
+[] 
+ []
+
+
+Overfull \hbox (31.23863pt too wide) in paragraph at lines 3350--3350
+[] 
  []
 
 
@@ -1043,7 +948,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3371--3374
 
  []
 
-
+[53]
 Underfull \hbox (badness 10000) in paragraph at lines 3378--3381
 
  []
@@ -1073,7 +978,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3413--3416
 
  []
 
-[53]
+
 Underfull \hbox (badness 10000) in paragraph at lines 3420--3423
 
  []
@@ -1088,7 +993,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3434--3437
 
  []
 
-
+[54]
 Underfull \hbox (badness 10000) in paragraph at lines 3441--3444
 
  []
@@ -1118,7 +1023,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3476--3479
 
  []
 
-[54]
+
 Underfull \hbox (badness 10000) in paragraph at lines 3483--3486
 
  []
@@ -1133,7 +1038,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3497--3500
 
  []
 
-
+[55]
 Underfull \hbox (badness 10000) in paragraph at lines 3504--3507
 
  []
@@ -1168,7 +1073,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3546--3549
 
  []
 
-[55]
+
 Underfull \hbox (badness 10000) in paragraph at lines 3553--3556
 
  []
@@ -1178,7 +1083,92 @@ Underfull \hbox (badness 10000) in paragraph at lines 3560--3563
 
  []
 
-[56] (Linjar_algebra.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 3567--3570
+
+ []
+
+[56]
+Underfull \hbox (badness 10000) in paragraph at lines 3574--3577
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3581--3584
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3588--3591
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3595--3598
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3602--3605
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3609--3612
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3616--3619
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3623--3626
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3630--3633
+
+ []
+
+[57]
+Underfull \hbox (badness 10000) in paragraph at lines 3637--3640
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3644--3647
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3651--3654
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3658--3661
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3665--3668
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3672--3675
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3679--3682
+
+ []
+
+[58] (Linjar_algebra.aux) ) 
 Here is how much of TeX's memory you used:
  3509 strings out of 493634
  45491 string characters out of 3135239
@@ -1205,9 +1195,9 @@ emilw/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb
 cm/cmsy10.pfb><C:/Users/emilw/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/cm/cmsy5.pfb><C:/Users/emilw/AppData/Local/Programs/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on Linjar_algebra.pdf (56 pages, 333619 bytes).
+Output written on Linjar_algebra.pdf (58 pages, 335178 bytes).
 PDF statistics:
- 417 PDF objects out of 1000 (max. 8388607)
+ 423 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

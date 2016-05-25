@@ -3184,53 +3184,172 @@
 	\textbf{Svar:} $\frac{1}{5}(2,-11)$
 \end{quotation}
 
+\pagebreak
 \texttt{\tskcol{4.9~~~a) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	Om alla är vektorerna är ortogonala mot varandra och har längden 1 utgör de en ortonormerad bas.
+	\[e^{'}_1*e^{'}_2=\frac{1}{3}*\frac{2}{3}+\frac{2}{3}*\frac{1}{3}-\frac{2}{3}*\frac{2}{3}=0\]
+	\[e^{'}_2*e^{'}_3=\frac{2}{3}*\frac{2}{3}-\frac{1}{3}*\frac{2}{3}-\frac{2}{3}*\frac{1}{3}=0\]
+	\[e^{'}_1*e^{'}_3=\frac{1}{3}*\frac{2}{3}-\frac{2}{3}*\frac{2}{3}+\frac{2}{3}*\frac{1}{3}=0\]
+	\[e^{'}_1*e^{'}_1=\left(\frac{1}{3}\right)^2+\left(\frac{2}{3}\right)^2+\left(-\frac{2}{3}\right)^2=1\]
+	\[e^{'}_2*e^{'}_2=\left(\frac{2}{3}\right)^2+\left(\frac{1}{3}\right)^2+\left(\frac{2}{3}\right)^2=1\]
+	\[e^{'}_3*e^{'}_3=\left(\frac{2}{3}\right)^2+\left(-\frac{2}{3}\right)^2+\left(-\frac{1}{3}\right)^2=1\]
+	Vektorerna utger en ortonormerad bas.
+	\[x_1e_1+x_2e_2+x_3e_3=x^{'}_1e^{'}_1+x^{'}_2e^{'}_2+x^{'}_3e^{'}_3\]
+	\begin{align*}
+	HL=&
+	x^{'}_1(\frac{1}{3}e_1+\frac{2}{3}e_2-\frac{2}{3}e_3)+
+	x^{'}_2(\frac{2}{3}e_1+\frac{1}{3}e_2+\frac{2}{3}e_3)+
+	x^{'}_3(\frac{2}{3}e_1-\frac{2}{3}e_2-\frac{1}{3}e_3)= \\ =
+	&(\frac{1}{3}x^{'}_1+\frac{2}{3}x^{'}_2+\frac{2}{3}x^{'}_3)e_1+
+	(\frac{2}{3}x^{'}_1+\frac{1}{3}x^{'}_2-\frac{2}{3}x^{'}_3)e_2+
+	(-\frac{2}{3}x^{'}_1+\frac{2}{3}x^{'}_2-\frac{1}{3}x^{'}_3)e_3
+	\end{align*}
+	Identifiera variablerna:
+	\[\begin{cases}
+	x_1=\frac{1}{3}x^{'}_1+\frac{2}{3}x^{'}_2+\frac{2}{3}x^{'}_3 \\
+	x_2=\frac{2}{3}x^{'}_1+\frac{1}{3}x^{'}_2-\frac{2}{3}x^{'}_3 \\
+	x_3=-\frac{2}{3}x^{'}_1+\frac{2}{3}x^{'}_2-\frac{1}{3}x^{'}_3
+	\end{cases}\]
+	Sätt in $u$:
+	\begin{align*}
+	&\begin{cases}
+	1=\frac{1}{3}x^{'}_1+\frac{2}{3}x^{'}_2+\frac{2}{3}x^{'}_3 \\
+	-1=\frac{2}{3}x^{'}_1+\frac{1}{3}x^{'}_2-\frac{2}{3}x^{'}_3 \\
+	2=-\frac{2}{3}x^{'}_1+\frac{2}{3}x^{'}_2-\frac{1}{3}x^{'}_3
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	3=x^{'}_1+2x^{'}_2+2x^{'}_3 \\
+	-3=2x^{'}_1+x^{'}_2-2x^{'}_3 \\
+	6=-2x^{'}_1+2x^{'}_2-x^{'}_3
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	3=x^{'}_1+2x^{'}_2+2x^{'}_3 \\
+	-9=-3x^{'}_2-6x^{'}_3 \\
+	12=6x^{'}_2+3x^{'}_3
+	\end{cases} \Leftrightarrow \\ \Leftrightarrow
+	&\begin{cases}
+	3=x^{'}_1+2x^{'}_2+2x^{'}_3 \\
+	-9=-3x^{'}_2-6x^{'}_3 \\
+	-6=-9x^{'}_3
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	x_1=-\frac{5}{3} \\
+	x_2=\frac{5}{3} \\
+	x_3=\frac{2}{3}
+	\end{cases}
+	\end{align*}
+	\\
+	\textbf{Svar:} $u=\frac{1}{3}(-5,5,1)$
 \end{quotation}
 
 \texttt{\tskcol{~~~~~~b) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	\[u=\frac{1}{3}(x_1+2x_2-2x_3,2x_1+x_2+2x_3,2x_1-2x_2-x_3)\]
 \end{quotation}
 
 \texttt{\tskcol{4.10~~a) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	\[\cos[u,v]=\frac{u*v}{|u||v|} \Leftrightarrow
+	[u,v]=\arccos\frac{u*v}{|u||v|}\]
+	\begin{align*}
+	[u,v]=&\arccos\frac{(1,\sqrt{3})*(0,\sqrt{3})}{\sqrt{1^2+\sqrt{3}^2}\sqrt{\sqrt{3}^2}}=
+	\arccos\frac{1*0+\sqrt{3}*\sqrt{3}}{2\sqrt{3}}= \\ =
+	&\arccos\frac{3}{2\sqrt{3}}=
+	\arccos\frac{\sqrt{3}}{2}=
+	\frac{\pi}{6}
+	\end{align*}
+	\\
+	\textbf{Svar:} $\frac{\pi}{6}$
 \end{quotation}
 
 \texttt{\tskcol{~~~~~~b) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	\[\cos[u,v]=\frac{u*v}{|u||v|} \Leftrightarrow
+	[u,v]=\arccos\frac{u*v}{|u||v|}\]
+	\begin{align*}
+	[u,v]=&\arccos\frac{(\cos2,\sin2)*(\cos3,\sin3)}{1*1}=
+	\arccos\cos(3-2)= 1
+	\end{align*}
+	\\
+	\textbf{Svar:} $\frac{\pi}{6}$
 \end{quotation}
 
 \texttt{\tskcol{4.11~~~~ (s.)}}
 \begin{quotation}
 	\noindent
+	Skapa vektorn $u=(-1,0,2)$ och $v=(-1,1,1)$.
+	\[\cos[u,v]=\frac{u*v}{|u||v|} \Leftrightarrow
+	[u,v]=\arccos\frac{u*v}{|u||v|}\]
+	\begin{align*}
+	[u,v]=&\arccos\frac{(-1,0,2)*(-1,1,1)}{\sqrt{(-1)^2+2^2}\sqrt{(-1)^2+1^1+1^2}}= \\ =
+	&\arccos\frac{-1*(-1)+0*1+2*1}{\sqrt{5}\sqrt{3}}=
+	\arccos\frac{3}{\sqrt{5}\sqrt{3}}=
+	\arccos\sqrt{\frac{3}{5}}
+	\end{align*}
 	\\ \\
-	\textbf{Svar:}
+	\textbf{Svar:} $\arccos\sqrt{0.6}$
 \end{quotation}
 
+\pagebreak
 \texttt{\tskcol{4.12~~~~ (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	Eftersom triangeln är liksidig är $[u,v]=\pi/3$ och $|u|=|v|=a$.
+	\[\cos[u,v]=\frac{u*v}{|u||v|} \Leftrightarrow
+	[u,v]=\arccos\frac{u*v}{|u||v|}\]
+	\begin{align*}
+	&|2u+v||3v-2u|=
+	\sqrt{(2u+v)*(2u+v)}\sqrt{(3v-2u)*(3v-2u)}= \\ =
+	&\sqrt{4u*u+4u*v*\cos\frac{\pi}{3}+v*v}\sqrt{9v*v-6u*v*\cos\frac{\pi}{3}+u*u}= \\ =
+	&\sqrt{4a^2+2a^2+a^2}\sqrt{9a^2-3a^2+a^2}=
+	\sqrt{7a^2}\sqrt{7a^2}=
+	7a^2
+	\end{align*}
+	\begin{align*}
+	&[2u+v,3v-2u]=\arccos\frac{(2u+v)*(3v-2u)}{|2u+v||3v-2u|}= \\ =
+	&\arccos\frac{6u*v-4u*u+3v*v-2u*v}{7a^2}= \\ =
+	&\arccos\frac{4a^2\cos\frac{\pi}{3}-4a^2+3a^2}{7a^2}=
+	\arccos\frac{a^2}{7a^2}=
+	\arccos\frac{1}{7}
+	\end{align*}
+	\\ 
+	\textbf{Svar:} $\arccos\frac{1}{7}$
 \end{quotation}
 
 \texttt{\tskcol{4.13~~~~ (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	Låt $u=(1,0,2)-(0,-1,1)=(1,1,1)$ och $v=(2,1,2)-(0,-1,1)=(2,2,1)$
+	\begin{align*}
+	[u,v]=
+	\arccos\frac{u*v}{|u||v|}=
+	\arccos\frac{(1,1,1)*(2,2,1)}{\sqrt{1+1+1}\sqrt{2^2+2^2+1}}=
+	\arccos\frac{2+2+1}{\sqrt{3}3}=
+	\arccos\frac{5}{3\sqrt{3}}
+	\end{align*}
+	Låt $u=(0,-1,1)-(1,0,2)=(-1,-1,-1)$ och $v=(2,1,2)-(1,0,2)=(1,1,0)$
+	\begin{align*}
+	[u,v]=
+	\arccos\frac{u*v}{|u||v|}=
+	\arccos\frac{(-1,-1,-1)*(1,1,0)}{\sqrt{1+1+1}\sqrt{1+1}}=
+	\arccos\frac{-1-1}{\sqrt{3}\sqrt{2}}=
+	\arccos\sqrt{-\frac{2}{3}}
+	\end{align*}
+	Låt $u=(0,-1,1)-(2,1,2)=(-2,-2,-1)$ och $v=(1,0,2)-(2,1,2)=(-1,-1,0)$
+	\begin{align*}
+	[u,v]=
+	\arccos\frac{u*v}{|u||v|}=
+	\arccos\frac{(-2,-2,-1)*(-1,-1,0)}{\sqrt{2^2+2^2+1}\sqrt{1+1}}=
+	\arccos\frac{2+2}{\sqrt{3}\sqrt{2}}=
+	\arccos\frac{2\sqrt{2}}{\sqrt{3}}
+	\end{align*}
+	\\
+	\textbf{Svar:} Sidorna $3$, $\sqrt{3}$ och $\sqrt{2}$. vinklarna $\arccos\frac{5}{3\sqrt{3}}$, $\arccos\sqrt{-\frac{2}{3}}$ och $\arccos\frac{2\sqrt{2}}{\sqrt{3}}$
 \end{quotation}
 
 \texttt{\tskcol{4.14~~~~ (s.)}}
