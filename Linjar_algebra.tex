@@ -3352,60 +3352,235 @@
 	\textbf{Svar:} Sidorna $3$, $\sqrt{3}$ och $\sqrt{2}$. vinklarna $\arccos\frac{5}{3\sqrt{3}}$, $\arccos\sqrt{-\frac{2}{3}}$ och $\arccos\frac{2\sqrt{2}}{\sqrt{3}}$
 \end{quotation}
 
+\pagebreak
 \texttt{\tskcol{4.14~~~~ (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	Låt tetraedern ha sina hörn i $(2,0,0)$, $(0,2,0)$, $(0,0,2)$ och $(2,2,2)$. Då ligger kolatomen i $(1,1,1)$.
+	Låt $u = (1,1,1)-(2,0,0) = (1,-1,-1)$ och $v= (1,1,1)-(0,2,0) = (-1,1,-1)$
+	\begin{align*}
+	&[u,v] = \arccos\frac{u*v}{|u||v|} =
+	\arccos\frac{(1,-1,-1)*(-1,1,-1)}{\sqrt{1^2+(-1)^2+(-1)^2}\sqrt{(-1)^2+1^2+(-1)^2}}= \\ =
+	&\arccos\frac{-1-1+1}{\sqrt{3}\sqrt{3}}=
+	\arccos\left(-\frac{1}{3}\right)
+	\end{align*}
+	\\
+	\textbf{Svar:} $\arccos\left(-\frac{1}{3}\right)$
 \end{quotation}
 
 \texttt{\tskcol{4.15~~~~ (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	Låt $u=(x,y,z)$
+	\[\cos\frac{\pi}{2}=\frac{(x,y,z)*(1,0,1)}{\sqrt{2}} \Leftrightarrow
+	x+z=0\]
+	\[\cos\frac{\pi}{2}=\frac{(x,y,z)*(1,2,3)}{\sqrt{14}} \Leftrightarrow
+	x+2y+3z=0\]
+	Låt $z=t$
+	\[\begin{cases}
+	x+2y+3z=0 \\
+	x+z=0
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	x=-t
+	y=-t
+	z=t
+	\end{cases} \]
+	Att längden ska vara 1 ger:
+	\[x^2+y^2+z^2=1 \Leftrightarrow
+	(-t)^2+(-t)^2+t^2=1 \Leftrightarrow
+	3t^2=1 \Leftrightarrow
+	t=\pm\frac{1}{\sqrt{3}}\]
+	Vilket ger vektorerna:
+	\[\pm\frac{1}{\sqrt{3}}(1,1,-1)\]
+	\\
+	\textbf{Svar:} $\pm\frac{1}{\sqrt{3}}(1,1,-1)$
 \end{quotation}
 
 \texttt{\tskcol{4.16~~~~ (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	Låt $v_3=(x,y,z)$
+	För att det ska vara en ortonormerad bas ska:
+	\[v_3*v_2=0,~~v_3*v_1=0,~~v_3*v_3=1\]
+	\[v_3*v_2=(x,y,z)*\frac{1}{3}(1,2,2)=\frac{1}{3}x+\frac{2}{3}y+\frac{2}{3}z=0\]
+	\[v_3*v_1=(x,y,z)*\frac{1}{3}(-2,-1,2)=-\frac{2}{3}x-\frac{1}{3}y+\frac{2}{3}z=0\]
+	\[v_3*v_3=x^2+y^2+z^2=1\]
+	Vi väntar med $v_3*v_3$ tillsvidare och löser nedanstående ekvationssystem. Låt $z=t$
+	\[\begin{cases}
+	\frac{1}{3}x+\frac{2}{3}y+\frac{2}{3}z=0 \\
+	-\frac{2}{3}x-\frac{1}{3}y+\frac{2}{3}z=0
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	\frac{1}{3}x+\frac{2}{3}y+\frac{2}{3}z=0 \\
+	y+2z=0
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	x=2t
+	y=-2t
+	z=t
+	\end{cases}\]
+	Sätt in värdena i sista formeln:
+	\[(2t)^2+(-2t)^2+t^2=1 \Leftrightarrow
+	9t^2=1 \Leftrightarrow
+	t=\pm\frac{1}{3}\]
+	Vilket ger sista vektorn:
+	\[v_3=\frac{1}{3}(-2,2,-1) \text{ eller } v_3=\frac{1}{3}(2,-2,1)\]
+	Bestäm $u$:
+	\[x_1e_1+x_2e_2+x_3e_3=y_1v_1+y_2v_2+y_3v_3\]
+	\begin{align*}
+	HL=&y_1\frac{1}{3}(-2e_1-e_2+2e_3)+y_2\frac{1}{3}(e_1+2e_2+2e_3)+y_3\frac{1}{3}(-2e_1+2e_2-e_3)= \\ =
+	&\frac{1}{3}(-2y_1+y_2-2y_3)e_1+\frac{1}{3}(-y_1+2y_2+2y_3)e_2+\frac{1}{3}(2y_1+2y_2-y_3)e_3
+	\end{align*}
+	matcha och sätt in värdena:
+	\begin{align*}
+	&\begin{cases}
+	1=\frac{1}{3}(-2y_1+y_2-2y_3) \\
+	1=\frac{1}{3}(-y_1+2y_2+2y_3) \\
+	1=\frac{1}{3}(2y_1+2y_2-y_3)
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	3=-2y_1+y_2-2y_3 \\
+	3=3y_2+6y_3 \\
+	6=3y_2-3y_3 
+	\end{cases} \Leftrightarrow \\ \Leftrightarrow
+	&\begin{cases}
+	3=-2y_1+y_2-2y_3 \\
+	3=3y_2+6y_3 \\
+	3=-9y_3 
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	y_1=-\frac{1}{3} \\
+	y_2=\frac{5}{3} \\
+	y_3=-\frac{1}{3}
+	\end{cases}
+	\end{align*}
+	\[u=\frac{1}{3}(-1,5,-1)\]
+	\\
+	\textbf{Svar:} $\frac{1}{3}(-1,5,-1)$
 \end{quotation}
 
+\pagebreak
 \texttt{\tskcol{4.17~~~~ (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	Låt $z=t$
+	\[\begin{cases}
+	x+y+3z+6=0 \\
+	2x+y-2z-10=0
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	x+y+3z+6=0 \\
+	-y-8z-22=0
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	x=5t+16
+	y=-8t-22
+	z=t
+	\end{cases}\]
+	\[L_1=(5t+16,-8t-22,t)\]
+	Riktning:
+	\[(6,0,1)-(-4,4,-7)=(10,-4,8)=2(5,-2,4)\]
+	Godtycklig riktning: $(5,-2,4)$
+	\[\begin{cases}
+	x=-4+5t \\
+	y=4-2t \\
+	z=-7+4t
+	\end{cases}\]
+	Linjerna skär varandra om det finns ett $t_1$ och $t_2$ så att:
+	\[\begin{cases}
+	t_1 = -7+4t_2 \\
+	5t_1+16 = -4+5t_2 \\
+	-8t_1-22 = 4-2t_2
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	t_1 = -7+4t_2 \\
+	16 = 31-15t_2 \\
+	-22 = -52+30t_2
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	t_1=-3
+	t_2=1
+	\end{cases}\]
+	Linjerna skär varandra i punkten $(1,2,-3)$.
+	Skapa två vektorer från linjerna:
+	\[v_1=(6,-6,-2)-(1,2,-3)=(5,-8,1)\]
+	\[v_2=(6,0,1)-(1,2,-3)=(5,-2,4)\]
+	\begin{align*}
+	\cos[v_1,v_2]=&
+	\frac{(5,-8,1)*(5,-2,4)}{\sqrt{5^2+8^2+1^2}\sqrt{5^2+2^2+4^2}}=
+	\frac{5*5+8*2+4}{\sqrt{90}\sqrt{45}}=
+	\frac{45}{45\sqrt{2}}=
+	\frac{1}{\sqrt{2}} \Leftrightarrow \\ \Leftrightarrow
+	[v_1,v_2]=&\arccos\frac{1}{\sqrt{2}}=\frac{\pi}{4}
+	\end{align*}
+	\\
+	\textbf{Svar:} vinkeln $\pi/4$ och skärningspunkten $(1,2,-3)$
 \end{quotation}
 
 \texttt{\tskcol{4.18~~a) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	\[-3*1+4*2=5\]
+	\[-3x+4y-5=0\]
+	\\
+	\textbf{Svar:} $-3x+4y-5=0$
 \end{quotation}
 
 \texttt{\tskcol{~~~~~~b) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	\[-2+1=-1\]
+	\[-2x+3y+z+1=0\]
+	\\
+	\textbf{Svar:} $-2x+3y+z+1=0$
 \end{quotation}
 
 \texttt{\tskcol{4.19~~~~ (s.)}}
 \begin{quotation}
 	\noindent
+	\[\begin{cases}
+	2x+y-1=0 \\
+	3x+4y-3=0
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	2x+y-1=0 \\
+	-5x+1=0
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	x=\frac{1}{5} \\
+	y=\frac{3}{5}
+	\end{cases}\]
+	Skärningspunkt: $(\frac{1}{5}, \frac{3}{5})$
 	\\ \\
-	\textbf{Svar:}
+	Skapa vektorer av linjerna.
+	\[v_1=(\frac{6}{5},-\frac{7}{5})-(\frac{1}{5}, \frac{3}{5})=(1,-2)\]
+	\[v_2=(\frac{21}{5}, -\frac{12}{5})-(\frac{1}{5}, \frac{3}{5})=(4,-3)\]
+	Riktningsvektorerna som används är $(1,-2)$ och $(4,-3)$.
+	\begin{align*}
+	\cos[v_1,v_2]=&
+	\frac{(1,-2)*(4,-3)}{\sqrt{1^2+2^2}\sqrt{4^2+3^2}}=
+	\frac{4+3*2}{5\sqrt{5}}=
+	\frac{2}{\sqrt{5}} \Leftrightarrow \\ \Leftrightarrow
+	[v_1,v_2]=&\arccos\frac{2}{\sqrt{5}}
+	\end{align*}
+	\\
+	\textbf{Svar:} Skärningspunkt: $(\frac{1}{5}, \frac{3}{5})$, vinkel: $\arccos\frac{2}{\sqrt{5}}$
 \end{quotation}
 
 \texttt{\tskcol{4.20~~~~ (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	Planens normalriktning: $v_1=(2,1,-1)$ och $v_2=(1,-3,2)$.
+	\begin{align*}
+	\cos[v_1,v_2]=&
+	\frac{(2,1,-1)*(1,-3,2)}{\sqrt{2^2+1^2+1^2}\sqrt{1^2+3^2+2^2}}=
+	\frac{2-3-2}{2\sqrt{21}}=
+	\frac{-3}{2\sqrt{21}} \Leftrightarrow \\ \Leftrightarrow
+	[v_1,v_2]=&\arccos\frac{-3}{2\sqrt{21}}
+	\end{align*}
+	\\
+	\textbf{Svar:} $\arccos\frac{-3}{2\sqrt{21}}$
 \end{quotation}
 
 \texttt{\tskcol{4.21~~a) (s.)}}
