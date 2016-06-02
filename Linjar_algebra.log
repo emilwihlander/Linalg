@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.21)  30 MAY 2016 02:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.21)  2 JUN 2016 16:29
 entering extended mode
 **./Linjar_algebra.tex
 (Linjar_algebra.tex
@@ -974,39 +974,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 3595--3598
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 3602--3605
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3609--3612
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3616--3619
-
- []
-
 [57]
-Underfull \hbox (badness 10000) in paragraph at lines 3623--3626
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3630--3633
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3637--3640
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3644--3647
-
+Overfull \hbox (33.88031pt too wide) detected at line 3643
+\OML/cmm/m/it/10 v[] \OT1/cmr/m/n/10 = [](1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2
+\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 1) = [](1\OML/cmm/m/it/10 
+; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 1) = \O
+MS/cmsy/m/n/10  []\OT1/cmr/m/n/10 (1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cm
+m/m/it/10 ; \OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 1)
  []
 
 
@@ -1019,147 +993,167 @@ Underfull \hbox (badness 10000) in paragraph at lines 3658--3661
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 3665--3668
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3672--3675
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3679--3682
-
- []
-
 [58]
-Underfull \hbox (badness 10000) in paragraph at lines 3686--3689
+Overfull \hbox (29.75296pt too wide) detected at line 3673
+\OML/cmm/m/it/10 v \OT1/cmr/m/n/10 = [](1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1\O
+ML/cmm/m/it/10 ; \OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 1) = [](1\OML/cmm/m/it/10 ; 
+\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 1) = \OMS
+/cmsy/m/n/10  []\OT1/cmr/m/n/10 (1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1\OML/cmm/
+m/it/10 ; \OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 1)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3683--3686
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3693--3696
+Underfull \hbox (badness 10000) in paragraph at lines 3690--3693
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3700--3703
+Underfull \hbox (badness 10000) in paragraph at lines 3697--3700
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3707--3710
+Underfull \hbox (badness 10000) in paragraph at lines 3704--3707
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3714--3717
+Underfull \hbox (badness 10000) in paragraph at lines 3711--3714
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3721--3724
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3728--3731
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3735--3738
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3742--3745
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3749--3752
+Underfull \hbox (badness 10000) in paragraph at lines 3718--3721
 
  []
 
 [59]
-Underfull \hbox (badness 10000) in paragraph at lines 3756--3759
+Overfull \hbox (67.41667pt too wide) detected at line 3734
+\OML/cmm/m/it/10 v[] \OT1/cmr/m/n/10 = []\OML/cmm/m/it/10 v \OT1/cmr/m/n/10 = [
+](1\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT
+1/cmr/m/n/10 2) = [](1\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 1\OM
+L/cmm/m/it/10 ; \OT1/cmr/m/n/10 2) = [](1\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10  \
+OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3747--3750
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3763--3766
+Underfull \hbox (badness 10000) in paragraph at lines 3754--3757
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3770--3773
+Underfull \hbox (badness 10000) in paragraph at lines 3761--3764
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3777--3780
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3784--3787
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3791--3794
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3798--3801
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3805--3808
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3812--3815
-
+Overfull \hbox (3.58566pt too wide) in paragraph at lines 3768--3771
+[]\T1/cmr/m/n/10 Planets nor-mal-rikt-ning: $\OT1/cmr/m/n/10 (2\OML/cmm/m/it/10
+ ; \OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2)$\T1
+/cmr/m/n/10 . Av-stån-det mel-lan pla-net och punk-
  []
 
 [60]
-Underfull \hbox (badness 10000) in paragraph at lines 3819--3822
+Underfull \hbox (badness 10000) in paragraph at lines 3793--3796
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3826--3829
+Underfull \hbox (badness 10000) in paragraph at lines 3800--3803
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3833--3836
+Underfull \hbox (badness 10000) in paragraph at lines 3807--3810
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3840--3843
+Underfull \hbox (badness 10000) in paragraph at lines 3814--3817
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3847--3850
+Underfull \hbox (badness 10000) in paragraph at lines 3821--3824
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3854--3857
+Underfull \hbox (badness 10000) in paragraph at lines 3828--3831
 
  []
 
-[61] (Linjar_algebra.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 3835--3838
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3842--3845
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3849--3852
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3856--3859
+
+ []
+
+[61]
+Underfull \hbox (badness 10000) in paragraph at lines 3863--3866
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3885--3888
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3892--3895
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3899--3902
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3906--3909
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3913--3916
+
+ []
+
+[62]
+Underfull \hbox (badness 10000) in paragraph at lines 3920--3923
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3927--3930
+
+ []
+
+[63] (Linjar_algebra.aux) ) 
 Here is how much of TeX's memory you used:
  3509 strings out of 493634
  45491 string characters out of 3135239
@@ -1186,9 +1180,9 @@ emilw/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb
 cm/cmsy10.pfb><C:/Users/emilw/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/cm/cmsy5.pfb><C:/Users/emilw/AppData/Local/Programs/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on Linjar_algebra.pdf (61 pages, 346064 bytes).
+Output written on Linjar_algebra.pdf (63 pages, 353290 bytes).
 PDF statistics:
- 433 PDF objects out of 1000 (max. 8388607)
+ 439 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

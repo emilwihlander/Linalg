@@ -1,4 +1,4 @@
-% !TeX vek = sv_SE
+% !TeX spellcheck = sv_SE
 %http://www.cs.put.poznan.pl/ksiek/latexmath.html
 %https://en.wikibooks.org/wiki/LaTeX/Advanced_Mathematics
 %http://www.maths.lth.se/matematiklth/personal/magnusa/kurser/endim-ht2015/B1/kurspmB1ht15.pdf
@@ -3597,25 +3597,53 @@
 	\textbf{Svar:}
 \end{quotation}
 
+\pagebreak
 \texttt{\tskcol{4.22~~a) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	Låt $v_1$ och $v_2$ vara vinkelräta komposanter till $u$. $v_1$ är parallell med vektorn $(1,4,0)$.
+	\[v_1=\frac{(1,-1,1)*(1,4,0)}{|(1,4,0)|^2}(1,4,0)=
+	\frac{1-4}{1^2+4^2}(1,4,0)=
+	-\frac{3}{17}(1,4,0)\]
+	\[v_2=u-v_1=(1,-1,1)+\frac{3}{17}(1,4,0)=\frac{1}{17}(20,-5,17)\]
+	\\
+	\textbf{Svar:} $v_1=-\frac{3}{17}(1,4,0)$ och $v_2=\frac{1}{17}(20,-5,17)$
 \end{quotation}
 
 \texttt{\tskcol{~~~~~~b) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	Låt $y=t$
+	\[\begin{cases}
+	x=4t+1 \\
+	y=t \\
+	z=2t-1
+	\end{cases}\]
+	Skapa en riktningsvektor genom att välja två slumpmässiga punkter på linjen beräkna vektorn däremellan.
+	Punkterna: $t=0 \Rightarrow (1,0-1)$ och $t=1 \Rightarrow (5,1,1)$ . Riktningsvektorn:
+	\[v = (5,1,1)-(1,0,-1)=(4,1,2)\]
+	Låt $v_1$ och $v_2$ vara vinkelräta komposanter till $u$. $v_1$ är parallell med vektorn $(4,1,2)$.
+	\[v_1=\frac{(1,-1,1)*(4,1,2)}{|(4,1,2)|^2}(4,1,2)=
+	\frac{4-1+2}{4^2+1^2+2^2}(4,1,2)=
+	\frac{5}{21}(4,1,2)\]
+	\[v_2=u-v_1=
+	(1,-1,1)-\frac{5}{21}(4,1,2)=
+	\frac{1}{21}(1,-26,11)\]
+	\\ 
+	\textbf{Svar:} $v_1=\frac{5}{21}(4,1,2)$ och $v_2=\frac{1}{21}(1,-26,11)$
 \end{quotation}
 
 \texttt{\tskcol{~~~~~~c) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	Låt $v_1$ och $v_2$ vara vinkelräta komposanter till $u$. $v_2$ är parallell med det givna planet.
+	Planets normalriktning är $(1,2,-1)$.
+	\[v_1=\frac{(1,-1,1)*(1,2,-1)}{|(1,2,-1)|^2}(1,2,-1)=
+	\frac{1-2-1}{1^2+2^2+1^2}(1,2,-1)=
+	-\frac{1}{3}(1,2,-1)\]
+	\[v_2=u-v_1=(1,-1,1)+\frac{1}{3}(1,2,-1)=\frac{1}{3}(4,-1,2)\]
+	\\
+	\textbf{Svar:} $v_1=-\frac{1}{3}(1,2,-1)$ och $v_2=\frac{1}{3}(4,-1,2)$
 \end{quotation}
 
 \texttt{\tskcol{4.23~~~~ (s.)}}
@@ -3635,8 +3663,19 @@
 \texttt{\tskcol{4.25~~a) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	Planets normalriktning är $(1,1,-1)$.
+	Välj slumpmässig punkt i planet: $(1,1,0)$.
+	Vektorn mellan punkterna: 
+	\[(1,0,1)-(1,1,0)=(0,-1,1)\]
+	Låt $v$ vara det sökta avståndet.
+	\[v=\frac{(0,-1,1)*(1,1,-1)}{|(1,1,-1)|^2}(1,1,-1)=
+	\frac{-1-1}{1^2+1^2+1^2}(1,1,-1)=
+	-\frac{2}{3}(1,1,-1)\]
+	\[|v|=\sqrt{\frac{2^2}{3^2}+\frac{2^2}{3^2}+\frac{2^2}{3^2}}=
+	\sqrt{\frac{4}{3}}=
+	\frac{2}{\sqrt{3}}\]
+	\\
+	\textbf{Svar:} $\frac{2}{\sqrt{3}}$
 \end{quotation}
 
 \texttt{\tskcol{~~~~~~b) (s.)}}
@@ -3684,8 +3723,23 @@
 \texttt{\tskcol{4.29~~a) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	Skapa en riktningsvektor, $v$, genom att välj två punkter på linjen: $t=0 \Rightarrow (1,2,0)$ och $t=1 \Rightarrow (2,1,2)$.
+	\[v=(2,1,2)-(1,2,0)=(1,-1,2)\]
+	Låt $u$ vara vektorn mellan en punkt på linjen och punkten.
+	\[u=(1,-1,1)-(1,2,0)=(0,-3,1)\]
+	Låt $v_1$ och $v_2$ vara komposant vektorerna till $u$. $v_1$ är parallell med linjen och $v_2$ är det sökta avståndet.
+	\[v_1=\frac{u*v}{|v|^2}v=
+	\frac{(0,-3,1)*(1,-1,2)}{|(1,-1,2)|^2}(1,-1,2)=
+	\frac{3+2}{1^2+1^2+2^2}(1,-1,2)=
+	\frac{5}{6}(1,-1,2)\]
+	\[v_2=u-v_1=
+	(0,-3,1)-\frac{5}{6}(1,-1,2)=
+	\frac{1}{6}(-5,-13,-4)\]
+	\[|v_2|=\sqrt{\frac{5^2}{6^2}+\frac{13^2}{6^2}+\frac{4^2}{6^2}}=
+	\sqrt{\frac{210}{36}}=
+	\sqrt{\frac{35}{6}}\]
+	\\
+	\textbf{Svar:} $\sqrt{\frac{35}{6}}$
 \end{quotation}
 
 \texttt{\tskcol{~~~~~~b) (s.)}}
@@ -3712,15 +3766,26 @@
 \texttt{\tskcol{4.31~~a) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	Planets normalriktning: $(2,-1,2)$.
+	Avståndet mellan planet och punkten:
+	\[\frac{(1,0,1)*(2,-1,2)}{|(2,-1,2)|^2}(2,-1,2)=
+	\frac{2+2}{2^2+1^2+2^2}(2,-1,2)=
+	\frac{4}{9}(2,-1,2)\]
+	Projektionspunkten:
+	\[P:(1,0,1)-\frac{4}{9}(2,-1,2)=\frac{1}{9}(1,4,1)\]
+	\\
+	\textbf{Svar:} $\frac{1}{9}(1,4,1)$
 \end{quotation}
 
 \texttt{\tskcol{~~~~~~b) (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	Låt $u=(1,0,1)$ och $v=\frac{4}{9}(2,-1,2)$.
+	Spegelbilden:
+	\[P:u-2v=(1,0,1)-\frac{8}{9}(2,-1,2)=
+	\frac{1}{9}(-7,8,-7)\]
+	\\
+	\textbf{Svar:} $\frac{1}{9}(-7,8,-7)$
 \end{quotation}
 
 \texttt{\tskcol{4.32~~~~ (s.)}}
@@ -3803,8 +3868,16 @@
 \texttt{\tskcol{4.42~~~~ (s.)}}
 \begin{quotation}
 	\noindent
-	\\ \\
-	\textbf{Svar:}
+	En punkt i planet:
+	\[\frac{(1,3,4)+(3,-1,8)}{2}=(2,1,6)\]
+	Normalriktning för planet:
+	\[(3,-1,8)-(1,3,4)=2(1,-2,2)\]
+	Ekvation för planet:
+	\[x-2y+2z=d\]
+	Sätt in punkt från planet:
+	\[d=2-2+2*6=12\]
+	\\
+	\textbf{Svar:} $x-2y+2z=12$
 \end{quotation}
 
 \texttt{\tskcol{4.43~~~~ (s.)}}
