@@ -21,6 +21,8 @@
 
 \newcommand{\vek}[1]{\overrightarrow{#1}}
 
+\newcommand{\adj}{\text{adj}}
+
 \newcommand\varpm{\mathbin{\vcenter{\hbox{%
 				\oalign{\hfil$\scriptstyle+$\hfil\cr
 					\noalign{\kern-.5ex}					
@@ -1716,7 +1718,7 @@
 	\noindent
 	För att vektorerna ska vara linjärt beroende ska de gå att beskriva med hjälp av varandra vilket innebär att det ska finnas ett $k_1$ och ett $k_2$ så att:
 	\[(5,9)=k_1(3,-2)+k_2(2,1)\]
-	Identifiera variablerna:
+	Iden tifiera variablerna:
 	\[\begin{cases}
 	5=3k_1+2k_2 \\
 	9=-2k_1+k_2
@@ -1816,7 +1818,7 @@
 	1=3k_1+5k_2 \\
 	0=0k_1+0k_2 \\
 	2=4k_1+6k_2
-	\end{cases} \Leftrightarrow
+	 \end{cases} \Leftrightarrow
 	\begin{cases}
 	k_1=2 \\
 	k_2=-1
@@ -3928,4 +3930,708 @@
 	\\ \\
 	\textbf{Svar:}
 \end{quotation}
+
+\pagebreak
+\section*{Kapitel 5: Vektorprodukt}
+
+\setlength\arraycolsep{3pt}
+
+\texttt{\tskcol{5.1~~~a) (s. 89)}}
+\begin{quotation}
+	\noindent
+	\[e_1\times e_3=-e_2\]
+	\[e_3 \times e_2=-e_1\]
+	\\
+	\textbf{Svar:} $-e_2$ och $-e_1$
+\end{quotation}
+
+\texttt{\tskcol{~~~~~~b) (s.)}}
+\begin{quotation}
+	\noindent
+	\[e_2\times(2e_1-e_2+3e_3)=
+	2e_2\times e_1-e_2\times e_2 + 3e_2\times e_3=
+	-2e_3-0+3e_1=
+	3e_1-2e_3\]
+	\\
+	\textbf{Svar:} $3e_1-2e_3$
+\end{quotation}
+
+\texttt{\tskcol{~~~~~~c) (s.)}}
+\begin{quotation}
+	\noindent
+	\begin{align*}
+	&(1,0,1)\times(1,2,3)=
+	\left(\left|\begin{array}{cc}
+	0 & 1 \\
+	2 & 3 
+	\end{array}\right|,
+	-\left|\begin{array}{cc}
+	1 & 1 \\
+	1 & 3
+	\end{array}\right|,
+	\left|\begin{array}{cc}
+	1 & 0 \\
+	1 & 2
+	\end{array}\right|\right)= \\ =
+	&(0*3-1*2,-(1*3-1*1),1*2-0*1)=
+	(-2,-2,2)
+	\end{align*}
+	\\
+	\textbf{Svar:} $(-2,-2,2)$
+\end{quotation}
+
+\texttt{\tskcol{~~~~~~d) (s.)}}
+\begin{quotation}
+	\noindent
+	\begin{align*}
+	&(2,6,-3)\times(0,2,3)=
+	\left(\left|\begin{array}{cc}
+	6 &-3 \\
+	2 & 3 
+	\end{array}\right|,
+	-\left|\begin{array}{cc}
+	2 &-3 \\
+	0 & 3
+	\end{array}\right|,
+	\left|\begin{array}{cc}
+	2 & 6 \\
+	0 & 2
+	\end{array}\right|\right)= \\ =
+	&(6*3+3*2,-(2*3+3*0),2*2-6*0)=
+	(24,-6,4)
+	\end{align*}
+	\\
+	\textbf{Svar:} $2(12,-3,2)$
+\end{quotation}
+
+\texttt{\tskcol{5.2~~~~~ (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{5.3~~~~~ (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{5.4~~~~~ (s.)}}
+\begin{quotation}
+	\noindent
+	\begin{align*}
+	&(u+v)*[(v+w)\times(w+u)]=
+	(u+v)*[v\times(w+u)+w\times(w+u)]= \\ =
+	&(u+v)*[v \times w + v \times u + w \times w + w \times u]= \\ =
+	&u*v \times w + u*v \times u + u*w \times u + v*v \times w + v*v \times u + v*w \times u= \\ =
+	&u*v \times w + v*w \times u =
+	2u*v \times w
+	\end{align*}
+	\\
+	\textbf{Svar:} $2u*v \times w$
+\end{quotation}
+
+\texttt{\tskcol{5.5~~~~~ (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{5.6~~~a) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{~~~~~~b) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{5.7~~~~~ (s.)}}
+\begin{quotation}
+	\noindent
+	Skapa två vektorer som börjar i samma punkt av punkterna.
+	\[v_1=(2,3,4)-(0,-1,1)=(2,4,3)\]
+	\[v_2=(3,-1,2)-(0,-1,1)=(3,0,1)\]
+	Arean av en triangel är hälften av arean på motsvarande parallellogram.
+	\begin{align*}
+	A=&\frac{1}{2}\left|(2,4,3)\times(3,0,1)|=
+	\frac{1}{2}|\left(\left|\begin{array}{cc}
+	4 & 3 \\
+	0 & 1 
+	\end{array}\right|,
+	-\left|\begin{array}{cc}
+	2 & 3 \\
+	3 & 1
+	\end{array}\right|,
+	\left|\begin{array}{cc}
+	2 & 4 \\
+	3 & 0
+	\end{array}\right|\right)\right|= \\ =
+	&\frac{1}{2}|(4*1-3*0,-(2*1-3*3),2*0-4*3)|=
+	\frac{1}{2}|(4,7,-12)|= \\ =
+	&\frac{1}{2}\sqrt{4^2+7^2+12^2}=
+	\frac{\sqrt{209}}{2}
+	\end{align*}
+	\\
+	\textbf{Svar:} $\frac{\sqrt{209}}{2}$
+\end{quotation}
+
+\texttt{\tskcol{5.8~~~a) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{~~~~~~b) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{5.9~~~~~ (s.)}}
+\begin{quotation}
+	\noindent
+	Skapa ett plan som är parallellt med både $\ell_1$ och $\ell_2$ och som sammanfaller med $\ell_1$.
+	Skapa två riktningsvektorer från linjerna. \\ \\
+	två punkter på $\ell_1$: $t=0 \Rightarrow (3,1,3)$ och $t=1 \Rightarrow (4,0,6)$ \\
+	två punkter på $\ell_2$: $t=0 \Rightarrow (2,-1,-3)$ och $t=1 \Rightarrow (3,0,-7)$ \\
+	\[v_1=(4,0,6)-(3,1,3)=(1,-1,3)\]
+	\[v_2=(3,0,-7)-(2,-1,-3)=(1,1,-4)\]
+	Hitta normalriktningen genom att ta vektorprodukten av $v_1$ och $v_2$.
+	\begin{align*}
+	v_1\times v_2=&
+	(1,-1,3)\times(1,1,-4)=
+	\left(\left|\begin{array}{cc}
+	-1& 3 \\
+	1 &-4 
+	\end{array}\right|,
+	-\left|\begin{array}{cc}
+	1 & 3 \\
+	1 &-4
+	\end{array}\right|,
+	\left|\begin{array}{cc}
+	1 &-1 \\
+	1 & 1
+	\end{array}\right|\right)= \\ =
+	&(1*4-3*1,-(-1*4-3*1),1*1+1*1)=
+	(1,7,2)
+	\end{align*}
+	Vektor mellan planet och $\ell_2$:
+	\begin{align*}
+	v_3=&\frac{((2,-1,-3)-(3,1,3))*(1,7,2)}{|(1,7,2)|^2}(1,7,2)=
+	\frac{-1*1-2*7-6*2}{1^2+7^2+2^2}(1,7,2)= \\ =
+	&\frac{-27}{54}(1,7,2)=
+	-\frac{1}{2}(1,7,2)
+	\end{align*}
+	\[|v_3|=\sqrt{\frac{1^2+7^2+2^2}{2^2}}=\frac{1}{2}\sqrt{54}=\frac{3}{2}\sqrt{6}\]
+	\\
+	\textbf{Svar:} $\frac{3}{2}\sqrt{6}$
+\end{quotation}
+
+\texttt{\tskcol{5.10~~~~ (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{5.11~~a) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{~~~~~~b) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{5.12~~a) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{~~~~~~b) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{5.13~~~~ (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{5.14~~a) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{~~~~~~b) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{~~~~~~c) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{5.15~~~~ (s.)}}
+\begin{quotation}
+	\noindent
+	Hitta ett $k$ så att $\hat{e}_1=k(1,1,-1)$ och $|\hat{e}_1|=1$
+	\[|\hat{e}_1
+	|=1 \Leftrightarrow
+	\sqrt{k^2+k^2+k^2}=1 \Leftrightarrow
+	3k^2=1 \Leftrightarrow
+	k=\pm\frac{1}{\sqrt{3}}\]
+	Väljer $k=\frac{1}{\sqrt{3}}$.
+	\[\hat{e}_1=\frac{1}{\sqrt{3}}(1,1,-1)\]
+	för att hitta $\hat{e}_2=(x,y,z)$ hitta en lösning ekvationssystemet:
+	\begin{align*}
+	\begin{cases}
+	(x,y,z)*(1,1,-1)=0 \\
+	x+y+z=0 \\
+	x^2+y^2+z^2=1
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	x+y-z=0 \\
+	x+y+z=0 \\
+	x^2+y^2+z^2=1
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	x=\frac{1}{\sqrt{2}} \\
+	y=-\frac{1}{\sqrt{2}} \\
+	z=0
+	\end{cases}
+	\end{align*}
+	$\hat{e}_3=\hat{e}_1\times \hat{e}_2$
+	\begin{align*}
+	\hat{e}_3=&
+	\frac{1}{\sqrt{3}}(1,1,-1)\times \frac{1}{\sqrt{2}}(1,-1,0)= \\ =
+	&\frac{1}{\sqrt{6}}\left(\left|\begin{array}{cc}
+	1 &-1 \\
+	-1& 0 
+	\end{array}\right|,
+	-\left|\begin{array}{cc}
+	1 &-1 \\
+	1 & 0
+	\end{array}\right|,
+	\left|\begin{array}{cc}
+	1 & 1 \\
+	1 &-1
+	\end{array}\right|\right)= \\ =
+	&\frac{1}{\sqrt{6}}(1*0-1*1,-(1*0+1*1),-1*1-1*1)=
+	-\frac{1}{\sqrt{6}}(1,1,2)
+	\end{align*}
+	Normalriktningen till planet är $(1,1,1)$.
+	\[(1,1,1)=\hat{a}_1\hat{e}_1+\hat{a}_2\hat{e}_2+\hat{a}_3\hat{e}_3\]
+	\[\hat{a}_1=(1,1,1)*\hat{e}_1=(1,1,1)*\frac{1}{\sqrt{3}}(1,1,-1)=\frac{1}{\sqrt{3}}\]
+	\[\hat{a}_2=(1,1,1)*\hat{e}_2=(1,1,1)*\frac{1}{\sqrt{2}}(1,-1,0)=0\]
+	\[\hat{a}_3=(1,1,1)*\hat{e}_3=(1,1,1)*(-\frac{1}{\sqrt{6}}(1,1,2))=-\frac{4}{\sqrt{6}}\]
+	\[\pi:\frac{1}{\sqrt{3}}\hat{x}_1-\frac{4}{\sqrt{6}}\hat{x}_3=0 \Leftrightarrow
+	\hat{x}_1-2\sqrt{2}\hat{x}_3=0\]
+	\\ \\
+	\textbf{Svar:} $\hat{e}_1=\frac{1}{\sqrt{3}}(1,1,-1)$, $\hat{e}_2=\frac{1}{\sqrt{2}}(1,-1,0)$, $\hat{e}_3=-\frac{1}{\sqrt{6}}(1,1,2)$ och $\pi:\hat{x}_1-2\sqrt{2}\hat{x}_3=0$
+\end{quotation}
+
+\texttt{\tskcol{5.16~~~~ (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{5.17~~~~ (s.)}}
+\begin{quotation}
+	\noindent
+	Låt $u=(x,y,z)$.
+	\begin{align*}
+	&(x,y,z)\times(1,a,-1)=(1,2,3) \Leftrightarrow \\ \Leftrightarrow
+	&\left(\left|\begin{array}{cc}
+	y & z \\
+	a &-1 
+	\end{array}\right|,
+	-\left|\begin{array}{cc}
+	x & z \\
+	1 &-1
+	\end{array}\right|,
+	\left|\begin{array}{cc}
+	x & y \\
+	1 & a
+	\end{array}\right|\right)=(1,2,3) \Leftrightarrow \\ \Leftrightarrow
+	&(-y-az,-(-x-z),ax-y)=(1,2,3) \Leftrightarrow \\ \Leftrightarrow
+	&\begin{cases}
+	-y-az=1 \\
+	x+z=2 \\
+	ax-y=3
+	\end{cases}
+	\end{align*}
+	låt $z=t$.
+	\[\begin{cases}
+	x=2-t \\
+	y=2t-3 \\
+	z=t \\
+	a=\frac{2}{2}=1
+	\end{cases}\]
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{5.18~~~~ (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{5.19~~a) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{~~~~~~b) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{5.20~~~~ (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{5.21~~~~ (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{5.22~~~~ (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{5.23~~a) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{~~~~~~b) (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{5.24~~~~ (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{5.25~~~~ (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{5.26~~~~ (s.)}}
+\begin{quotation}
+	\noindent
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\pagebreak
+\section*{Kapitel 6: Rummet $\mathbb{R}^n$}
+
+\texttt{\tskcol{6.2~~~d) (s.)}}
+\begin{quotation}
+	\noindent
+	\begin{align*}
+	&x_1(1,2,2,0)+x_2(2,-1,0,2)+x_3(2,0,-1,-2)+x_4(0,2,-2,1)=0 \Leftrightarrow \\ \Leftrightarrow
+	&(x_1+2x_2+2x_3,2x_1-x_2+2x_4,2x_1-x_3-2x_4,2x_2-2x_3+x_4)=0 \Leftrightarrow \\ \Leftrightarrow
+	&\begin{cases}
+	x_1+2x_2+2x_3=0 \\
+	2x_1-x_2+2x_4=0 \\
+	2x_1-x_3-2x_4=0 \\
+	2x_2-2x_3+x_4=0
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	x_1+2x_2+2x_3=0 \\
+	-5x_2-4x_3+2x_4=0 \\
+	-4x_2-5x_3-2x_4=0 \\
+	2x_2-2x_3+x_4=0
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	x_1+2x_2+2x_3=0 \\
+	-5x_2-4x_3+2x_4=0 \\
+	-9x_3-18x_4=0 \\
+	45x_4=0
+	\end{cases}
+	\end{align*}
+	\\
+	\textbf{Svar:} Vektorerna är linjärt oberoende
+\end{quotation}
+
+\pagebreak
+\section*{Kapitel 7: Matriser}
+
+\texttt{\tskcol{7.4~~~a) (s.)}}
+\begin{quotation}
+	\noindent
+	\[AB=\left(\begin{array}{ccc}
+	1 & 1 & 0 \\
+	-2& 0 & 1
+	\end{array}\right)*\left(\begin{array}{cc}
+	2 & 1 \\
+	0 &-1 \\
+	1 & 0
+	\end{array}\right)=
+	\left(\begin{array}{cc}
+	1*2 & 1-1 \\
+	-2*2+1 &-2 
+	\end{array}\right)=
+	\left(\begin{array}{cc}
+	2 & 0 \\
+	-3 &-2 
+	\end{array}\right)
+	\]
+	\[BA=\left(\begin{array}{cc}
+	2 & 1 \\
+	0 &-1 \\
+	1 & 0
+	\end{array}\right)*\left(\begin{array}{ccc}
+	1 & 1 & 0 \\
+	-2& 0 & 1
+	\end{array}\right)=
+	\left(\begin{array}{ccc}
+	2*1-1*2 & 2*1 & 1 \\
+	2 & 0 & -1 \\
+	1 & 1 & 0
+	\end{array}\right)=
+	\left(\begin{array}{ccc}
+	0 & 2 & 1 \\
+	2 & 0 &-1 \\
+	1 & 1 & 0 
+	\end{array}\right)
+	\]
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
+\texttt{\tskcol{~~~~~~b) (s.)}}
+\begin{quotation}
+	\noindent
+	\[B^T=
+	\left(\begin{array}{ccc}
+	2 & 0 & 1 \\
+	1 &-1 & 0 
+	\end{array}\right)\]
+	\[A^T=
+	\left(\begin{array}{cc}
+	1 &-2 \\
+	1 & 0 \\
+	0 & 1
+	\end{array}\right)\]
+	\[B^TA^T=
+	\left(\begin{array}{ccc}
+	2 & 0 & 1 \\
+	1 &-1 & 0 
+	\end{array}\right)*
+	\left(\begin{array}{cc}
+	1 &-2 \\
+	1 & 0 \\
+	0 & 1
+	\end{array}\right)=
+	\left(\begin{array}{cc}
+	2 &-2*2+1 \\
+	1-1 &-2
+	\end{array}\right)=
+	\left(\begin{array}{cc}
+	2 &-3 \\
+	0 &-2
+	\end{array}\right)\]
+	\[(AB)^T=B^TA^T\]
+\end{quotation}
+
+\texttt{\tskcol{7.9~~~a) (s.)}}
+\begin{quotation}
+	\noindent
+	\[A=\left(\begin{array}{ccc}
+	1 & 2 & 0 \\
+	4 & 1 &-1 \\
+	2 & 3 & 0
+	\end{array}\right)\]
+	\begin{align*}
+	&D_{11}=\left|\begin{array}{cc}
+	1 &-1 \\
+	3 & 0
+	\end{array}\right|=3, 
+	&D_{12}=\left|\begin{array}{cc}
+	4 &-1 \\
+	2 & 0
+	\end{array}\right|=2,
+	&D_{13}=\left|\begin{array}{cc}
+	4 & 1 \\
+	2 & 3
+	\end{array}\right|=10, \\
+	&D_{21}=\left|\begin{array}{cc}
+	2 & 0 \\
+	3 & 0
+	\end{array}\right|=0, 
+	&D_{22}=\left|\begin{array}{cc}
+	1 & 0 \\
+	2 & 
+	\end{array}\right|=0,
+	&D_{23}=\left|\begin{array}{cc}
+	1 & 2 \\
+	2 & 3
+	\end{array}\right|=-1, \\
+	&D_{31}=\left|\begin{array}{cc}
+	2 & 0 \\
+	1 &-1
+	\end{array}\right|=-2, 
+	&D_{32}=\left|\begin{array}{cc}
+	1 & 0 \\
+	4 &-1
+	\end{array}\right|=-1,
+	&D_{33}=\left|\begin{array}{cc}
+	1 & 2 \\
+	4 & 1
+	\end{array}\right|=-7, \\
+	\end{align*}
+	\[\adj A =\left(\begin{array}{ccc}
+	3 & 0 &-2 \\
+	-2& 0 & 1 \\
+	10& 1 &-7
+	\end{array}\right)\]
+	\[A^{-1}=\frac{1}{\det A}\adj A=
+	\frac{1}{1*3-2*2}\left(\begin{array}{ccc}
+	3 & 0 &-2 \\
+	-2& 0 & 1 \\
+	10& 1 &-7
+	\end{array}\right)=
+	\left(\begin{array}{ccc}
+	-3& 0 & 2 \\
+	2 & 0 &-1 \\
+	-10&-1 & 7
+	\end{array}\right)\]
+\end{quotation}
+
+\texttt{\tskcol{7.10~~~~ (s.)}}
+\begin{quotation}
+	\noindent
+	\[(AX+B)^{-1}=A \Leftrightarrow
+	AX+B=A^{-1} \Leftrightarrow
+	AX=A^{-1}-B\]
+	\[A^{-1}=
+	\left(\begin{array}{ccc}
+	1 & 0 &-1 \\
+	1 &-1 & 0 \\
+	-1& 1 & 1
+	\end{array}\right)\]
+	Ansätt lösning:
+	\begin{align*}
+	&\left(\begin{array}{ccc}
+	1 & 1 & 1 \\
+	1 & 0 & 1 \\
+	0 & 1 & 1
+	\end{array}\right)
+	\left(\begin{array}{ccc}
+	a & b & c \\
+	d & e & f \\
+	g & h & i
+	\end{array}\right)=
+	\left(\begin{array}{ccc}
+	1 & 0 &-1 \\
+	1 &-1 & 0 \\
+	-1& 1 & 1
+	\end{array}\right)-
+	\left(\begin{array}{ccc}
+	1 & 2 & 3 \\
+	4 & 5 & 6 \\
+	7 & 8 & 9
+	\end{array}\right) \Leftrightarrow \\ \Leftrightarrow
+	&\left(\begin{array}{ccc}
+	a+d+g & b+e+h & c+f+i \\
+	a+g & b+h & c+i \\
+	d+g & e+h & f+i
+	\end{array}\right)=
+	\left(\begin{array}{ccc}
+	0 &-2 &-4 \\
+	-3&-6 &-6 \\
+	-8&-7 &-8
+	\end{array}\right) \Leftrightarrow \\ \Leftrightarrow
+	&\begin{cases}
+	a+d+g = 0 \\
+	b+e+h = -2 \\
+	c+f+i = -4 \\
+	a+g = -3 \\
+	b+h = -6 \\
+	c+i = -6 \\
+	d+g = -8 \\
+	e+h = -7 \\
+	f+i = -8
+	\end{cases} \Leftrightarrow
+	\begin{cases}
+	a= 8\\
+	b= 5\\
+	c= 4\\
+	d= 3\\
+	e= 4\\
+	f= 2\\
+	g= -11\\
+	h= -11\\
+	i= -10
+	\end{cases}
+	\end{align*}
+	\[X=
+	\left(\begin{array}{ccc}
+	8 & 5 & 4 \\
+	3 & 4 & 2 \\
+	-11&-11&-10
+	\end{array}\right)\]
+	\\ \\
+	\textbf{Svar:}
+\end{quotation}
+
 \end{document}
