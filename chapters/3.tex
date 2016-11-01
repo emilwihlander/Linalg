@@ -1,0 +1,779 @@
+\chapter{3}{Koordinatsystem, linjer och plan}
+\begin{task}{3.1}
+	\taskref{2.4} ger att:
+	\[\vek{OR}=\frac{3}{4}\vek{OP}+\frac{1}{4}\vek{OQ} \lra
+	R:\frac{3}{4}(2,1,4)+\frac{1}{4}(-2,5,0)=(\frac{3}{2}-\frac{1}{2},\frac{3}{4}+\frac{5}{4},3)=(1,2,3)\]
+	
+	\ans $(1,2,3)$
+\end{task}
+
+\begin{task}{3.2}
+	Låt $M$ vara mittpunkten, $Q:(1,0,2)$ och $P:(-1,2,2)$
+	Mittpunktsformeln ger:
+	\[\vek{OM}=\frac{1}{2}(\vek{OP}+\vek{OQ})\] 
+	\[\lra\]
+	\[M:\frac{1}{2}((1,0,2)+(-1,2,2))=
+	(\frac{1-1}{2},2*\frac{1}{2},\frac{2+2}{2})=
+	(0,1,2)\]
+
+	\ans $(0,1,2)$
+\end{task}
+
+\begin{task}{3.3 a)}
+	Låt $M$ vara tyngdpunkten. Tyngdpunktsformeln ger:
+	\begin{align*}
+		M:&\frac{1}{3}((1,2,-1)+(2,1,0)+(-1,1,1))= \\ =
+		&(\frac{1+2-1}{3},\frac{2+1+1}{3},\frac{-1+1}{3})=
+		(\frac{2}{3},\frac{4}{3},0)
+	\end{align*}
+
+	\ans $(\frac{2}{3},\frac{4}{3},0)$
+\end{task}
+
+\begin{task}{b)}
+	Låt $M$ vara tyndpunkten i tetraedern. \taskref{2.7} ger att:
+	\begin{align*}
+		M:&\frac{1}{4}((2,0,1)+(-1,1,1)+(1,0,2)+(3,1,4))= \\ =
+		&(\frac{2-1+1+3}{4},\frac{1+1}{4},\frac{1+1+2+4}{4})=
+		(\frac{5}{4},\frac{1}{2},2)
+	\end{align*}
+	
+	\ans $(\frac{5}{4},\frac{1}{2},2)$
+\end{task}
+
+\begin{task}{3.4}
+	I ursprungsbasen är koordinaterna $A:(0,0)$, $B:(1,0)$, $C:(2,3)$ och $D:(0,1)$.
+	Hitta ett $x$ och $y$ så att:
+	\begin{align*}
+		&\vek{CA}=x\vek{CB}+y\vek{CD} \lra
+		(0,0)-(2,3)=x((1,0)-(2,3))+y((0,1)-(2,3)) \lra \\ \lra
+		&(-2,-3)=(-x-2y,-3x-2y) \lra
+		\begin{cases}
+			-2=-x-2y \\
+			-3=-3x-2y
+		\end{cases} \lra
+		\begin{cases}
+			-2=-x-2y \\
+			-1=-2x
+		\end{cases} \lra
+		\begin{cases}
+			x=\frac{1}{2} \\
+			y=\frac{3}{4}
+		\end{cases}
+	\end{align*}
+	
+	\ans $(\frac{1}{2},\frac{3}{4})$
+\end{task}
+
+\begin{task}{3.5 a)}
+	Riktningsvektor:
+	\[v=(-3,4)-(1,2)=2(-2,1)\]
+	Vektor med samma riktning: $(-2,1)$
+	\[(x,y)=(1,2)+t(-2,1) \lra
+	\begin{cases}
+		x=1-2t \\
+		y=2+t
+	\end{cases}\]
+	
+	\ans $(x,y)=(1-2t,2+t)$
+\end{task}
+
+\begin{task}{b)}
+	Riktningsvektor:
+	\[v=(2,1)-(1,1)=(1,0)\]
+	\[(x,y)=(1,1)+t(1,0) \lra
+	\begin{cases}
+		x=1+t \\
+		y=1
+	\end{cases}\]
+	
+	\ans $(x,y)=(1+t,1)$
+\end{task}
+
+\begin{task}{c)}
+	\[(x,y)=(-2,0)+t(1,-5) \lra
+	\begin{cases}
+		x=-2+t \\
+		y=-5t
+	\end{cases}\]
+	
+	\ans $(x,y)=(t-2,-5t)$
+\end{task}
+
+\begin{task}{d)}
+	Låt $x=t$:
+	\[\begin{cases}
+		x=t \\
+		y=2t-5
+	\end{cases}\]
+	
+	\ans $(x,y)=(t,2t-5)$
+\end{task}
+
+\begin{task}{3.6 a)}
+	En eventuell skärningspunkt mellan $(2+3t_1,-t_1)$ och $(-2-t_2,4t_2)$ finnes när:
+	\[\begin{cases}
+		2+3t_1=-2-t_2 \\
+		-t_1=4t_2
+	\end{cases} \lra
+	\begin{cases}
+		t_1=-\frac{16}{11} \\
+		t_2=\frac{4}{11}
+	\end{cases}\]
+	Sätt in $t_1$ i första linjen:
+	\[(2+3(-\frac{16}{11}),-(-\frac{16}{11}))=(-\frac{26}{11},\frac{16}{11})\]
+	
+	\ans $(-\frac{26}{11},\frac{16}{11})$
+\end{task}
+
+\begin{task}{b)}
+	En eventuell skärningspunkt mellan $(2+t_1,-3t_1)$ och $(1-2t_2,4+6t_2)$ finnes när (gausselimination):
+	\[\begin{cases}
+		2+t_1=1-2t_2 \\
+		-3t_1=4+6t_2
+	\end{cases} \lra
+	\begin{cases}
+		2+t_1=1-2t_2 \\
+		6\neq7
+	\end{cases}\]
+	Lösning saknas eftersom $6\neq7$.
+
+	\ans Lösning saknas
+\end{task}
+
+\begin{task}{c)}
+	Låt $y=t_2$ i ekvationen ger:
+	\[x+2y=3\lra
+	(x,y)=(3-2t_2,t_2)\]
+	En eventuell skärningspunkt mellan $(-2+4t_1,4-8t_1)$ och $(3-2t_2,t_2)$ finnes när (gausselimination):
+	\[\begin{cases}
+		-2+4t_1=3-2t_2 \\
+		4-8t_1=t_2
+	\end{cases} \lra
+	\begin{cases}
+		-2+4t_1=3-2t_2 \\
+		0=6-3t_2
+	\end{cases} \lra
+	\begin{cases}
+		t_1=\frac{1}{4} \\
+		t_2=2
+	\end{cases}\]
+	Sätt in $t_2$ i andra linjen:
+	\[(3-2\*2,2)=(-1,2)\]
+
+	\ans $(-1,2)$
+\end{task}
+
+\begin{task}{d)}
+	Låt $x=t_2$ i ekvationen ger:
+	\[2x+y=0\lra
+	(x,y)=(t_2,-2t_2)\]
+	En eventuell skärningspunkt mellan $(-2+4t_1,4-8t_1)$ och $(t_2,-2t_2)$ finnes när (gausselimination):
+	\[\begin{cases}
+		-2+4t_1=t_2 \\
+		4-8t_1=-2t_2
+	\end{cases} \lra
+	\begin{cases}
+		-2+4t_1=3-2t_2 \\
+		0=0
+	\end{cases}\]
+	Eftersom $0=0$ sammanfaller linjerna.
+
+	\ans linjerna sammanfaller
+\end{task}
+
+\begin{task}{3.7}
+	Sätt in punkten i båda ekvationssystemen.
+	\[\begin{cases}
+		3=1+2t_1 \\
+		4=2+2t_1 \\
+		6=3+3t_1
+	\end{cases} \lra
+	\begin{cases}
+		t_1=1 \\
+		t_1=1 \\
+		t_1=1
+	\end{cases}\]
+	\[\begin{cases}
+		3=1+t_2 \\
+		4=8-2t_2 \\
+		6=3t_2
+	\end{cases} \lra
+	\begin{cases}
+		t_2=2 \\
+		t_2=2 \\
+		t_2=2
+	\end{cases}\]
+	Båda planen passerar punkten $(3,4,6)$. 
+	Om de startar samtidigt kolliderar de inte.
+
+	\ans Nej
+\end{task}
+
+\begin{task}{3.8}
+	\[\begin{cases}
+		1-t_1=1+t_2 \\
+		t_1=t_2 \\
+		-t_1=-1+t_2
+	\end{cases} \lra
+	\begin{cases}
+		1-t_1=1+t_2 \\
+		1+2t_1=-1 \\
+		1\neq-2
+	\end{cases}\]
+	Att $1\neq-2$ innebär att de inte skär varandra. För att de ska vara parallella behöver alla riktningskoefficienterna (värdet framför $t$) vara samma i båda linjerna vilket de inte är så därför är de inte parallella (de är bara parallella i $y$-planet).
+
+	\ans de är inte parallella och skär inte varandra
+\end{task}
+
+\begin{task}{3.9 a)}
+	Linjen skär $yz$-planet när $x=0$. Det stämmer när $t=2$.
+	\[(2-2,1+2\*2,-1+2)=(0,5,1)\]
+	Linjen skär $xz$-planet när $y=0$. Det stämmer när $t=-\frac{1}{2}$.
+	\[(2+\frac{1}{2},1-2\*\frac{1}{2},-1-\frac{1}{2})=(\frac{5}{2},0,-\frac{3}{2})\]
+	Linjen skär $xy$-planet när $z=0$. Det stämmer när $t=1$.
+	\[(2-1,1+2\*1,-1+1)=(1,3,0)\]
+
+	\ans $(0,5,1)$, $(\frac{5}{2},0,-\frac{3}{2})$ och $(1,3,0)$
+\end{task}
+
+\begin{task}{b)}
+	Linjen skär $yz$-planet när $x=0$. Det stämmer när $t=-\frac{3}{2}$.
+	\[(3-2^\frac{3}{2},2,-1-\frac{3}{2})=(0,2,-\frac{5}{2})\]
+	Linjen skär $xz$-planet när $y=0$. Eftersom $y$ alltid är två skär  linjen aldrig $xz$-planet.
+	
+	Linjen skär $xy$-planet när $z=0$. Det stämmer när $t=1$.
+	\[(3+2\*1,2,-1+1)=(5,2,0)\]
+	
+	\ans $(0,2,-\frac{5}{2})$ och $(5,2,0)$
+\end{task}
+
+\begin{task}{3.10 a)}
+	\[\begin{cases}
+		x=1+\sqrt{2}t_1-t_2 \\
+		y=2+\sqrt{3}t_1 \\
+		z=3+t_1+2t_2
+	\end{cases}\]
+\end{task}
+
+\begin{task}{b)}
+	Låt $P_0:(0,1,2)$. \\
+	Riktningsvektorerna:
+	\[v_1=(1,2,3)-(0,1,2)=(1,1,1)\]
+	\[v_2=(3,4,1)-(0,1,2)=(3,3,-1)\]
+	Planets ekvation på parameterform:
+	\[\begin{cases}
+		x=t_1+3t_2 \\
+		y=1+t_1+3t_2 \\
+		z=2+t_1-t_2
+	\end{cases}\]
+\end{task}
+
+\begin{task}{3.11 a)}
+	Låt $x=t_1$ och $y=t_2$. Planets ekvation på parameterform:
+	\[\begin{cases}
+		x=t_1 \\
+		y=t_2 \\
+		z=3+2t_1+t_2
+	\end{cases}\]
+\end{task}
+
+\begin{task}{b)}
+	Låt $x=t_1$ och $z=t_2$. Planets ekvation på parameterform:
+	\[\begin{cases}
+		x=t_1 \\
+		y=1-2t_2 \\
+		z=t_2
+	\end{cases}\]
+\end{task}
+
+\begin{task}{3.12}
+	Sätt in och testa (gausselimination).
+	\[\begin{cases}
+		0=1+s-t \\
+		-3=2+s+t \\
+		2=3-s+2t
+	\end{cases} \lra
+	\begin{cases}
+		0=1+s-t \\
+		-3=3+2s \\
+		2=5+s
+	\end{cases} \lra
+	\begin{cases}
+		t=-2 \\
+		s=-3
+	\end{cases} \lra
+	\text{ ligger i planet}\]
+	\[\begin{cases}
+		1=1+s-t \\
+		-2=2+s+t \\
+		1=3-s+2t
+	\end{cases} \lra
+	\begin{cases}
+		0=1+s-t \\
+		-1=3+2s \\
+		3=5+s
+	\end{cases} \lra
+	\begin{cases}
+		t=-2 \\
+		s=-2
+	\end{cases} \lra
+	\text{ ligger i planet}\]
+	\[\begin{cases}
+		2=1+s-t \\
+		3=2+s+t \\
+		1=3-s+2t
+	\end{cases} \lra
+	\begin{cases}
+		2=1+s-t \\
+		4=3+2s \\
+		5=5+s
+	\end{cases} \lra
+	s=0 \neq \frac{1}{2} \lra
+	\text{ ligger inte i planet}\]
+
+	\ans $(0,-3,2)$ och $(1,-2,1)$ ligger i planet, $(2,3,1)$ ligger inte i planet
+\end{task}
+
+\pagebreak
+\begin{task}{3.13}
+	Punkten $(x,y,z)$ ligger i planet då: 
+	\[\begin{cases}
+		1+s-t=x \\
+		2+s+t=y \\
+		3-s+2t=z
+	\end{cases}\]
+	Gausselimination:
+	\begin{align*}
+		\begin{cases}
+			s-t=x-1 \\
+			s+t=y-2 \\
+			-s+2t=z-3
+		\end{cases} \lra
+		\begin{cases}
+			s-t=x-1 \\
+			2t=-x+y-1 \\
+			t=x+z-4
+		\end{cases} \lra
+		\begin{cases}
+			s-t=x-1 \\
+			2t=-x+y-1 \\
+			0=3x-y+2z-7
+		\end{cases}
+	\end{align*}
+	Sista ekvationen ger vilket samband som måste råda mellan $x$, $y$ och $z$.
+
+	\ans $3x-y+2z-7=0$
+\end{task}
+
+\begin{task}{3.14 a)}
+	Använd gausselimination:
+	\[\begin{cases}
+		s+t=x+1 \\
+		-s+2t=y \\
+		s-t=z
+	\end{cases} \lra
+	\begin{cases}
+		s+t=x+1 \\
+		3t=x+y+1 \\
+		-2t=-x+z-1
+	\end{cases} \lra
+	\begin{cases}
+		s+t=x+1 \\
+		3t=x+y+1 \\
+		0=-x+2y+3z-1
+	\end{cases}\]
+	\[-x+2y+3z-1=0 \lra
+	x-2y-3z+1=0\]
+
+	\ans $x-2y-3z+1=0$
+\end{task}
+
+\begin{task}{b)}
+	Använd gausselimination:
+	\[\begin{cases}
+		s-t=x-1 \\
+		2s-t=y \\
+		s+2t=z+1
+	\end{cases} \lra
+	\begin{cases}
+		s-t=x-1 \\
+		t=-2x+y+2 \\
+		3t=-x+z+2
+	\end{cases} \lra
+	\begin{cases}
+		s-t=x-1 \\
+		t=-2x+y+2 \\
+		0=5x-3y+z-4
+	\end{cases}\]
+
+	\ans $5x-3y+z-4=0$
+\end{task}
+
+\begin{task}{c)}
+	Använd gausselimination:
+	\[\begin{cases}
+		s-t=x-1 \\
+		-s=y-2 \\
+		2s=z+1
+	\end{cases} \lra
+	\begin{cases}
+		s-t=x-1 \\
+		-s=y-2 \\
+		0=2y+z-3
+	\end{cases}\]
+
+	\ans $2y+z-3=0$
+\end{task}
+
+\begin{task}{d)}
+	Använd andra ekvationen:
+	\[\begin{cases}
+		s=x-1 \\
+		0=y-1 \\
+		-t=z-3
+	\end{cases}\]
+
+	\ans $y-1=0$
+\end{task}
+
+\begin{task}{3.15}
+	Ersätt $x$, $y$ och $z$ med linjens ekvation.
+	\[2(1-t)+3t-(2+t)-5=0 \lra
+	0t-5=0\]
+	Saknar lösning vilket medför att linjen inte skär planet.
+
+	\ans linjen skär inte planet
+\end{task}
+
+\begin{task}{3.16}
+	Skriv om planet i ekvationsform med hjälp av gausselimination.
+	\[\begin{cases}
+		s-t=x-1 \\
+		s+t=y-2 \\
+		-s+2t=z-3
+	\end{cases} \lra
+	\begin{cases}
+		s-t=x-1 \\
+		2t=-x+y-1 \\
+		t=x+z-4
+	\end{cases} \lra
+	\begin{cases}
+		s-t=x-1 \\
+		2t=-x+y-1 \\
+		0=3x-y+2z-7
+	\end{cases}\]
+	Sätt in linjens ekvation i planets ekvation.
+	\[3x-y+2z-7=0 \lra
+	3(1+t)-(3+2t)+2\*(-4)t-7=0 \lra
+	t=-1\]
+	sätt in $t$ i linjen för att få ut koordinaterna.
+	\[(x,y,z)=(1-1,3-2\*1,4\*1)=(0,1,4)\]
+
+	\ans $(0,1,4)$
+\end{task}
+
+\begin{task}{3.17 a)}
+	För att linjerna ska skära varandra ska ekvationssystemet stämma (gausselimination):
+	\[\begin{cases}
+		1+t_1=t_2 \\
+		1+2t_1=2+t_2 \\
+		1+3t_1=b-2t_2
+	\end{cases} \lra
+	\begin{cases}
+		1+t_1=t_2 \\
+		-1=2-t_2 \\
+		-2=b-5t_2
+	\end{cases}\]
+	För att det ska finnas en lösning måste:
+	\[3=\frac{b+2}{5} \lra
+	b=13\]
+
+	\ans $b=13$
+\end{task}
+
+\begin{task}{b)}
+	Låt $P_0$ vara punkten där linjerna skär varandra $t_2=3 \ra P_0:(3,5,7)$.
+	Skapa två riktningsvektorer genom att välja ett $t$ per linje så att punkten skiljer sig från $P_0$.
+	\[v_1=(1+3,1+2\*3,1+3\*3)-(3,5,7)=(1,2,3)\]
+	\[v_2=(4,2+4,13-2\*4)-(3,5,7)=(1,1,-2)\]
+	\[\begin{cases}
+		x=3+t_1+t_2 \\
+		y=5+2t_1+t_2 \\
+		z=7+3t_1-2t_2
+	\end{cases}\]
+	Gausselimination:
+	\[\begin{cases}
+		t_1+t_2=x-3 \\
+		2t_1+t_2=y-5 \\
+		3t_1-2t_2=z-7
+	\end{cases} \lra
+	\begin{cases}
+		t_1+t_2=x-3 \\
+		-t_2=-2x+y+1 \\
+		-5t_2=-3x+z+2
+	\end{cases} \lra
+	\begin{cases}
+		t_1+t_2=x-3 \\
+		-t_2=-2x+y+1 \\
+		0=7x-5y+z-3
+	\end{cases}\]
+	\[7x-5y+z-3=0 \lra
+	-7x+5y-z+3=0\]
+
+	\ans $-7x+5y-z+3=0$
+\end{task}
+
+\begin{task}{3.18 a)}
+	Låt $z=t$. Gausselimination:
+	\[\begin{cases}
+		x+y+z=1 \\
+		2x-y+5z=5
+	\end{cases} \lra
+	\begin{cases}
+		x+y+z=1 \\
+		-3y+3z=3
+	\end{cases} \lra
+	\begin{cases}
+		x=2-2t \\
+		y=-1+t \\
+		z=t
+	\end{cases}\]
+
+	\ans $(x,y,z)=(2-2t,-1+t,t)$
+\end{task}
+
+\begin{task}{b)}
+	Låt $x=t$.
+	\[\begin{cases}
+		3x-z=-1 \\
+		2x+y+z=0
+	\end{cases} \lra
+	\begin{cases}
+		x=t \\
+		y=-1-5t \\
+		z=1+3t
+	\end{cases}\]
+
+	\ans $(x,y,z)=(t,-1-5t,1+3t)$
+\end{task}
+
+\begin{task}{c)}
+	Låt $z=t$. Gausselimination:
+	\[\begin{cases}
+		x+y+z=2 \\
+		2x+2y+2z=1
+	\end{cases} \lra
+	\begin{cases}
+		x+y+z=2 \\
+		0\neq-3
+	\end{cases}\]
+	$0\neq-3$ medför att planen inte skär varandra.
+
+	\ans planen skär inte varandra
+\end{task}
+
+\begin{task}{d)}
+	Låt $z=t$. Gausselimination:
+	\[\begin{cases}
+		x-y+2z=4 \\
+		3x-3y+6z=12
+	\end{cases} \lra
+	\begin{cases}
+		x-y+2z=4 \\
+		0=0
+	\end{cases}\]
+	$0=0$ medför att planen sammanfaller.
+
+	\ans planen sammanfaller
+\end{task}
+
+\begin{task}{3.19 a)}
+	Hitta linjen då planen skär varandra. Låt $z=1+5s$
+	\[\begin{cases}
+		3x-2y+z=6 \\
+		x+y-2z=8
+	\end{cases} \lra
+	\begin{cases}
+		3x-2y+z=6 \\
+		5y-7z=18
+	\end{cases} \lra
+	\begin{cases}
+		x=5+3s \\
+		y=5+7s \\
+		z=1+5s
+	\end{cases}\]
+	Hitta där linjerna skär varandra.
+	\[\begin{cases}
+		1+5t=5+3s \\
+		1+t=5+7s \\
+		-1-t=1+5s
+	\end{cases} \lra
+	\begin{cases}
+		1+5t=5+3s \\
+		4=20+32s \\
+		-4=10+28s
+	\end{cases} \lra
+	\begin{cases}
+		t=\frac{1}{2} \\
+		s=-\frac{1}{2}
+	\end{cases}
+	\]
+	Sätt in $t$ i ursprungslinjen.
+	\[(x,y,z)=(1,1,-1)+\frac{1}{2}(5,1,-1)=\frac{1}{2}(7,3,-3)\]
+
+	\ans $\frac{1}{2}(7,3,-3)$
+\end{task}
+
+\pagebreak
+\begin{task}{b)}
+	Låt $P_0:\frac{1}{2}(7,3,-3)$. Bestäm riktningsvektorerna (se linjen från \taskref{a)}):
+	\[v_1=(1,1,-1)+(5,1,-1)-\frac{1}{2}(7,3,-3)=\frac{1}{2}(5,1,-1)\]
+	\[v_2=(5+3\*1,5+7\*1,1+5\*1)-\frac{1}{2}(7,3,-3)=\frac{3}{2}(3,7,5)\]
+	Vektorerna har $(5,1,-1)$ och $(3,7,5)$ har samma riktning som $v_1$ respektive $v_2$ och kan användas istället.
+	\[\begin{cases}
+		x=\frac{7}{2}+5t+3s \\
+		y=\frac{3}{2}+t+7s \\
+		z=-\frac{3}{2}-t+5s
+	\end{cases}\]
+	Använd gausselimination för att få det i affin form.
+	\[\begin{cases}
+		5t+3s=x-\frac{7}{2} \\
+		t+7s=y-\frac{3}{2} \\
+		-t+5s=z+\frac{3}{2}
+	\end{cases} \lra
+	\begin{cases}
+		5t+3s=x-\frac{7}{2} \\
+		32s=-x+5y-4 \\
+		28s=x+5z+4
+	\end{cases} \lra
+	\begin{cases}
+		5t+3s=x-\frac{7}{2} \\
+		32s=-x+5y-4 \\
+		0=20(3x-7y+8z+12)
+	\end{cases}\]
+	\[0=20(3x-7y+8z+12)\lra
+	3x-7y+8z+12=0\]
+
+	\ans $3x-7y+8z+12=0$
+\end{task}
+
+\begin{task}{3.20}
+	Ta planets ekvation och sätt in värdena från linjen.
+	\[2(1+2t)-3(a+3t)+7+5t-3=0 \lra
+	0t-3a+6=0\]
+	Stämmer endast när $a=2$. 
+	Eftersom det inte finns några $t$ så är linjen parallell med planet och när $a=2$ samman faller dem.
+\end{task}
+
+\begin{task}{3.21}
+	Ta linjen som blir om vektorn skulle fortsatt i båda riktningarna och se om den skär planet i en punkt, om inte är de parallella.
+
+	vektorn: $(1,2,0)$ motsvarande linje: $t(1,2,0)$.
+	\[2t-2t+3=0 \lra
+	0t+3=0\]
+	Skär planet i noll punkter $\ra$ parallella.
+
+	vektorn: $(-1,1,1)$ motsvarande linje: $t(-1,1,1)$.
+	\[-2t-t+t+3=0 \lra
+	-2t+3=0\]
+	Skär planet i en punkt $\ra$ ej parallella.
+
+	vektorn: $(2,1,3)$ motsvarande linje: $t(2,1,3)$.
+	\[4t-t+3t+3=0 \lra
+	6t+3=0\]
+	Skär planet i en punkt $\ra$ ej parallella.
+
+	vektorn: $(2,1,-3)$ motsvarande linje: $t(2,1,-3)$.
+	\[4t-t-3t+3=0 \lra
+	0t+3=0\]
+	Skär planet i noll punkter $\ra$ parallella.
+
+	\ans $(1,2,0)$ och $(2,1,-3)$ är parallella med planet
+\end{task}
+
+\begin{task}{3.22}
+	Låt:
+	\[x-1=\frac{y-1}{2}=\frac{z-2}{2}=t \lra
+	\begin{cases}
+		x=t+1 \\
+		y=2t+1 \\
+		z=3t+2
+	\end{cases}\]
+	Sätt in värdena från linjen i ekvationen för planet. De är parallella när $t$:na tar ut varandra.
+	\[3(t+1)+b(2t+1)+3t+2-1=0 \lra
+	(3+2b+3)t+b+4=0\]
+	\[3+2b+2=0 \lra
+	b=-3\]
+
+	\ans $b=-3$
+\end{task}
+
+\begin{task}{3.23}
+	\[\ell=(1,-2,-1)+s(a,b,c)\]
+	\[1+sa+3(-2+sb)-(-1+sc)=0 \lra
+	(a+3b-c)s-4=0\]
+	\[\begin{cases}
+		1+sa=1+t \\
+		-2+sb=2-t \\
+		-1+sc=3+2t \\
+		a+3b-c=0
+	\end{cases} \lra
+	\begin{cases}
+		a=\frac{t}{s} \\
+		b=\frac{4-t}{s} \\ 
+		c=\frac{4+2t}{s} \\
+		a+3b-c=0
+	\end{cases}\]
+	substitutionsmetoden:
+	\[\frac{t}{s}+3(\frac{4-t}{s})-\frac{4+2t}{s}=0 \lra t=2\]
+	\[\begin{cases}
+		sa=2 \\
+		sb=2 \\
+		sc=8
+	\end{cases}\]
+	riktningsvektor med samma riktning $(1,1,4)$.
+	\[\ell=(1,-2,-1)+s(1,1,4)\]
+
+	\ans $(1+s,-2+s,-1+4s)$
+\end{task}
+
+\begin{task}{3.24 a)}
+	\ans
+\end{task}
+
+\begin{task}{b)}
+	\ans
+\end{task}
+
+\begin{task}{c)}
+	\ans
+\end{task}
+
+\begin{task}{3.25}
+	\ans
+\end{task}
+
+\begin{task}{3.26}
+	\ans
+\end{task}
+
+\begin{task}{3.27 a)}
+	\ans
+\end{task}
+
+\begin{task}{b)}
+	\ans
+\end{task}
+
+\begin{task}{3.28}
+	\ans
+\end{task}
+
+\begin{task}{3.29 a)}
+	\ans
+\end{task}
+
+\begin{task}{b)}
+	\ans
+\end{task}
