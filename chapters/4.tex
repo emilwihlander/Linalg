@@ -1,0 +1,756 @@
+\chapter{4}{Skalärprodukt}
+\begin{task}{4.1 a)}
+	\[u\*v=4\*3\*\cos\frac{\pi}{4}=6\sqrt{2}\]
+
+	\ans $6\sqrt{2}$
+\end{task}
+
+\begin{task}{b)}
+	\begin{align*}
+		&(u-2v)\*(3u+v)=
+		3|u|^2+u\*v-2v\*3u-2|v|^2= \\ =
+		&3\*4^2+6\sqrt{2}-6\*6\sqrt{2}-2\*3^2=
+		30(1-\sqrt{2})
+	\end{align*}
+
+	\ans $30(1-\sqrt{2})$
+\end{task}
+
+\begin{task}{c)}
+	\[(u+v)\*(u+v)=
+	|u|^2+2u\*v+|v|^2=
+	16+2\*6\sqrt{2}+9=
+	25+12\sqrt(2)\]
+
+	\ans $25+12\sqrt(2)$
+\end{task}
+
+\begin{task}{d)}
+	\[|u+v|=\sqrt{(u+v)\*(u+v)}=\sqrt{25+12\sqrt(2)}\]
+
+	\ans $\sqrt{25+12\sqrt(2)}$
+\end{task}
+
+\begin{task}{e)}
+	\[(2u+3v)\*(2u-3v)=|2u|^2-|3v|^2=4|u|^2-9|v|^2=4\*16-9\*9=-17\]
+
+	\ans $-17$
+\end{task}
+
+\begin{task}{4.2}
+	\begin{align*}
+		&|u+v|=|u-v| \lra
+		|u+v|^2=|u-v|^2 \lra \\ \lra
+		&(u+v)\*(u+v)=(u-v)\*(u-v) \lra \\ \lra
+		&|u|^2+2u\*v+|v|^2=|u|^2-2u\*v+|v|^2 \lra \\ \lra
+		&4u\*v=0 \lra
+		u\*v=0 \ra
+		\text{ $v$ och $u$ är ortogonala \proof}
+	\end{align*}
+	
+	\ans
+\end{task}
+
+\begin{task}{4.3}
+	\[(u-v)\*(2u+v)=
+	2u\*u+u\*v-2v\*u-v\*v=
+	2|u|^2-|v|^2 \mproof\]
+\end{task}
+
+\begin{task}{4.4 a)}
+	$u+v$ och $u-v$.
+\end{task}
+
+\begin{task}{b)}
+	$|u|=|v|$ enligt uppgift.
+	\[(u+v)\*(u-v)=|u|^2-|v|^2=|u|^2-|u|^2=0 \mproof\]
+\end{task}
+
+\begin{task}{4.5}
+	\[W=F*s\]
+	\[s=(3,0,4)-(1,2,-1)=(2,-2,5)\]
+	\[F=(1,-2,-1)\]
+	\[W=(1,-2,-1)\*(-2,2,-5)=
+	1\*(2)+(-2)\*(-2)+(-1)\*(5)=+2+4-5=1\]
+
+	\ans $1Nm$
+\end{task}
+
+\begin{task}{4.6}
+	$k=1$ ger:
+	\[x_1e_1*e_1+x_2e_2*e_1+x_3e_3*e_1=1 \lra
+	x_1=1\]
+	$k=2$ ger:
+	\[x_1e_1*e_2+x_2e_2*e_2+x_3e_3*e_2=2^2 \lra
+	x_2=4\]
+	$k=3$ ger:
+	\[x_1e_1*e_3+x_2e_2*e_3+x_3e_3*e_3=3^2 \lra
+	x_3=9\]
+	\[u=(1,4,9)\]
+
+	\ans $(1,4,9)$
+\end{task}
+
+\begin{task}{4.7 a)}
+	Låt $\alpha=\frac{\pi}{2}-\beta$
+	\begin{align*}
+		&|(\cos\alpha,\cos\beta)|=
+		\sqrt{\cos^2\alpha+\cos^2\beta}=
+		\sqrt{\cos^2(\frac{\pi}{2}-\beta)+\cos^2\beta}= \\ =
+		&\sqrt{\sin^2\beta+\cos^2\beta}=
+		\sqrt{1}=1 \mproof
+	\end{align*}
+	
+	\ans $\alpha+\beta=\frac{\pi}{2}$
+\end{task}
+
+\begin{task}{b)}
+	KAN INTE LÖSA UPPGIFTEN
+	
+	Låt $\alpha+\beta+\gamma=\frac{\pi}{2}$
+	\begin{align*}
+		&|(\cos\alpha,\cos\beta,\cos\gamma)|=
+		\sqrt{\cos^2\alpha+\cos^2\beta+\cos^2\gamma}=
+		\sqrt{\cos^2(\frac{\pi}{2}-\beta)+\cos^2\beta}= \\ =
+		&\sqrt{\sin^2\beta+\cos^2\beta}=
+		\sqrt{1}=1 \mproof
+	\end{align*}
+
+	\ans $\alpha+\beta=\frac{\pi}{2}$
+\end{task}
+
+\pagebreak
+\begin{task}{4.8}
+	\[f_1\*f_2=\frac{1}{5}(3,4)\*\frac{1}{5}(-4,3)=\frac{3}{5}\*(-\frac{4}{5})+\frac{4}{5}\*\frac{3}{5}=0\]
+	\[f_1\*f_1=\frac{1}{5}(3,4)\*\frac{1}{5}(3,4)=\frac{3}{5}\*\frac{3}{5}+\frac{4}{5}\*\frac{4}{5}=1\]
+	\[f_2\*f_2=\frac{1}{5}(-4,3)\*\frac{1}{5}(-4,3)=(-\frac{4}{5})\*(-\frac{4}{5})+\frac{3}{5}\*\frac{3}{5}=1\]
+	$f_1$ och $f_2$ utgör en ortonormerad bas i planet.
+	\begin{align*}
+		&x_1e_1+x_2e_2=y_1f_1+y_2f_2=
+		y_1(\frac{3}{5}e_1+\frac{4}{5}e_2)+y_2(-\frac{4}{5}e_1+\frac{3}{5}e_2)= \\ =
+		&(\frac{3}{5}y_1-\frac{4}{5}y_2)e_1+(\frac{4}{5}y_1+\frac{3}{5}y_2)e_2 \lra
+		\begin{cases}
+			x_1=\frac{3}{5}y_1-\frac{4}{5}y_2 \\
+			x_2=\frac{4}{5}y_1+\frac{3}{5}y_2
+		\end{cases}
+	\end{align*}
+	\[u=2e_1-e_2=
+	\begin{cases}
+		2=\frac{3}{5}y_1-\frac{4}{5}y_2 \\
+		-1=\frac{4}{5}y_1+\frac{3}{5}y_2
+	\end{cases} \lra
+	\begin{cases}
+		y_1=\frac{2}{5} \\
+		y_2=-\frac{11}{5}
+	\end{cases}
+	\]
+	$u$ i $f_1,f_2$ basen är $\frac{1}{5}(2,-11)$
+	
+	\ans $\frac{1}{5}(2,-11)$
+\end{task}
+
+\pagebreak
+\begin{task}{4.9 a)}
+	Om alla är vektorerna är ortogonala mot varandra och har längden 1 utgör de en ortonormerad bas.
+	\[e^{'}_1\*e^{'}_2=\frac{1}{3}\*\frac{2}{3}+\frac{2}{3}\*\frac{1}{3}-\frac{2}{3}\*\frac{2}{3}=0\]
+	\[e^{'}_2\*e^{'}_3=\frac{2}{3}\*\frac{2}{3}-\frac{1}{3}\*\frac{2}{3}-\frac{2}{3}\*\frac{1}{3}=0\]
+	\[e^{'}_1\*e^{'}_3=\frac{1}{3}\*\frac{2}{3}-\frac{2}{3}\*\frac{2}{3}+\frac{2}{3}\*\frac{1}{3}=0\]
+	\[e^{'}_1\*e^{'}_1=\left(\frac{1}{3}\right)^2+\left(\frac{2}{3}\right)^2+\left(-\frac{2}{3}\right)^2=1\]
+	\[e^{'}_2\*e^{'}_2=\left(\frac{2}{3}\right)^2+\left(\frac{1}{3}\right)^2+\left(\frac{2}{3}\right)^2=1\]
+	\[e^{'}_3\*e^{'}_3=\left(\frac{2}{3}\right)^2+\left(-\frac{2}{3}\right)^2+\left(-\frac{1}{3}\right)^2=1\]
+	Vektorerna utger en ortonormerad bas.
+	\[x_1e_1+x_2e_2+x_3e_3=x^{'}_1e^{'}_1+x^{'}_2e^{'}_2+x^{'}_3e^{'}_3\]
+	\begin{align*}
+		HL=&
+		x^{'}_1(\frac{1}{3}e_1+\frac{2}{3}e_2-\frac{2}{3}e_3)+
+		x^{'}_2(\frac{2}{3}e_1+\frac{1}{3}e_2+\frac{2}{3}e_3)+
+		x^{'}_3(\frac{2}{3}e_1-\frac{2}{3}e_2-\frac{1}{3}e_3)= \\ =
+		&(\frac{1}{3}x^{'}_1+\frac{2}{3}x^{'}_2+\frac{2}{3}x^{'}_3)e_1+
+		(\frac{2}{3}x^{'}_1+\frac{1}{3}x^{'}_2-\frac{2}{3}x^{'}_3)e_2+
+		(-\frac{2}{3}x^{'}_1+\frac{2}{3}x^{'}_2-\frac{1}{3}x^{'}_3)e_3
+	\end{align*}
+	Identifiera variablerna:
+	\[\begin{cases}
+		x_1=\frac{1}{3}x^{'}_1+\frac{2}{3}x^{'}_2+\frac{2}{3}x^{'}_3 \\
+		x_2=\frac{2}{3}x^{'}_1+\frac{1}{3}x^{'}_2-\frac{2}{3}x^{'}_3 \\
+		x_3=-\frac{2}{3}x^{'}_1+\frac{2}{3}x^{'}_2-\frac{1}{3}x^{'}_3
+	\end{cases}\]
+	Sätt in $u$:
+	\begin{align*}
+		&\begin{cases}
+			1=\frac{1}{3}x^{'}_1+\frac{2}{3}x^{'}_2+\frac{2}{3}x^{'}_3 \\
+			-1=\frac{2}{3}x^{'}_1+\frac{1}{3}x^{'}_2-\frac{2}{3}x^{'}_3 \\
+			2=-\frac{2}{3}x^{'}_1+\frac{2}{3}x^{'}_2-\frac{1}{3}x^{'}_3
+		\end{cases} \lra
+		\begin{cases}
+			3=x^{'}_1+2x^{'}_2+2x^{'}_3 \\
+			-3=2x^{'}_1+x^{'}_2-2x^{'}_3 \\
+			6=-2x^{'}_1+2x^{'}_2-x^{'}_3
+		\end{cases} \lra
+		\begin{cases}
+			3=x^{'}_1+2x^{'}_2+2x^{'}_3 \\
+			-9=-3x^{'}_2-6x^{'}_3 \\
+			12=6x^{'}_2+3x^{'}_3
+		\end{cases} \lra \\ \lra
+		&\begin{cases}
+			3=x^{'}_1+2x^{'}_2+2x^{'}_3 \\
+			-9=-3x^{'}_2-6x^{'}_3 \\
+			-6=-9x^{'}_3
+		\end{cases} \lra
+		\begin{cases}
+			x_1=-\frac{5}{3} \\
+			x_2=\frac{5}{3} \\
+			x_3=\frac{2}{3}
+		\end{cases}
+	\end{align*}
+
+	\ans $u=\frac{1}{3}(-5,5,1)$
+\end{task}
+
+\begin{task}{b)}
+	\[u=\frac{1}{3}(x_1+2x_2-2x_3,2x_1+x_2+2x_3,2x_1-2x_2-x_3)\]
+\end{task}
+
+\begin{task}{4.10 a)}
+	\[\cos[u,v]=\frac{u\*v}{|u||v|} \lra
+	[u,v]=\arccos\frac{u\*v}{|u||v|}\]
+	\begin{align*}
+		[u,v]=&\arccos\frac{(1,\sqrt{3})\*(0,\sqrt{3})}{\sqrt{1^2+\sqrt{3}^2}\sqrt{\sqrt{3}^2}}=
+		\arccos\frac{1\*0+\sqrt{3}\*\sqrt{3}}{2\sqrt{3}}= \\ =
+		&\arccos\frac{3}{2\sqrt{3}}=
+		\arccos\frac{\sqrt{3}}{2}=
+		\frac{\pi}{6}
+	\end{align*}
+
+	\ans $\frac{\pi}{6}$
+\end{task}
+
+\begin{task}{b)}
+	\[\cos[u,v]=\frac{u\*v}{|u||v|} \lra
+	[u,v]=\arccos\frac{u\*v}{|u||v|}\]
+	\begin{align*}
+		[u,v]=&\arccos\frac{(\cos2,\sin2)\*(\cos3,\sin3)}{1\*1}=
+		\arccos\cos(3-2)= 1
+	\end{align*}
+
+	\ans $\frac{\pi}{6}$
+\end{task}
+
+\begin{task}{4.11}
+	Skapa vektorn $u=(-1,0,2)$ och $v=(-1,1,1)$.
+	\[\cos[u,v]=\frac{u\*v}{|u||v|} \lra
+	[u,v]=\arccos\frac{u\*v}{|u||v|}\]
+	\begin{align*}
+		[u,v]=&\arccos\frac{(-1,0,2)\*(-1,1,1)}{\sqrt{(-1)^2+2^2}\sqrt{(-1)^2+1^1+1^2}}= \\ =
+		&\arccos\frac{-1\*(-1)+0\*1+2\*1}{\sqrt{5}\sqrt{3}}=
+		\arccos\frac{3}{\sqrt{5}\sqrt{3}}=
+		\arccos\sqrt{\frac{3}{5}}
+	\end{align*}
+
+	\ans $\arccos\sqrt{0.6}$
+\end{task}
+
+\begin{task}{4.12}
+	Eftersom triangeln är liksidig är $[u,v]=\pi/3$ och $|u|=|v|=a$.
+	\[\cos[u,v]=\frac{u\*v}{|u||v|} \lra
+	[u,v]=\arccos\frac{u\*v}{|u||v|}\]
+	\begin{align*}
+		&|2u+v||3v-2u|=
+		\sqrt{(2u+v)\*(2u+v)}\sqrt{(3v-2u)\*(3v-2u)}= \\ =
+		&\sqrt{4u\*u+4u\*v\*\cos\frac{\pi}{3}+v\*v}\sqrt{9v\*v-6u\*v\*\cos\frac{\pi}{3}+u\*u}= \\ =
+		&\sqrt{4a^2+2a^2+a^2}\sqrt{9a^2-3a^2+a^2}=
+		\sqrt{7a^2}\sqrt{7a^2}=
+		7a^2
+	\end{align*}
+	\begin{align*}
+		&[2u+v,3v-2u]=\arccos\frac{(2u+v)\*(3v-2u)}{|2u+v||3v-2u|}= \\ =
+		&\arccos\frac{6u\*v-4u\*u+3v\*v-2u\*v}{7a^2}= \\ =
+		&\arccos\frac{4a^2\cos\frac{\pi}{3}-4a^2+3a^2}{7a^2}=
+		\arccos\frac{a^2}{7a^2}=
+		\arccos\frac{1}{7}
+	\end{align*}
+
+	\ans $\arccos\frac{1}{7}$
+\end{task}
+
+\begin{task}{4.13}
+	Låt $u=(1,0,2)-(0,-1,1)=(1,1,1)$ och $v=(2,1,2)-(0,-1,1)=(2,2,1)$
+	\begin{align*}
+		[u,v]=
+		\arccos\frac{u\*v}{|u||v|}=
+		\arccos\frac{(1,1,1)\*(2,2,1)}{\sqrt{1+1+1}\sqrt{2^2+2^2+1}}=
+		\arccos\frac{2+2+1}{\sqrt{3}3}=
+		\arccos\frac{5}{3\sqrt{3}}
+	\end{align*}
+	Låt $u=(0,-1,1)-(1,0,2)=(-1,-1,-1)$ och $v=(2,1,2)-(1,0,2)=(1,1,0)$
+	\begin{align*}
+		[u,v]=
+		\arccos\frac{u\*v}{|u||v|}=
+		\arccos\frac{(-1,-1,-1)\*(1,1,0)}{\sqrt{1+1+1}\sqrt{1+1}}=
+		\arccos\frac{-1-1}{\sqrt{3}\sqrt{2}}=
+		\arccos\sqrt{-\frac{2}{3}}
+	\end{align*}
+	Låt $u=(0,-1,1)-(2,1,2)=(-2,-2,-1)$ och $v=(1,0,2)-(2,1,2)=(-1,-1,0)$
+	\begin{align*}
+		[u,v]=
+		\arccos\frac{u\*v}{|u||v|}=
+		\arccos\frac{(-2,-2,-1)\*(-1,-1,0)}{\sqrt{2^2+2^2+1}\sqrt{1+1}}=
+		\arccos\frac{2+2}{\sqrt{3}\sqrt{2}}=
+		\arccos\frac{2\sqrt{2}}{\sqrt{3}}
+	\end{align*}
+
+	\ans Sidorna $3$, $\sqrt{3}$ och $\sqrt{2}$. vinklarna $\arccos\frac{5}{3\sqrt{3}}$, $\arccos\sqrt{-\frac{2}{3}}$ och $\arccos\frac{2\sqrt{2}}{\sqrt{3}}$
+\end{task}
+
+\begin{task}{4.14}
+	Låt tetraedern ha sina hörn i $(2,0,0)$, $(0,2,0)$, $(0,0,2)$ och $(2,2,2)$. Då ligger kolatomen i $(1,1,1)$.
+	Låt $u = (1,1,1)-(2,0,0) = (1,-1,-1)$ och $v= (1,1,1)-(0,2,0) = (-1,1,-1)$
+	\begin{align*}
+		&[u,v] = \arccos\frac{u\*v}{|u||v|} =
+		\arccos\frac{(1,-1,-1)\*(-1,1,-1)}{\sqrt{1^2+(-1)^2+(-1)^2}\sqrt{(-1)^2+1^2+(-1)^2}}= \\ =
+		&\arccos\frac{-1-1+1}{\sqrt{3}\sqrt{3}}=
+		\arccos\left(-\frac{1}{3}\right)
+	\end{align*}
+
+	\ans $\arccos\left(-\frac{1}{3}\right)$
+\end{task}
+
+\begin{task}{4.15}
+	Låt $u=(x,y,z)$
+	\[\cos\frac{\pi}{2}=\frac{(x,y,z)\*(1,0,1)}{\sqrt{2}} \lra
+	x+z=0\]
+	\[\cos\frac{\pi}{2}=\frac{(x,y,z)\*(1,2,3)}{\sqrt{14}} \lra
+	x+2y+3z=0\]
+	Låt $z=t$
+	\[\begin{cases}
+		x+2y+3z=0 \\
+		x+z=0
+	\end{cases} \lra
+	\begin{cases}
+		x=-t
+		y=-t
+		z=t
+	\end{cases} \]
+	Att längden ska vara 1 ger:
+	\[x^2+y^2+z^2=1 \lra
+	(-t)^2+(-t)^2+t^2=1 \lra
+	3t^2=1 \lra
+	t=\pm\frac{1}{\sqrt{3}}\]
+	Vilket ger vektorerna:
+	\[\pm\frac{1}{\sqrt{3}}(1,1,-1)\]
+
+	\ans $\pm\frac{1}{\sqrt{3}}(1,1,-1)$
+\end{task}
+
+\pagebreak
+\begin{task}{4.16}
+	Låt $v_3=(x,y,z)$
+	För att det ska vara en ortonormerad bas ska:
+	\[v_3\*v_2=0,~~v_3*v_1=0,~~v_3*v_3=1\]
+	\[v_3\*v_2=(x,y,z)*\frac{1}{3}(1,2,2)=\frac{1}{3}x+\frac{2}{3}y+\frac{2}{3}z=0\]
+	\[v_3\*v_1=(x,y,z)*\frac{1}{3}(-2,-1,2)=-\frac{2}{3}x-\frac{1}{3}y+\frac{2}{3}z=0\]
+	\[v_3\*v_3=x^2+y^2+z^2=1\]
+	Vi väntar med $v_3\*v_3$ tillsvidare och löser nedanstående ekvationssystem. Låt $z=t$
+	\[\begin{cases}
+		\frac{1}{3}x+\frac{2}{3}y+\frac{2}{3}z=0 \\
+		-\frac{2}{3}x-\frac{1}{3}y+\frac{2}{3}z=0
+	\end{cases} \lra
+	\begin{cases}
+		\frac{1}{3}x+\frac{2}{3}y+\frac{2}{3}z=0 \\
+		y+2z=0
+	\end{cases} \lra
+	\begin{cases}
+		x=2t
+		y=-2t
+		z=t
+	\end{cases}\]
+	Sätt in värdena i sista formeln:
+	\[(2t)^2+(-2t)^2+t^2=1 \lra
+	9t^2=1 \lra
+	t=\pm\frac{1}{3}\]
+	Vilket ger sista vektorn:
+	\[v_3=\frac{1}{3}(-2,2,-1) \text{ eller } v_3=\frac{1}{3}(2,-2,1)\]
+	Bestäm $u$:
+	\[x_1e_1+x_2e_2+x_3e_3=y_1v_1+y_2v_2+y_3v_3\]
+	\begin{align*}
+		HL=&y_1\frac{1}{3}(-2e_1-e_2+2e_3)+y_2\frac{1}{3}(e_1+2e_2+2e_3)+y_3\frac{1}{3}(-2e_1+2e_2-e_3)= \\ =
+		&\frac{1}{3}(-2y_1+y_2-2y_3)e_1+\frac{1}{3}(-y_1+2y_2+2y_3)e_2+\frac{1}{3}(2y_1+2y_2-y_3)e_3
+	\end{align*}
+	matcha och sätt in värdena:
+	\begin{align*}
+		&\begin{cases}
+			1=\frac{1}{3}(-2y_1+y_2-2y_3) \\
+			1=\frac{1}{3}(-y_1+2y_2+2y_3) \\
+			1=\frac{1}{3}(2y_1+2y_2-y_3)
+		\end{cases} \lra
+		\begin{cases}
+			3=-2y_1+y_2-2y_3 \\
+			3=3y_2+6y_3 \\
+			6=3y_2-3y_3 
+		\end{cases} \lra \\ \lra
+		&\begin{cases}
+			3=-2y_1+y_2-2y_3 \\
+			3=3y_2+6y_3 \\
+			3=-9y_3 
+		\end{cases} \lra
+		\begin{cases}
+			y_1=-\frac{1}{3} \\
+			y_2=\frac{5}{3} \\
+			y_3=-\frac{1}{3}
+		\end{cases}
+	\end{align*}
+	\[u=\frac{1}{3}(-1,5,-1)\]
+
+	\ans $\frac{1}{3}(-1,5,-1)$
+\end{task}
+
+\pagebreak
+\begin{task}{4.17}
+	Låt $z=t$
+	\[\begin{cases}
+		x+y+3z+6=0 \\
+		2x+y-2z-10=0
+	\end{cases} \lra
+	\begin{cases}
+		x+y+3z+6=0 \\
+		-y-8z-22=0
+	\end{cases} \lra
+	\begin{cases}
+		x=5t+16
+		y=-8t-22
+		z=t
+	\end{cases}\]
+	\[L_1=(5t+16,-8t-22,t)\]
+	Riktning:
+	\[(6,0,1)-(-4,4,-7)=(10,-4,8)=2(5,-2,4)\]
+	Godtycklig riktning: $(5,-2,4)$
+	\[\begin{cases}
+		x=-4+5t \\
+		y=4-2t \\
+		z=-7+4t
+	\end{cases}\]
+	Linjerna skär varandra om det finns ett $t_1$ och $t_2$ så att:
+	\[\begin{cases}
+		t_1 = -7+4t_2 \\
+		5t_1+16 = -4+5t_2 \\
+		-8t_1-22 = 4-2t_2
+	\end{cases} \lra
+	\begin{cases}
+		t_1 = -7+4t_2 \\
+		16 = 31-15t_2 \\
+		-22 = -52+30t_2
+	\end{cases} \lra
+	\begin{cases}
+		t_1=-3
+		t_2=1
+	\end{cases}\]
+	Linjerna skär varandra i punkten $(1,2,-3)$.
+	Skapa två vektorer från linjerna:
+	\[v_1=(6,-6,-2)-(1,2,-3)=(5,-8,1)\]
+	\[v_2=(6,0,1)-(1,2,-3)=(5,-2,4)\]
+	\begin{align*}
+		\cos[v_1,v_2]=&
+		\frac{(5,-8,1)\*(5,-2,4)}{\sqrt{5^2+8^2+1^2}\sqrt{5^2+2^2+4^2}}=
+		\frac{5\*5+8\*2+4}{\sqrt{90}\sqrt{45}}=
+		\frac{45}{45\sqrt{2}}=
+		\frac{1}{\sqrt{2}} \lra \\ \lra
+		[v_1,v_2]=&\arccos\frac{1}{\sqrt{2}}=\frac{\pi}{4}
+	\end{align*}
+
+	\ans vinkeln $\pi/4$ och skärningspunkten $(1,2,-3)$
+\end{task}
+
+\begin{task}{4.18 a)}
+	\[-3\*1+4\*2=5\]
+	\[-3x+4y-5=0\]
+
+	\ans $-3x+4y-5=0$
+\end{task}
+
+\begin{task}{b)}
+	\[-2+1=-1\]
+	\[-2x+3y+z+1=0\]
+
+	\ans $-2x+3y+z+1=0$
+\end{task}
+
+\pagebreak
+\begin{task}{4.19}
+	\[\begin{cases}
+		2x+y-1=0 \\
+		3x+4y-3=0
+	\end{cases} \lra
+	\begin{cases}
+		2x+y-1=0 \\
+		-5x+1=0
+	\end{cases} \lra
+	\begin{cases}
+		x=\frac{1}{5} \\
+		y=\frac{3}{5}
+	\end{cases}\]
+	Skärningspunkt: $(\frac{1}{5}, \frac{3}{5})$
+
+	Skapa vektorer av linjerna.
+	\[v_1=(\frac{6}{5},-\frac{7}{5})-(\frac{1}{5}, \frac{3}{5})=(1,-2)\]
+	\[v_2=(\frac{21}{5}, -\frac{12}{5})-(\frac{1}{5}, \frac{3}{5})=(4,-3)\]
+	Riktningsvektorerna som används är $(1,-2)$ och $(4,-3)$.
+	\begin{align*}
+		\cos[v_1,v_2]=&
+		\frac{(1,-2)\*(4,-3)}{\sqrt{1^2+2^2}\sqrt{4^2+3^2}}=
+		\frac{4+3\*2}{5\sqrt{5}}=
+		\frac{2}{\sqrt{5}} \lra \\ \lra
+		[v_1,v_2]=&\arccos\frac{2}{\sqrt{5}}
+	\end{align*}
+
+	\ans Skärningspunkt: $(\frac{1}{5}, \frac{3}{5})$, vinkel: $\arccos\frac{2}{\sqrt{5}}$
+\end{task}
+
+\begin{task}{4.20}
+	Planens normalriktning: $v_1=(2,1,-1)$ och $v_2=(1,-3,2)$.
+	\begin{align*}
+		\cos[v_1,v_2]=&
+		\frac{(2,1,-1)\*(1,-3,2)}{\sqrt{2^2+1^2+1^2}\sqrt{1^2+3^2+2^2}}=
+		\frac{2-3-2}{2\sqrt{21}}=
+		\frac{-3}{2\sqrt{21}} \lra \\ \lra
+		[v_1,v_2]=&\arccos\frac{-3}{2\sqrt{21}}
+	\end{align*}
+
+	\ans $\arccos\frac{-3}{2\sqrt{21}}$
+\end{task}
+
+\begin{task}{4.21 a)}
+	\ans
+\end{task}
+
+\begin{task}{b)}
+	\ans
+\end{task}
+
+\begin{task}{4.22 a)}
+	Låt $v_1$ och $v_2$ vara vinkelräta komposanter till $u$. $v_1$ är parallell med vektorn $(1,4,0)$.
+	\[v_1=\frac{(1,-1,1)\*(1,4,0)}{|(1,4,0)|^2}(1,4,0)=
+	\frac{1-4}{1^2+4^2}(1,4,0)=
+	-\frac{3}{17}(1,4,0)\]
+	\[v_2=u-v_1=(1,-1,1)+\frac{3}{17}(1,4,0)=\frac{1}{17}(20,-5,17)\]
+
+	\ans $v_1=-\frac{3}{17}(1,4,0)$ och $v_2=\frac{1}{17}(20,-5,17)$
+\end{task}
+
+\pagebreak
+\begin{task}{b)}
+	Låt $y=t$
+	\[\begin{cases}
+		x=4t+1 \\
+		y=t \\
+		z=2t-1
+	\end{cases}\]
+	Skapa en riktningsvektor genom att välja två slumpmässiga punkter på linjen beräkna vektorn däremellan.
+	Punkterna: $t=0 \ra (1,0-1)$ och $t=1 \ra (5,1,1)$ . Riktningsvektorn:
+	\[v = (5,1,1)-(1,0,-1)=(4,1,2)\]
+	Låt $v_1$ och $v_2$ vara vinkelräta komposanter till $u$. $v_1$ är parallell med vektorn $(4,1,2)$.
+	\[v_1=\frac{(1,-1,1)\*(4,1,2)}{|(4,1,2)|^2}(4,1,2)=
+	\frac{4-1+2}{4^2+1^2+2^2}(4,1,2)=
+	\frac{5}{21}(4,1,2)\]
+	\[v_2=u-v_1=
+	(1,-1,1)-\frac{5}{21}(4,1,2)=
+	\frac{1}{21}(1,-26,11)\]
+
+	\ans $v_1=\frac{5}{21}(4,1,2)$ och $v_2=\frac{1}{21}(1,-26,11)$
+\end{task}
+
+\begin{task}{c)}
+	Låt $v_1$ och $v_2$ vara vinkelräta komposanter till $u$. $v_2$ är parallell med det givna planet.
+	Planets normalriktning är $(1,2,-1)$.
+	\[v_1=\frac{(1,-1,1)\*(1,2,-1)}{|(1,2,-1)|^2}(1,2,-1)=
+	\frac{1-2-1}{1^2+2^2+1^2}(1,2,-1)=
+	-\frac{1}{3}(1,2,-1)\]
+	\[v_2=u-v_1=(1,-1,1)+\frac{1}{3}(1,2,-1)=\frac{1}{3}(4,-1,2)\]
+
+	\ans $v_1=-\frac{1}{3}(1,2,-1)$ och $v_2=\frac{1}{3}(4,-1,2)$
+\end{task}
+
+\begin{task}{4.23}
+	\ans
+\end{task}
+
+\begin{task}{4.24}
+	\ans
+\end{task}
+
+\begin{task}{4.25 a)}
+	Planets normalriktning är $(1,1,-1)$.
+	Välj slumpmässig punkt i planet: $(1,1,0)$.
+	Vektorn mellan punkterna: 
+	\[(1,0,1)-(1,1,0)=(0,-1,1)\]
+	Låt $v$ vara det sökta avståndet.
+	\[v=\frac{(0,-1,1)\*(1,1,-1)}{|(1,1,-1)|^2}(1,1,-1)=
+	\frac{-1-1}{1^2+1^2+1^2}(1,1,-1)=
+	-\frac{2}{3}(1,1,-1)\]
+	\[|v|=\sqrt{\frac{2^2}{3^2}+\frac{2^2}{3^2}+\frac{2^2}{3^2}}=
+	\sqrt{\frac{4}{3}}=
+	\frac{2}{\sqrt{3}}\]
+
+	\ans $\frac{2}{\sqrt{3}}$
+\end{task}
+
+\begin{task}{b)}
+	\ans
+\end{task}
+
+\begin{task}{c)}
+	\ans
+\end{task}
+
+\begin{task}{4.26}
+	\ans
+\end{task}
+
+\begin{task}{4.27 a)}
+	\ans
+\end{task}
+
+\begin{task}{b)}
+	\ans
+\end{task}
+
+\begin{task}{4.28}
+	\ans
+\end{task}
+
+\begin{task}{4.29 a)}
+	Skapa en riktningsvektor, $v$, genom att välj två punkter på linjen: $t=0 \ra (1,2,0)$ och $t=1 \ra (2,1,2)$.
+	\[v=(2,1,2)-(1,2,0)=(1,-1,2)\]
+	Låt $u$ vara vektorn mellan en punkt på linjen och punkten.
+	\[u=(1,-1,1)-(1,2,0)=(0,-3,1)\]
+	Låt $v_1$ och $v_2$ vara komposant vektorerna till $u$. $v_1$ är parallell med linjen och $v_2$ är det sökta avståndet.
+	\[v_1=\frac{u\*v}{|v|^2}v=
+	\frac{(0,-3,1)\*(1,-1,2)}{|(1,-1,2)|^2}(1,-1,2)=
+	\frac{3+2}{1^2+1^2+2^2}(1,-1,2)=
+	\frac{5}{6}(1,-1,2)\]
+	\[v_2=u-v_1=
+	(0,-3,1)-\frac{5}{6}(1,-1,2)=
+	\frac{1}{6}(-5,-13,-4)\]
+	\[|v_2|=\sqrt{\frac{5^2}{6^2}+\frac{13^2}{6^2}+\frac{4^2}{6^2}}=
+	\sqrt{\frac{210}{36}}=
+	\sqrt{\frac{35}{6}}\]
+
+	\ans $\sqrt{\frac{35}{6}}$
+\end{task}
+
+\begin{task}{b)}
+	\ans
+\end{task}
+
+\begin{task}{4.30 a)}
+	\ans
+\end{task}
+
+\begin{task}{b)}
+	\ans
+\end{task}
+
+\begin{task}{4.31 a)}
+	Planets normalriktning: $(2,-1,2)$.
+	Avståndet mellan planet och punkten:
+	\[\frac{(1,0,1)\*(2,-1,2)}{|(2,-1,2)|^2}(2,-1,2)=
+	\frac{2+2}{2^2+1^2+2^2}(2,-1,2)=
+	\frac{4}{9}(2,-1,2)\]
+	Projektionspunkten:
+	\[P:(1,0,1)-\frac{4}{9}(2,-1,2)=\frac{1}{9}(1,4,1)\]
+
+	\ans $\frac{1}{9}(1,4,1)$
+\end{task}
+
+\begin{task}{b)}
+	Låt $u=(1,0,1)$ och $v=\frac{4}{9}(2,-1,2)$.
+	Spegelbilden:
+	\[P:u-2v=(1,0,1)-\frac{8}{9}(2,-1,2)=
+	\frac{1}{9}(-7,8,-7)\]
+
+	\ans $\frac{1}{9}(-7,8,-7)$
+\end{task}
+
+\begin{task}{4.32}
+	\ans
+\end{task}
+
+\begin{task}{4.33}
+	\ans
+\end{task}
+
+\begin{task}{4.34 a)}
+	\ans
+\end{task}
+
+\begin{task}{b)}
+	\ans
+\end{task}
+
+\begin{task}{4.35}
+	\ans
+\end{task}
+
+\begin{task}{4.36}
+	\ans
+\end{task}
+
+\begin{task}{4.37}
+	\ans
+\end{task}
+
+\begin{task}{4.38}
+	\ans
+\end{task}
+
+\begin{task}{4.39}
+	\ans
+\end{task}
+
+\begin{task}{4.40}
+	\ans
+\end{task}
+
+\begin{task}{4.41}
+	\ans
+\end{task}
+
+\begin{task}{4.42}
+	En punkt i planet:
+	\[\frac{(1,3,4)+(3,-1,8)}{2}=(2,1,6)\]
+	Normalriktning för planet:
+	\[(3,-1,8)-(1,3,4)=2(1,-2,2)\]
+	Ekvation för planet:
+	\[x-2y+2z=d\]
+	Sätt in punkt från planet:
+	\[d=2-2+2\*6=12\]
+
+	\ans $x-2y+2z=12$
+\end{task}
+
+\begin{task}{4.43}
+	\ans
+\end{task}
+
+\begin{task}{4.44}
+	\ans
+\end{task}
+
+\begin{task}{4.45}
+	\ans
+\end{task}
+
+\begin{task}{4.46}
+	\ans
+\end{task}
+
+\begin{task}{4.47}
+	\ans
+\end{task}
+
+\begin{task}{4.48}
+	\ans
+\end{task}
+
+\begin{task}{4.49}
+	\ans
+\end{task}
