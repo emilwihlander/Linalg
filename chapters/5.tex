@@ -1,0 +1,342 @@
+\chapter{5}{Vektorprodukt}
+\begin{task}{5.1 a)}
+	\[e_1\times e_3=-e_2\]
+	\[e_3 \times e_2=-e_1\]
+	
+	\ans $-e_2$ och $-e_1$
+\end{task}
+
+\begin{task}{b)}
+	\[e_2\times(2e_1-e_2+3e_3)=
+	2e_2\times e_1-e_2\times e_2 + 3e_2\times e_3=
+	-2e_3-0+3e_1=
+	3e_1-2e_3\]
+	
+	\ans $3e_1-2e_3$
+\end{task}
+
+\begin{task}{c)}
+	\begin{align*}
+	&(1,0,1)\times(1,2,3)=
+	\left(\begin{detmat}
+	0 & 1 \\
+	2 & 3 
+	\end{detmat},
+	-\begin{detmat}
+	1 & 1 \\
+	1 & 3
+	\end{detmat},
+	\begin{detmat}
+	1 & 0 \\
+	1 & 2
+	\end{detmat}\right)= \\ =
+	&(0\*3-1\*2,-(1\*3-1\*1),1\*2-0\*1)=
+	(-2,-2,2)
+	\end{align*}
+	
+	\ans $(-2,-2,2)$
+\end{task}
+
+\begin{task}{d)}
+	\begin{align*}
+	&(2,6,-3)\times(0,2,3)=
+	\left(\begin{detmat}
+	6 &-3 \\
+	2 & 3 
+	\end{detmat},
+	-\begin{detmat}
+	2 &-3 \\
+	0 & 3
+	\end{detmat},
+	\begin{detmat}
+	2 & 6 \\
+	0 & 2
+	\end{detmat}\right)= \\ =
+	&(6\*3+3\*2,-(2\*3+3\*0),2\*2-6\*0)=
+	(24,-6,4)
+	\end{align*}
+	
+	\ans $2(12,-3,2)$
+\end{task}
+
+\begin{task}{5.2}
+	\ans
+\end{task}
+
+\begin{task}{5.3}
+	\ans
+\end{task}
+
+\begin{task}{5.4}
+	\begin{align*}
+	&(u+v)\*[(v+w)\times(w+u)]=
+	(u+v)\*[v\times(w+u)+w\times(w+u)]= \\ =
+	&(u+v)\*[v \times w + v \times u + w \times w + w \times u]= \\ =
+	&u\*v \times w + u\*v \times u + u\*w \times u + v\*v \times w + v\*v \times u + v\*w \times u= \\ =
+	&u\*v \times w + v\*w \times u =
+	2u\*v \times w
+	\end{align*}
+	
+	\ans $2u\*v \times w$
+\end{task}
+
+\begin{task}{5.5}
+	\ans
+\end{task}
+
+\begin{task}{5.6 a)}
+	\ans
+\end{task}
+
+\begin{task}{b)}
+	\ans
+\end{task}
+
+\begin{task}{5.7}
+	Skapa två vektorer som börjar i samma punkt av punkterna.
+	\[v_1=(2,3,4)-(0,-1,1)=(2,4,3)\]
+	\[v_2=(3,-1,2)-(0,-1,1)=(3,0,1)\]
+	Arean av en triangel är hälften av arean på motsvarande parallellogram.
+	\begin{align*}
+		A=&\abs{\frac{1}{2}(2,4,3)\times(3,0,1)}=
+		\frac{1}{2}\abs{
+			\left(\begin{detmat}
+				4 & 3 \\
+				0 & 1
+			\end{detmat},
+			-\begin{detmat}
+				2 & 3 \\
+				3 & 1
+			\end{detmat},
+			\begin{detmat}
+				2 & 4 \\
+				3 & 0
+			\end{detmat}\right)} = \\ =
+		&\frac{1}{2}|(4\*1-3\*0,-(2\*1-3\*3),2\*0-4\*3)|=
+		\frac{1}{2}|(4,7,-12)|= \\ =
+		&\frac{1}{2}\sqrt{4^2+7^2+12^2}=
+		\frac{\sqrt{209}}{2}
+	\end{align*}
+	
+	\ans $\frac{\sqrt{209}}{2}$
+\end{task}
+
+\begin{task}{5.8 a)}
+	\ans
+\end{task}
+
+\begin{task}{b)}
+	\ans
+\end{task}
+
+\begin{task}{5.9}
+	Skapa ett plan som är parallellt med både $\ell_1$ och $\ell_2$ och som sammanfaller med $\ell_1$.
+	Skapa två riktningsvektorer från linjerna.
+	
+	två punkter på $\ell_1$: $t=0 \Rightarrow (3,1,3)$ och $t=1 \Rightarrow (4,0,6)$ \\
+	två punkter på $\ell_2$: $t=0 \Rightarrow (2,-1,-3)$ och $t=1 \Rightarrow (3,0,-7)$ \\
+	\[v_1=(4,0,6)-(3,1,3)=(1,-1,3)\]
+	\[v_2=(3,0,-7)-(2,-1,-3)=(1,1,-4)\]
+	Hitta normalriktningen genom att ta vektorprodukten av $v_1$ och $v_2$.
+	\begin{align*}
+		v_1\times v_2=&
+		(1,-1,3)\times(1,1,-4)=
+		\left(\begin{detmat}
+			-1& 3 \\
+			1 &-4
+		\end{detmat},
+		-\begin{detmat}
+			1 & 3 \\
+			1 &-4
+		\end{detmat},
+		\begin{detmat}
+			1 &-1 \\
+			1 & 1
+		\end{detmat}\right) = \\ =
+		&(1\*4-3\*1,-(-1\*4-3\*1),1\*1+1\*1)=
+		(1,7,2)
+	\end{align*}
+	Vektor mellan planet och $\ell_2$:
+	\begin{align*}
+		v_3=&\frac{((2,-1,-3)-(3,1,3))*(1,7,2)}{|(1,7,2)|^2}(1,7,2)=
+		\frac{-1\*1-2\*7-6\*2}{1^2+7^2+2^2}(1,7,2) = \\ =
+		&\frac{-27}{54}(1,7,2)=
+		-\frac{1}{2}(1,7,2)
+	\end{align*}
+	\[|v_3|=\sqrt{\frac{1^2+7^2+2^2}{2^2}}=\frac{1}{2}\sqrt{54}=\frac{3}{2}\sqrt{6}\]
+	
+	\ans $\frac{3}{2}\sqrt{6}$
+\end{task}
+
+\begin{task}{5.10}
+	\ans
+\end{task}
+
+\begin{task}{5.11 a)}
+	\ans
+\end{task}
+
+\begin{task}{b)}
+	\ans
+\end{task}
+
+\begin{task}{5.12 a)}
+	\ans
+\end{task}
+
+\begin{task}{b)}
+	\ans
+\end{task}
+
+\begin{task}{5.13}
+	\ans
+\end{task}
+
+\begin{task}{5.14 a)}
+	\ans
+\end{task}
+
+\begin{task}{b)}
+	\ans
+\end{task}
+
+\begin{task}{c)}
+	\ans
+\end{task}
+
+\begin{task}{5.15}
+	Hitta ett $k$ så att $\hat{e}_1=k(1,1,-1)$ och $|\hat{e}_1|=1$
+	\[|\hat{e}_1
+	|=1 \lra
+	\sqrt{k^2+k^2+k^2}=1 \lra
+	3k^2=1 \lra
+	k=\pm\frac{1}{\sqrt{3}}\]
+	Väljer $k=\frac{1}{\sqrt{3}}$.
+	\[\hat{e}_1=\frac{1}{\sqrt{3}}(1,1,-1)\]
+	för att hitta $\hat{e}_2=(x,y,z)$ hitta en lösning ekvationssystemet:
+	\begin{align*}
+		\begin{cases}
+			(x,y,z)\*(1,1,-1)=0 \\
+			x+y+z=0 \\
+			x^2+y^2+z^2=1
+		\end{cases} \lra
+		\begin{cases}
+			x+y-z=0 \\
+			x+y+z=0 \\
+			x^2+y^2+z^2=1
+		\end{cases} \lra
+		\begin{cases}
+			x=\frac{1}{\sqrt{2}} \\
+			y=-\frac{1}{\sqrt{2}} \\
+			z=0
+		\end{cases}
+	\end{align*}
+	$\hat{e}_3=\hat{e}_1\times \hat{e}_2$
+	\begin{align*}
+		\hat{e}_3=&
+		\frac{1}{\sqrt{3}}(1,1,-1)\times \frac{1}{\sqrt{2}}(1,-1,0)= \\ =
+		&\frac{1}{\sqrt{6}}\left(\begin{detmat}
+		1 &-1 \\
+		-1& 0 
+		\end{detmat},
+		-\begin{detmat}
+		1 &-1 \\
+		1 & 0
+		\end{detmat},
+		\begin{detmat}
+		1 & 1 \\
+		1 &-1
+		\end{detmat}\right)= \\ =
+		&\frac{1}{\sqrt{6}}(1\*0-1\*1,-(1\*0+1\*1),-1\*1-1\*1)=
+		-\frac{1}{\sqrt{6}}(1,1,2)
+	\end{align*}
+	Normalriktningen till planet är $(1,1,1)$.
+	\[(1,1,1)=\hat{a}_1\hat{e}_1+\hat{a}_2\hat{e}_2+\hat{a}_3\hat{e}_3\]
+	\[\hat{a}_1=(1,1,1)*\hat{e}_1=(1,1,1)\*\frac{1}{\sqrt{3}}(1,1,-1)=\frac{1}{\sqrt{3}}\]
+	\[\hat{a}_2=(1,1,1)*\hat{e}_2=(1,1,1)\*\frac{1}{\sqrt{2}}(1,-1,0)=0\]
+	\[\hat{a}_3=(1,1,1)*\hat{e}_3=(1,1,1)\*(-\frac{1}{\sqrt{6}}(1,1,2))=-\frac{4}{\sqrt{6}}\]
+	\[\pi:\frac{1}{\sqrt{3}}\hat{x}_1-\frac{4}{\sqrt{6}}\hat{x}_3=0 \lra
+	\hat{x}_1-2\sqrt{2}\hat{x}_3=0\]
+	
+	\ans $\hat{e}_1=\frac{1}{\sqrt{3}}(1,1,-1)$, $\hat{e}_2=\frac{1}{\sqrt{2}}(1,-1,0)$, $\hat{e}_3=-\frac{1}{\sqrt{6}}(1,1,2)$ och $\pi:\hat{x}_1-2\sqrt{2}\hat{x}_3=0$
+\end{task}
+
+\begin{task}{5.16}
+	\ans
+\end{task}
+
+\begin{task}{5.17}
+	Låt $u=(x,y,z)$.
+	\begin{align*}
+		&(x,y,z)\times(1,a,-1)=(1,2,3) \lra \\ \lra
+		&\left(\begin{detmat}
+			y & z \\
+			a &-1 
+		\end{detmat},
+		-\begin{detmat}
+			x & z \\
+			1 &-1
+		\end{detmat},
+		\begin{detmat}
+			x & y \\
+			1 & a
+		\end{detmat}\right)=(1,2,3) \lra \\ \lra
+		&(-y-az,-(-x-z),ax-y)=(1,2,3) \lra \\ \lra
+		&\begin{cases}
+			-y-az=1 \\
+			x+z=2 \\
+			ax-y=3
+		\end{cases}
+	\end{align*}
+	låt $z=t$.
+	\[\begin{cases}
+		x=2-t \\
+		y=2t-3 \\
+		z=t \\
+		a=\frac{2}{2}=1
+	\end{cases}\]
+\end{task}
+
+\begin{task}{5.18}
+	\ans
+\end{task}
+
+\begin{task}{5.19 a)}
+	\ans
+\end{task}
+
+\begin{task}{b)}
+	\ans
+\end{task}
+
+\begin{task}{5.20}
+	\ans
+\end{task}
+
+\begin{task}{2.21}
+	\ans
+\end{task}
+
+\begin{task}{5.22}
+	\ans
+\end{task}
+
+\begin{task}{5.23 a)}
+	\ans
+\end{task}
+
+\begin{task}{b)}
+	\ans
+\end{task}
+
+\begin{task}{5.24}
+	\ans
+\end{task}
+
+\begin{task}{5.25}
+	\ans
+\end{task}
+
+\begin{task}{5.26}
+	\ans
+\end{task}

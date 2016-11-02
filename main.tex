@@ -37,6 +37,22 @@
 	\setlength\arraycolsep{\oldarraycolsep}
 }
 
+\newenvironment{detmat}
+{
+	\left|\begin{matrix}
+}{
+	\end{matrix}\right|
+}
+
+\newenvironment{mat}
+{
+	\left(\begin{matrix}
+	}{
+	\end{matrix}\right)
+}
+
+\newcommand{\adj}{\text{adj}}
+\newcommand{\abs}[1]{\left|#1\right|}
 
 \newcommand{\vek}[1]{\overrightarrow{#1}}
 
@@ -62,7 +78,6 @@
 
 \title{Linjär algebra\\ FMA420} 
 \author{Emil Wihlander\\ dat15ewi@student.lu.se} 
-\date{2016--05--12}
 
 \begin{document} 
 \maketitle
@@ -74,5 +89,11 @@
 \input{chapters/3.tex}
 \pagebreak
 \input{chapters/4.tex}
+\pagebreak
+\input{chapters/5.tex}
+\pagebreak
+\input{chapters/6.tex}
+\pagebreak
+\input{chapters/7.tex}
 
 \end{document}
