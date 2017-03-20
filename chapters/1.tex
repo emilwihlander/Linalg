@@ -1055,8 +1055,59 @@
 	\ans Allmän lösning $(x_1,x_2,x_3,x_4,y_1,y_2)=(2t,4t,4t,4t,t,4t)$
 \end{task}
 
+\subsection{Blandade problem}
 \begin{task}{1.22}
-	\ans
+	\begin{align*}
+		&\begin{linsys}{rrrr}
+		 x-&y+&az=&1 \\
+		2x-&y+& z=&-1 \\
+		ax+&y-& z=&1
+		\end{linsys}
+		&\begin{array}{l} 
+		(a) \\ 
+		(b) \\
+		(c)
+		\end{array} \\ \lra
+		&\begin{linsys}{rrrr}
+		x-&     y+&      az=&1 \\
+		  &     y+& (1-2a)z=&-3 \\
+		  &(1+a)y-&(1+a^2)z=&1-a
+		\end{linsys}
+		&\begin{array}{l} 
+		(a')=(a) \\ 
+		(b')=(b)-2(a) \\
+		(c')=(c)-a(a)
+		\end{array} \\ \lra
+		&\begin{linsys}{rrrr}
+		x-&y+&         az=&1 \\
+		  &y+&    (1-2a)z=&-3 \\
+		  &  &(a+2)(a-1)z=&2(a+2)
+		\end{linsys}
+		&\begin{array}{l} 
+		(a'')=(a') \\ 
+		(b'')=(b') \\
+		(c'')=(c')-(1+a)(a)
+		\end{array}
+	\end{align*}
+	Undantagsfall: $a=1$ eller $a=-2$.
+	\[a=1 \ra 0z=4\ra \text{Saknar lösning}\]
+	
+	Låt $z=t$.
+	\[a=-2 \ra 
+	\begin{cases}
+	x=(-3-5t)-2t=-3-7t \\
+	y=-3-5t \\
+	z=t 
+	\end{cases} \ra \text{Oändligt många lösningar}
+	\]
+	
+	Om $a\neq-2$ och $a\neq1$:
+	\[\begin{cases}
+	x=1+\dfrac{a+1}{a-1}-a\dfrac{2}{a-1}=\dfrac{a-1+a+1-2a}{a-1}=0\\
+	y=-3-(1-2a)\dfrac{2}{a-1}=\dfrac{a+1}{a-1} \\
+	z=\dfrac{2}{a-1}
+	\end{cases}\ra \text{En lösning}\]
+	\ans När $x=1$ saknas lösning, när $x=-2$ finns oändligt många lösningar och i alla andra fall finns en.
 \end{task}
 
 \begin{task}{1.23}
